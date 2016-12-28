@@ -1,0 +1,262 @@
+[
+  {
+    "title":  "Információk",
+    "href":   "about",
+    "tooltip":  "Általános információk rólam, a honlapról"
+  },
+  {
+    "title":  "GIT",
+    "href":   "http://git.uzsolt.hu",
+    "tooltip":  "Some git repositories"
+  },
+  {
+    "title":  "CAS",
+    "href":   "http://cas.uzsolt.hu",
+    "tooltip":"Matematikai számítások, egyenletmegoldás, szorzattáalakítások, stb."
+  },
+  {
+    "title":  "Oktatás",
+    "href":   "edu",
+    "tooltip":  "Általános és középiskolai matematika és fizika oktatásával kapcsolatos feladatsorok, segédletek, egyebek",
+    "submenu": [
+      {
+        "title":  "Matematika",
+        "href":   "math",
+        "tooltip": "Matematika tanulásához feladatsorok, puskák.",
+        "submenu": [
+          {
+            "title":  "Feladatsorok (7. évf.)",
+            "href":   "exams07",
+            "tooltip":"7. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (8. évf.)",
+            "href":   "exams08",
+            "tooltip":"8. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (9. évf.)",
+            "href":   "exams09",
+            "tooltip":"9. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (10. évf.)",
+            "href":   "exams10",
+            "tooltip":"10. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (11. évf.)",
+            "href":   "exams11",
+            "tooltip":"11. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (12. évf.)",
+            "href":   "exams12",
+            "tooltip":"12. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Segédletek",
+            "href":   "guide",
+            "tooltip":"Rövid, tömör összefoglalók mindenféle témában"
+          },
+          {
+            "title":  "Magyarázó képek",
+            "href":   "pict"
+          }
+        ]
+      },
+      {
+        "title":  "Fizika",
+        "href":   "phys",
+        "tooltip":"Fizika tanulásához feladatsorok, puskák.",
+        "submenu": [
+          {
+            "title":  "Feladatsorok (7. évf.)",
+            "href":   "exams07",
+            "tooltip":"7. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (8. évf.)",
+            "href":   "exams08",
+            "tooltip":"8. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (9. évf.)",
+            "href":   "exams09",
+            "tooltip":"9. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (10. évf.)",
+            "href":   "exams10",
+            "tooltip":"10. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Feladatsorok (11. évf.)",
+            "href":   "exams11",
+            "tooltip":"11. évfolyamosoknak szóló feladatok"
+          },
+          {
+            "title":  "Segédletek",
+            "href":   "guide",
+            "tooltip":"Rövid, tömör összefoglalók mindenféle témában"
+          }
+        ]
+      },
+      {
+        "title":  "Pénzügy",
+        "href":   "eco",
+        "tooltip":"Pénzügyi és gazdasági alapismeretek"
+      }
+    ]
+  },
+  {
+     "title": "Versenyfeladatok",
+     "tooltip": "Összegyűjtött versenyfeladatok az internetről, hivatalos oldalakról.",
+     "href": "comp",
+     "submenu": [
+       {
+        "title": "Matematika",
+        "tooltip": "Matematika versenyek feladatai",
+        "href": "math",
+        "submenu": [
+          {
+            "title": "Arany Dániel",
+            "tooltip": "Arany Dániel matematikaverseny feladatai",
+            "href": "aranyd"
+          },
+          {
+            "title": "Bolyai csapatverseny",
+            "tooltip": "Bolyai csapatverseny feladatai",
+            "href": "bolyai"
+          },
+          {
+            "title": "Imolya Sándor",
+            "tooltip": "Imolya Sándor matematikaverseny feladatai (helyi szervezás)",
+            "href": "imolya"
+          },
+          {
+            "title": "Kalmár László",
+            "tooltip": "Kalmár László Matematikaverseny feladati",
+            "href": "kalmar"
+          },
+          {
+            "title": "Németh László",
+            "tooltip": "Németh László Matematikaverseny (helyi szervezés)",
+            "href": "nlg"
+          },
+          {
+            "title": "Nemzetközi",
+            "tooltip": "Nemzetközi Magyar Matematikaverseny feladatai",
+            "href": "nemzetkozi"
+          },
+          {
+            "title": "OKTV",
+            "tooltip": "Matematika OKTV feladatsorai",
+            "href": "oktv"
+          },
+          {
+            "title": "Szőkefalvi-Nagy Gyula",
+            "tooltip": "Szőkefalvi-Nagy Gyula matematikaverseny feladatai",
+            "href": "szfvi"
+          }
+        ]
+       },
+       {
+        "title": "Fizika",
+        "tooltip": "Fizikaversenyek feladatai",
+        "href": "phys",
+        "submenu": [
+          {
+            "title": "Budó Ágoston",
+            "tooltip": "Budó Ágoston (Szeged) fizikaverseny feladatai",
+            "href": "budo"
+          },
+          {
+            "title": "Bor Pál",
+            "tooltip": "Bor Pál fizikaverseny feladatai",
+            "href": "borpal"
+          },
+          {
+            "title": "Mikola Sándor",
+            "tooltip": "Mikola Sándor fizikaverseny feladatai",
+            "href": "mikola"
+          },
+          {
+            "title": "Tornyai Sándor",
+            "tooltip": "Tornyai Sándor fizikaverseny (Hódmezővásárhely) feladatai (református középiskolák)",
+            "href": "tornyai"
+          }
+        ]
+       }
+     ]
+  },
+  {
+	"title": "Letöltések",
+	"tooltip": "Egyéb letöltések",
+	"href": "downloads",
+	"submenu": [
+      {
+        "title": "Saját programok",
+        "tooltip": "Saját készítésű programjaim",
+        "href": "programs"
+      },
+      {
+        "title": "Vegyes dokumentumok",
+        "tooltip": "Egyéb, vegyes dokumentumok",
+        "href": "dox"
+      },
+      {
+        "title": "Linuxvilág",
+        "tooltip": "Néhány Linuxvilág cikk",
+        "href": "linuxvilag"
+      }
+    ]
+  },
+  {
+    "title": "Feljegyzések",
+    "tooltip": "Feljegyzések, ötletek, írások",
+    "href": "notes",
+    "submenu": [
+      {
+        "title": "CLI",
+        "tooltip": "Parancssori tippek és trükkök, érdekességek",
+        "href": "cli"
+      },
+      {
+        "title": "FreeBSD",
+        "tooltip": "FreeBSD-specifikus tippek",
+        "href": "bsd"
+      },
+      {
+        "title": "Fizika",
+        "tooltip": "Fizikával kapcsolatos írások",
+        "href": "phys"
+      },
+      {
+        "title": "LaTeX",
+        "tooltip": "LaTeX-hel kapcsolatban trükkök",
+        "href": "latex"
+      },
+      {
+        "title": "Vicc",
+        "tooltip": "Viccek, humoros írások",
+        "href": "joke"
+      },
+      {
+        "title": "Web",
+        "tooltip": "Webes fejlesztéshez kapcsolódó trükkök",
+        "href": "web"
+      }
+    ]
+  },
+  {
+    "title": "Mirror",
+    "tooltip": "Mirrored web pages",
+    "href": "mirror"
+  },
+  {
+    "title": "FreeBSD csomagok",
+    "tooltip": "Saját csomagtárolók (amd64, arm architektúrákra)",
+    "href": "http://pkg.uzsolt.hu"
+  }
+]
