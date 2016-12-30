@@ -23,6 +23,7 @@ VIRTUALS=kep \
 		 menu \
 		 edumath eduphys \
 		 select_tanev_evf \
+		 select_tanev select_evf\
 		 pdf
 
 # The templates for virtuals.
@@ -31,6 +32,8 @@ VIRTUALTEMPLATE_menu=emptymenu
 VIRTUALTEMPLATE_edumath=emptymenu
 VIRTUALTEMPLATE_eduphys=emptymenu
 VIRTUALTEMPLATE_select_tanev_evf=select_tanev_evf
+VIRTUALTEMPLATE_select_tanev=select_tanev
+VIRTUALTEMPLATE_select_evf=select_evf
 VIRTUALTEMPLATE_pdf=pdfitems
 
 # Properties of VIRTUALS
@@ -69,5 +72,14 @@ VIRTUALOUT_pdf=	edu/math/exams07/index.html \
 				edu/phys/guide/index.html \
 				edu/eco/index.html
 
-include comp_lists.mk
 VIRTUALOUT_select_tanev_evf=${COMP_LISTS:=/index.html}
+VIRTUALREQ_select_tanev_evf=comp_lists.mk
+
+VIRTUALOUT_select_tanev=${COMP_LISTS:=/tanev.html}
+VIRTUALREQ_select_tanev=scripts/list_tanev.sh
+
+VIRTUALOUT_select_evf=${COMP_LISTS:=/evf.html}
+VIRTUALREQ_select_evf=scripts/list_evf.sh
+
+include comp_lists.mk
+

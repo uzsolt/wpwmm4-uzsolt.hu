@@ -7,8 +7,7 @@ m4_divert(0)m4_dnl
 <body>
 _SCRIPT(genmenu.pl /_DIRECTORY)
 <div id="content">
-_csoportositas(evf.html,Évfolyamonként csoportosítva)
-_csoportositas(tanev.html,Tanévenként csoportosítva)
+_SCRIPT(list_tanev.sh _DIRECTORY)
 </div>
 </body>
 </html>
