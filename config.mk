@@ -22,7 +22,7 @@ TARGETS=#teszt.html \
 VIRTUALS=kep \
 		 menu \
 		 edumath eduphys \
-		 compmath compphys \
+		 select_tanev_evf \
 		 pdf
 
 # The templates for virtuals.
@@ -30,8 +30,7 @@ VIRTUALTEMPLATE_kep=kep
 VIRTUALTEMPLATE_menu=emptymenu
 VIRTUALTEMPLATE_edumath=emptymenu
 VIRTUALTEMPLATE_eduphys=emptymenu
-VIRTUALTEMPLATE_compmath=emptymenu
-VIRTUALTEMPLATE_compphys=emptymenu
+VIRTUALTEMPLATE_select_tanev_evf=select_tanev_evf
 VIRTUALTEMPLATE_pdf=pdfitems
 
 # Properties of VIRTUALS
@@ -40,8 +39,6 @@ VIRTUALDIR_kep=pict/
 VIRTUALDIR_menu=
 VIRTUALDIR_edumath=edu/math/
 VIRTUALDIR_eduphys=edu/phys/
-VIRTUALDIR_compmath=comp/math/
-VIRTUALDIR_compphys=comp/phys/
 VIRTUALDIR_pdf=
 
 # Which files should be created inside ${VIRTUALDIR_${v}}
@@ -51,7 +48,9 @@ VIRTUALOUT_kep=kep1.html \
 
 VIRTUALOUT_menu= index.html \
 				 edu/index.html \
-				 comp/index.html
+				 comp/index.html \
+				 comp/math/index.html \
+				 comp/phys/index.html
 
 VIRTUALOUT_edumath=	index.html
 VIRTUALOUT_eduphys=	index.html
@@ -67,20 +66,8 @@ VIRTUALOUT_pdf=	edu/math/exams07/index.html \
 				edu/phys/exams08/index.html \
 				edu/phys/exams10/index.html \
 				edu/phys/exams11/index.html \
-				edu/phys/guide/index.html
+				edu/phys/guide/index.html \
+				edu/eco/index.html
 
-VIRTUALOUT_compmath= index.html \
-					 aranyd/index.html \
-					 bolyai/index.html \
-					 imolya/index.html \
-					 kalmar/index.html \
-					 nlg/index.html \
-					 nemzetkozi/index.html \
-					 oktv/index.html \
-					 szfvi/index.html
-VIRTUALOUT_compphys= index.html \
-					 budo/index.html \
-					 borpal/index.html \
-					 mikola/index.html \
-					 tornyai/index.html
-
+include comp_lists.mk
+VIRTUALOUT_select_tanev_evf=${COMP_LISTS:=/index.html}
