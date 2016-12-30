@@ -77,6 +77,7 @@ VIRTUALREQ_select_tanev_evf=comp_lists.mk
 
 VIRTUALOUT_select_tanev=${COMP_LISTS:=/tanev.html}
 VIRTUALREQ_select_tanev=scripts/list_tanev.sh
+VIRTUALREQRULE_pdf=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_select_evf=${COMP_LISTS:=/evf.html}
 VIRTUALREQ_select_evf=scripts/list_evf.sh
