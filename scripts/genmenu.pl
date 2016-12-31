@@ -11,6 +11,7 @@ $json_string = encode_utf8($json_string);
 my $json_data = decode_json $json_string;
 
 my @ret=split(/\//,@ARGV[0]);
+my $active_menu = "";
 
 sub printmenu {
   my $mydata = shift;
@@ -32,6 +33,7 @@ sub printmenu {
         $a->{title} . "',`class=menu_href',`" . 
         $a->{tooltip} . "')'";
       if ($a->{href} eq @ret[$level+1]) {
+        $active_menu=$a->{title};
         if ($a->{submenu}) {
           print "`";
           print "\n";
@@ -53,4 +55,6 @@ print "  </a>";
 print "\n";
 printmenu(\@{$json_data});
 print "</div>\n";
+$active_menu=(($active_menu eq "")?"Kezdőlap":$active_menu);
+print "m4_define(_ACTIVEMENU,$active_menu)m4_dnl"
 
