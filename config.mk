@@ -91,4 +91,6 @@ VIRTUALREQ_list_evf_pdf=scripts/list_comp_pdf.sh
 VIRTUALREQ_list_tanev_pdf=${VIRTUALREQ_list_evf_pdf}
 
 include comp_lists.mk
+include generate_menu.mk
 
+pre-everything: generate-menu

@@ -26,3 +26,5 @@ m4_define(_own_pdf,
     <span class="tooltip_bottom">$3</span>
   </div>
 </div></a>')
+
+m4_define(_include_menu,`m4_include(menu/_DIRECTORY/menu.gen)')
