@@ -15,6 +15,24 @@ m4_define(_TITLE,_TAG(title,`$1',`$2'))
 
 m4_dnl Built-in macros
 m4_define(_SCRIPT,`m4_esyscmd'(scripts/$1))
-m4_define(_LAYOUT,`m4_include'(_LAYOUT_DIR$1))
+m4_define(_LAYOUT,m4_divert(-1)`m4_include'(_LAYOUT_DIR$1))
+m4_define(_INCL,m4_divert(-1)`m4_include'($1))
 
+m4_dnl Layout helpers
+m4_define(`_DIVERT_HEAD',2)
+m4_define(`_DIVERT_BODY',3)
+m4_define(`_2_HEAD',`m4_define(`_OD',m4_divnum) m4_divert(_DIVERT_HEAD) $* m4_divert(_OD)')
+m4_define(`_PR_HEAD',`<head>
+m4_undivert(_DIVERT_HEAD)m4_dnl
+</head>')
+m4_define(`_2_BODY',`m4_define(`_OD',m4_divnum) m4_divert(_DIVERT_BODY) $* m4_divert(_OD)')
+m4_define(`_PR_BODY',`<body>
+m4_undivert(_DIVERT_BODY)m4_dnl
+</body>')
+m4_define(`_PR_ALL',`m4_divert(0)'m4_dnl
+<!DOCTYPE html>
+<html>
+`_PR_HEAD
+_PR_BODY'
+</html>)
 m4_divert(0)m4_dnl
