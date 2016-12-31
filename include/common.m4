@@ -1,4 +1,3 @@
-m4_divert(-1)
 m4_define(_csoportositas,
 `<a href="$1"><div class=stuff>
   <div class="stuff_icon">
@@ -27,4 +26,3 @@ m4_define(_own_pdf,
     <span class="tooltip_bottom">$3</span>
   </div>
 </div></a>')
-m4_divert(0)m4_dnl
