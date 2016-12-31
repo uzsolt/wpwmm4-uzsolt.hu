@@ -1,6 +1,5 @@
-hu,path,tooltip
-Elektrosztatika,"elektrosztatika.pdf",Elektrosztatika
-Áramkörök,"aramkorok.pdf",Áramkörök
-Gáztörvények,"gazok_allapotvaltozas.pdf",Gázok állapotváltozásai gáztörvényekkel
-Gázok energiája,gazok_energia.pdf,"Gázok energiája, energiaváltozása (ekvipartíció tétele, hőtan I. főtétele)"
-Hőcsere,hocsere.pdf,"Hőcserés, keveréses feladatok (fajhő, olvadás- és forráshő)"
+Elektrosztatika|elektrosztatika.pdf|Elektrosztatika
+Áramkörök|aramkorok.pdf|Áramkörök
+Gáztörvények|gazok_allapotvaltozas.pdf|Gázok állapotváltozásai gáztörvényekkel
+Gázok energiája|gazok_energia.pdf|Gázok energiája, energiaváltozása (ekvipartíció tétele, hőtan I. főtétele)
+Hőcsere|hocsere.pdf|Hőcserés, keveréses feladatok (fajhő, olvadás- és forráshő)
