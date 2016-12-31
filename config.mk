@@ -24,6 +24,7 @@ VIRTUALS=kep \
 		 edumath eduphys \
 		 select_tanev_evf \
 		 select_tanev select_evf\
+		 list_evf_pdf list_tanev_pdf \
 		 pdf
 
 # The templates for virtuals.
@@ -35,6 +36,8 @@ VIRTUALTEMPLATE_select_tanev_evf=select_tanev_evf
 VIRTUALTEMPLATE_select_tanev=select_tanev
 VIRTUALTEMPLATE_select_evf=select_evf
 VIRTUALTEMPLATE_pdf=pdfitems
+VIRTUALTEMPLATE_list_evf_pdf=list_evf_pdf
+VIRTUALTEMPLATE_list_tanev_pdf=list_tanev_pdf
 
 # Properties of VIRTUALS
 # Destination directory inside ${DEST_DIR}
@@ -43,6 +46,8 @@ VIRTUALDIR_menu=
 VIRTUALDIR_edumath=edu/math/
 VIRTUALDIR_eduphys=edu/phys/
 VIRTUALDIR_pdf=
+VIRTUALDIR_list_evf_pdf=
+VIRTUALDIR_list_tanev_pdf=
 
 # Which files should be created inside ${VIRTUALDIR_${v}}
 VIRTUALOUT_kep=kep1.html \
@@ -81,6 +86,9 @@ VIRTUALREQRULE_pdf=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_select_evf=${COMP_LISTS:=/evf.html}
 VIRTUALREQ_select_evf=scripts/list_evf.sh
+
+VIRTUALREQ_list_evf_pdf=scripts/list_comp_pdf.sh
+VIRTUALREQ_list_tanev_pdf=${VIRTUALREQ_list_evf_pdf}
 
 include comp_lists.mk
 
