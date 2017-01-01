@@ -17,6 +17,9 @@ VIRT_DIR=virtual/
 TARGETS=#teszt.html \
 		#proba.html
 
+# Global requirement
+GREQ=${MENUTARGET}
+
 # Category of virtually created files.
 # Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
 VIRTUALS=kep \
