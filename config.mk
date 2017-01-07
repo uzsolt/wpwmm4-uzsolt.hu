@@ -61,7 +61,9 @@ VIRTUALOUT_menu= index.html \
 				 edu/index.html \
 				 comp/index.html \
 				 comp/math/index.html \
-				 comp/phys/index.html
+				 comp/phys/index.html \
+				 downloads/index.html \
+				 notes/index.html \
 
 VIRTUALOUT_edumath=	index.html
 VIRTUALOUT_eduphys=	index.html
