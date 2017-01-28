@@ -82,6 +82,7 @@ VIRTUALOUT_pdf=	edu/math/exams07/index.html \
 				edu/phys/guide/index.html \
 				edu/eco/index.html
 
+VIRTUALREQ_pdf=scripts/pdfitems.sh
 VIRTUALOUT_select_tanev_evf=${COMP_LISTS:=/index.html}
 VIRTUALREQ_select_tanev_evf=comp_lists.mk
 
