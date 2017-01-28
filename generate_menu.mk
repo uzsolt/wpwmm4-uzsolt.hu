@@ -1,6 +1,5 @@
 MENUDIR=menu
 MENUFILE=menu.gen
-MENUDATAFILE=data/menu.psv
 MENUTARGET!=sed -n '/^\// s,^\([^|]*\).*,${MENUDIR}\1${MENUFILE},p' ${MENUDATAFILE}
 MENUTARGET:=${MENUDIR}/${MENUFILE} ${MENUTARGET}
 
