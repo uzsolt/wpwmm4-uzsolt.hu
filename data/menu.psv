@@ -1,0 +1,50 @@
+/about/|Információk|Általános információk rólam, a honlapról
+http://git.uzsolt.hu/|GIT|Some git repositories
+http://cas.uzsolt.hu/|CAS|Matematikai számítások, egyenletmegoldás, szorzattá alakítások, stb.
+/edu/|Oktatás|Általános és középiskolai matematika és fizika oktatásával kapcsolatos feladatsorok, segédletek, egyebek
+/edu/math/|Matematika|Matematika tanulásához feladatsorok, puskák.
+/edu/math/exams07/|Feladatsorok (7. évf.)|7. évfolyamosoknak szóló feladatok
+/edu/math/exams08/|Feladatsorok (8. évf.)|8. évfolyamosoknak szóló feladatok
+/edu/math/exams09/|Feladatsorok (9. évf.)|9. évfolyamosoknak szóló feladatok
+/edu/math/exams10/|Feladatsorok (10. évf.)|10. évfolyamosoknak szóló feladatok
+/edu/math/exams11/|Feladatsorok (11. évf.)|11. évfolyamosoknak szóló feladatok
+/edu/math/exams12/|Feladatsorok (12. évf.)|12. évfolyamosoknak szóló feladatok
+/edu/math/guide/|Segédletek|Rövid, tömör összefoglalók mindenféle témában
+/edu/math/pict/|Magyarázó képek|
+/edu/phys/|Fizika|Fizika tanulásához feladatsorok, puskák.
+/edu/phys/exams07/|Feladatsorok (7. évf.)|7. évfolyamosoknak szóló feladatok
+/edu/phys/exams08/|Feladatsorok (8. évf.)|8. évfolyamosoknak szóló feladatok
+/edu/phys/exams09/|Feladatsorok (9. évf.)|9. évfolyamosoknak szóló feladatok
+/edu/phys/exams10/|Feladatsorok (10. évf.)|10. évfolyamosoknak szóló feladatok
+/edu/phys/exams11/|Feladatsorok (11. évf.)|11. évfolyamosoknak szóló feladatok
+/edu/phys/exams12/|Feladatsorok (12. évf.)|12. évfolyamosoknak szóló feladatok
+/edu/phys/guide/|Segédletek|Rövid, tömör összefoglalók mindenféle témában
+/edu/eco/|Pénzügy|Pénzügyi és gazdasági alapismeretek
+/comp/|Versenyfeladatok|Összegyűjtött versenyfeladatok az internetről, hivatalos oldalakról.
+/comp/math/|Matematika|Matematika versenyek feladatai
+/comp/math/aranyd/|Arany Dániel|Arany Dániel matematikaverseny feladatai
+/comp/math/bolyai/|Bolyai cspatverseny|Bolyai csapatverseny feladatai
+/comp/math/imolya/|Imolya Sándor|Imolya Sándor matematikaverseny feladatai (helyi szervezás)
+/comp/math/kalmar/|Kalmár László|Kalmár László Matematikaverseny feladatai
+/comp/math/nlg/|Németh László|Németh László Matematikaverseny (helyi szervezés)
+/comp/math/nemzetkozi/|Nemzetközi|Nemzetközi Magyar Matematikaverseny feladatai
+/comp/math/oktv/|OKTV|Matematika OKTV feladatsorai
+/comp/math/szfvi/|Szőkefalvi-Nagy Gyula|Szőkefalvi-Nagy Gyula matematikaverseny feladatai
+/comp/phys/|Fizika|Fizika versenyek feladatai
+/comp/phys/budo/|Budó Ágoston|Budó Ágoston (Szeged) fizikaverseny feladatai
+/comp/phys/borpal/|Bor Pál|Bor Pál fizikaverseny feladatai
+/comp/phys/mikola/|Mikola Sándor|Mikola Sándor fizikaverseny feladatai
+/comp/phys/tornyai/|Tornyai Sándor|Tornyai Sándor fizikaverseny (Hódmezővásárhely) feladatai (református középiskolák)
+/downloads/|Letöltések|Egyéb letöltések
+/downloads/programs/|Saját programok|Saját készítésű programjaim
+/downloads/dox/|Vegyes dokumentumok|Egyéb, vegyes dokumentumok
+/downloads/linuxvilag/|Linuxvilág|Néhány Linuxvilág cikk
+/notes/|Feljegyzések|Feljegyzések, ötletek, írások
+/notes/cli/|CLI|Parancssori tippek és trükkök, érdekességek
+/notes/bsd/|FreeBSD|FreeBSD-specifikus tippek
+/notes/phys/|Fizika|Fizikával kapcsolatos írások
+/notes/latex/|LaTeX|LaTeX-hel kapcsolatban trükkök
+/notes/joke/|Vicc|Viccek, humoros írások
+/notes/web/|Web|Webes fejlesztéshez kapcsolódó trükkök
+/mirror/|Mirror|Mirrored web pages
+http://pkg.uzsolt.hu|FreeBSD csomagok|Saját csomagtárolók
