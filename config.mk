@@ -81,14 +81,14 @@ VIRTUALOUT_pdf=	edu/math/exams07/index.html \
 				edu/phys/exams11/index.html \
 				edu/phys/guide/index.html \
 				edu/eco/index.html
-
 VIRTUALREQ_pdf=scripts/pdfitems.sh
+VIRTUALREQRULE_pdf=C,(.*)/index.html,data/\1.psv,
+
 VIRTUALOUT_select_tanev_evf=${COMP_LISTS:=/index.html}
 VIRTUALREQ_select_tanev_evf=comp_lists.mk
 
 VIRTUALOUT_select_tanev=${COMP_LISTS:=/tanev.html}
 VIRTUALREQ_select_tanev=scripts/list_tanev.sh
-VIRTUALREQRULE_pdf=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_select_evf=${COMP_LISTS:=/evf.html}
 VIRTUALREQ_select_evf=scripts/list_evf.sh
