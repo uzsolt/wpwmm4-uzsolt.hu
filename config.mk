@@ -62,6 +62,9 @@ VIRTUALOUT_menu= index.html \
 				 comp/index.html \
 				 comp/math/index.html \
 				 comp/phys/index.html \
+				 pict/index.html \
+				 pict/personal/index.html \
+				 pict/joke/index.html \
 				 downloads/index.html \
 				 notes/index.html \
 
