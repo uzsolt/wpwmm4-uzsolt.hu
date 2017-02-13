@@ -1,0 +1,7 @@
+m4_divert(-1)
+_INCL(common.m4)
+_2_BODY(_include_menu)
+_2_HEAD(m4_include(01_header.m4))
+_LAYOUT_PRE(`<div id="content">')
+_2_BODY(<h1>_NOTE_TITLE</h1>)
+_LAYOUT_POST(`</div>')
