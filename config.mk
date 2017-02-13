@@ -14,8 +14,7 @@ LAYOUT_DIR=layout/
 VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
-TARGETS=#teszt.html \
-		#proba.html
+TARGETS=notes/joke/curry.html
 
 # Global requirement
 GREQ=${MENUTARGET}
