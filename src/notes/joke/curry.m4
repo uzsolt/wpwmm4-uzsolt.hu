@@ -1,5 +1,4 @@
-m4_define(_NOTE_TITLE,`Curry-kóstoló')
-_LAYOUT(`note.m4')
+_LAYOUT(`note.m4',_title,Curry kóstóló,_subtitle,Alcím)
 <blockquote>Nemrégiben abban a megtiszteltetésben részesültem, hogy bírónak választottak 
 ki egy curryfőző versenyen. Az eredeti bíró megbetegedett, az utolsó 
 pillanatban én pedig pont ott álltam a bírói asztalnál és a sörös sátor holléte 
