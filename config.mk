@@ -17,6 +17,12 @@ VIRT_DIR=virtual/
 TARGETS=notes/bsd/copy_cddvd.html \
 		notes/bsd/daemon.html \
 		notes/bsd/dump_volume.html \
+		notes/cli/feh_wallpaper.html \
+		notes/cli/ffmpeg_dvd_player.html \
+		notes/cli/html_parse.html \
+		notes/cli/pdf_jelszo.html \
+		notes/cli/pdfjam.html \
+		notes/cli/rsync_transmission.html \
 		notes/joke/curry.html \
 		notes/joke/kenyer.html
 
