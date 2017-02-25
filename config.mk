@@ -14,7 +14,8 @@ LAYOUT_DIR=layout/
 VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
-TARGETS=notes/joke/curry.html \
+TARGETS=notes/bsd/copy_cddvd.html \
+		notes/joke/curry.html \
 		notes/joke/kenyer.html
 
 # Global requirement
