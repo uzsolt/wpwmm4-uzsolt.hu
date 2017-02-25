@@ -57,7 +57,7 @@ cat << EOF
   </div>
 </div>
 EOF
-if [ "${1}" = "" ]; then
+if [ "${1}" = "/" ]; then
   ACTIVE_MENU="${STR_HOMEPAGE}"
 else
   ACTIVE_MENU=`grep "$1|" ${FILE} | awk -F '|' '{print $2}'`
