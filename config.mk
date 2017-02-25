@@ -24,6 +24,7 @@ GREQ=${MENUTARGET}
 VIRTUALS=kep \
 		 menu \
 		 edumath eduphys \
+		 notes_list \
 		 select_tanev_evf \
 		 select_tanev select_evf\
 		 list_evf_pdf list_tanev_pdf \
@@ -34,6 +35,7 @@ VIRTUALTEMPLATE_kep=kep
 VIRTUALTEMPLATE_menu=emptymenu
 VIRTUALTEMPLATE_edumath=emptymenu
 VIRTUALTEMPLATE_eduphys=emptymenu
+VIRTUALTEMPLATE_notes_list=notes_list
 VIRTUALTEMPLATE_select_tanev_evf=select_tanev_evf
 VIRTUALTEMPLATE_select_tanev=select_tanev
 VIRTUALTEMPLATE_select_evf=select_evf
@@ -47,6 +49,7 @@ VIRTUALDIR_kep=pict/
 VIRTUALDIR_menu=
 VIRTUALDIR_edumath=edu/math/
 VIRTUALDIR_eduphys=edu/phys/
+VIRTUALDIR_notes_list=
 VIRTUALDIR_pdf=
 VIRTUALDIR_list_evf_pdf=
 VIRTUALDIR_list_tanev_pdf=
@@ -69,6 +72,15 @@ VIRTUALOUT_menu= index.html \
 
 VIRTUALOUT_edumath=	index.html
 VIRTUALOUT_eduphys=	index.html
+
+VIRTUALOUT_notes_list= notes/bsd/index.html \
+					   notes/cli/index.html \
+					   notes/joke/index.html \
+					   notes/latex/index.html \
+					   notes/phys/index.html \
+					   notes/web/index.html
+VIRTUALREQ_notes_list=scripts/list_notes.sh
+VIRTUALREQRULE_notes_list=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_pdf=	edu/math/exams07/index.html \
 				edu/math/exams08/index.html \
