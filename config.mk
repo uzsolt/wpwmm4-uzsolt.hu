@@ -15,6 +15,7 @@ VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
 TARGETS=notes/bsd/copy_cddvd.html \
+		notes/bsd/daemon.html \
 		notes/joke/curry.html \
 		notes/joke/kenyer.html
 
