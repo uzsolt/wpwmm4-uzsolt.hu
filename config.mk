@@ -24,7 +24,9 @@ TARGETS=notes/bsd/copy_cddvd.html \
 		notes/cli/pdfjam.html \
 		notes/cli/rsync_transmission.html \
 		notes/joke/curry.html \
-		notes/joke/kenyer.html
+		notes/joke/kenyer.html \
+		notes/phys/atom.html \
+		notes/phys/h2o.html
 
 # Global requirement
 GREQ=${MENUTARGET}
