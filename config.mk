@@ -25,9 +25,19 @@ TARGETS=notes/bsd/copy_cddvd.html \
 		notes/cli/rsync_transmission.html \
 		notes/joke/curry.html \
 		notes/joke/kenyer.html \
+		notes/latex/angles.html \
+		notes/latex/grid.html \
+		notes/latex/randomize_exsheets.html \
+		notes/latex/segments.html \
+		notes/latex/smiley.html \
 		notes/phys/atom.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
+
+notes/latex/angles.html_REQ=${DEST_DIR}notes/latex/angles.png
+notes/latex/grid.html_REQ=${DEST_DIR}notes/latex/grid.png
+notes/latex/segments.html_REQ=${DEST_DIR}notes/latex/segments.png
+.include "latex_png.mk"
 
 # Global requirement
 GREQ=${MENUTARGET}
