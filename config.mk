@@ -26,7 +26,8 @@ TARGETS=notes/bsd/copy_cddvd.html \
 		notes/joke/curry.html \
 		notes/joke/kenyer.html \
 		notes/phys/atom.html \
-		notes/phys/h2o.html
+		notes/phys/h2o.html \
+		notes/web/gyors-oldal.html
 
 # Global requirement
 GREQ=${MENUTARGET}
