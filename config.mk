@@ -45,7 +45,7 @@ GREQ=${MENUTARGET}
 
 # Category of virtually created files.
 # Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
-VIRTUALS=kep \
+VIRTUALS=keplist \
 		 menu \
 		 edumath eduphys \
 		 notes_list \
@@ -55,7 +55,7 @@ VIRTUALS=kep \
 		 pdf
 
 # The templates for virtuals.
-VIRTUALTEMPLATE_kep=kep
+VIRTUALTEMPLATE_keplist=keplist
 VIRTUALTEMPLATE_menu=emptymenu
 VIRTUALTEMPLATE_edumath=emptymenu
 VIRTUALTEMPLATE_eduphys=emptymenu
@@ -69,7 +69,7 @@ VIRTUALTEMPLATE_list_tanev_pdf=list_tanev_pdf
 
 # Properties of VIRTUALS
 # Destination directory inside ${DEST_DIR}
-VIRTUALDIR_kep=pict/
+VIRTUALDIR_keplist=pict/
 VIRTUALDIR_menu=
 VIRTUALDIR_edumath=edu/math/
 VIRTUALDIR_eduphys=edu/phys/
@@ -79,9 +79,15 @@ VIRTUALDIR_list_evf_pdf=
 VIRTUALDIR_list_tanev_pdf=
 
 # Which files should be created inside ${VIRTUALDIR_${v}}
-VIRTUALOUT_kep=kep1.html \
-			kep2.html \
-			kep3.html
+VIRTUALOUT_keplist= grafika/index.html \
+					joke/geek/index.html \
+					joke/mathphys/index.html \
+					personal/other/index.html \
+					personal/summer2010/index.html \
+					personal/summer2011/index.html \
+					personal/summer2012/index.html \
+					personal/summer2014/index.html
+VIRTUALREQ_keplist= scripts/list_thumbs.sh
 
 VIRTUALOUT_menu= index.html \
 				 edu/index.html \
