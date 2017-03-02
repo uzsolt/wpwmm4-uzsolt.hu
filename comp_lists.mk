@@ -1,5 +1,5 @@
 COMP_LISTS!=sed -n \
-  '/^\/comp\/[^\|]*\/[^\|]*\// s,\([^\|]*\)/.*,\1,p' \
+  '/^\/comp\/[^\|]*\/[^\|]*\// s,/\([^\|]*\)/.*,\1,p' \
   ${MENUDATAFILE}
 
 .for C in ${COMP_LISTS}
