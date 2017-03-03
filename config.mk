@@ -35,6 +35,8 @@ TARGETS=about/index.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
 
+MKDIR_REQ=data/menu.psv comp_lists.mk
+
 notes/latex/angles.html_REQ=${DEST_DIR}notes/latex/angles.png
 notes/latex/grid.html_REQ=${DEST_DIR}notes/latex/grid.png
 notes/latex/segments.html_REQ=${DEST_DIR}notes/latex/segments.png
