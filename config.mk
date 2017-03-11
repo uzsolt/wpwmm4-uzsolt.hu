@@ -35,6 +35,10 @@ TARGETS=about/index.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
 
+TARGETS_MANUAL=feed.xml
+${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
+	scripts/genrss.sh > ${.TARGET}
+
 MKDIR_REQ=data/menu.psv comp_lists.mk
 
 notes/latex/angles.html_REQ=${DEST_DIR}notes/latex/angles.png
