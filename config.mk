@@ -14,7 +14,8 @@ LAYOUT_DIR=layout/
 VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
-TARGETS=about/index.html \
+TARGETS=index.html \
+		about/index.html \
 		notes/bsd/copy_cddvd.html \
 		notes/bsd/daemon.html \
 		notes/bsd/dump_volume.html \
@@ -34,6 +35,7 @@ TARGETS=about/index.html \
 		notes/phys/atom.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
+index.html_REQ=scripts/genmain.sh
 
 TARGETS_MANUAL=feed.xml
 ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
@@ -108,8 +110,7 @@ VIRTUALOUT_kep+=${TMP:C,$,.html,:C,^,pict/${DIR}/,}
 VIRTUALOUT_kep:=${VIRTUALOUT_kep}
 .endfor
 
-VIRTUALOUT_menu= index.html \
-				 edu/index.html \
+VIRTUALOUT_menu= edu/index.html \
 				 comp/index.html \
 				 comp/math/index.html \
 				 comp/phys/index.html \
