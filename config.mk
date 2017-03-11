@@ -47,7 +47,7 @@ notes/latex/segments.html_REQ=${DEST_DIR}notes/latex/segments.png
 .include "latex_png.mk"
 
 # Global requirement
-GREQ=${MENUTARGET}
+GREQ=${MENUTARGET} include/01_header.m4
 
 # Category of virtually created files.
 # Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
