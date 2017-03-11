@@ -126,47 +126,6 @@ a {
     position: relative;
     outline: 0;
 }
-.tooltip {
-    visibility: hidden;
-    min-width: 200px;
-    width: auto;
-    background-color: #333333;
-    color: #ffffff;
-    opacity: 0.9;
-    font-family: serif;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top:-5px;
-    left:105%;
-}
-.tooltip::after {
-    content: " ";
-    position: absolute;
-    top: 8px;
-    right: 100%; /* To the left of the tooltip */
-    margin-top: -5px;
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
-}
-.tooltip_bottom {
-    @extend .tooltip;
-    top:100%;
-    left:40%;
-}
-.tooltip_bottom::after {
-    top: 0%;
-    bottom: 100%;
-    right: 50%;
-    margin-top: 0px;
-    margin-left: -5px;
-}
-a:hover .tooltip, a:hover .tooltip_bottom {
-	visibility: visible;
-}
 #menu {
     position:absolute;
     height:100%;
