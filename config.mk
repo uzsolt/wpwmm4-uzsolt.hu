@@ -128,6 +128,7 @@ VIRTUALREQ_notes_list=scripts/list_notes.sh
 VIRTUALREQRULE_notes_list=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_pdf=	downloads/dox/index.html \
+				downloads/linuxvilag/index.html \
 				edu/math/exams07/index.html \
 				edu/math/exams08/index.html \
 				edu/math/exams09/index.html \
