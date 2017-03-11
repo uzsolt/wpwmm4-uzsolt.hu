@@ -47,7 +47,8 @@ GREQ=${MENUTARGET}
 
 # Category of virtually created files.
 # Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
-VIRTUALS=keplist \
+VIRTUALS=kep \
+		 keplist \
 		 menu \
 		 edumath eduphys \
 		 notes_list \
@@ -57,6 +58,7 @@ VIRTUALS=keplist \
 		 pdf
 
 # The templates for virtuals.
+VIRTUALTEMPLATE_kep=kep
 VIRTUALTEMPLATE_keplist=keplist
 VIRTUALTEMPLATE_menu=emptymenu
 VIRTUALTEMPLATE_edumath=emptymenu
@@ -71,6 +73,7 @@ VIRTUALTEMPLATE_list_tanev_pdf=list_tanev_pdf
 
 # Properties of VIRTUALS
 # Destination directory inside ${DEST_DIR}
+VIRTUALDIR_kep=
 VIRTUALDIR_keplist=pict/
 VIRTUALDIR_menu=
 VIRTUALDIR_edumath=edu/math/
@@ -91,6 +94,15 @@ VIRTUALOUT_keplist= grafika/index.html \
 					personal/summer2014/index.html
 VIRTUALREQ_keplist= scripts/list_thumbs.sh
 VIRTUALREQRULE_keplist=C,(.*)/index.html,data/${VIRTUALDIR_keplist}\1.psv,
+
+VIRTUALREQ_kep=scripts/kep.sh
+.for K in ${VIRTUALOUT_keplist}
+DIR:=${K:C,/index.html,,}
+TMP!=awk -F '|' '{print $$1}' data/pict/${DIR}.psv
+VIRTUALOUT_kep+=${TMP:C,$,.html,:C,^,pict/${DIR}/,}
+# Force expand the VIRTUALOUT_kep variable!
+VIRTUALOUT_kep:=${VIRTUALOUT_kep}
+.endfor
 
 VIRTUALOUT_menu= index.html \
 				 edu/index.html \
