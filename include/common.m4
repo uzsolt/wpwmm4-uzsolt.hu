@@ -16,11 +16,10 @@ _own_pdf(`$2. tanév<br/>$3 évfolyam<br/>$4',
 )
 
 m4_define(_own_pdf,
-`<a href="$2"><div class="stuff">
+`<a href="$2"><div class="stuff" title="$3">
   <div class=pdf_icon></div>
   <div class="stuff_descr">
     $1
-    <span class="tooltip_bottom">$3</span>
   </div>
 </div></a>')
 
