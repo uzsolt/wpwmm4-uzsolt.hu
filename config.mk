@@ -35,7 +35,7 @@ TARGETS=index.html \
 		notes/phys/atom.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
-index.html_REQ=scripts/genmain.sh
+index.html_REQ=scripts/genmain.sh data/news.psv
 
 TARGETS_MANUAL=feed.xml
 ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
