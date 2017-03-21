@@ -39,7 +39,8 @@ index.html_REQ=scripts/genmain.sh data/news.psv
 
 TARGETS_MANUAL=feed.xml
 ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
-	scripts/genrss.sh > ${.TARGET}
+	${MSG1} Generating feed.xml...
+	@scripts/genrss.sh > ${.TARGET}
 
 MKDIR_REQ=data/menu.psv comp_lists.mk
 
