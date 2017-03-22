@@ -19,6 +19,11 @@ print_menu() {
   fi
 
   local indentstr=`jot -b ' ' -s '' $((level*2+2))`
+  if [ "${level}" -gt 0 ]; then
+    if grep -q "^${next_level}/" ${FILE}; then
+      printf '%s<div class="div_submenu">\n' "${indentstr}"
+    fi
+  fi
   grep "${pattern}" ${FILE} | \
     while read href title tooltip; do
       if echo ${href} | grep -q "^${next_level}/$"; then
@@ -37,7 +42,11 @@ print_menu() {
       fi
       printf "'\n%s)\n" "${indentstr}"
     done
-
+  if [ "${level}" -gt 0 ]; then
+    if grep -q "^${next_level}/" ${FILE}; then
+      printf "%s</div>\n" "${indentstr}"
+    fi
+  fi
 }
 
 # kilistázza a gyökérben levő pontokat (0. szint)
