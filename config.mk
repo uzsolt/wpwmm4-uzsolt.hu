@@ -65,6 +65,7 @@ VIRTUALS=kep \
 		 pdf
 
 MENUDATAFILE=data/menu.psv
+STATICDIR=/home/zsolt/public_html/uzsolt-static/static/
 
 include mk/v_menu.mk
 include mk/v_edumath.mk
