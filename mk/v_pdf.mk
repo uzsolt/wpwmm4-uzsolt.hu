@@ -2,6 +2,7 @@ VIRTUALTEMPLATE_pdf=pdfitems
 VIRTUALDIR_pdf=
 VIRTUALOUT_pdf=	downloads/dox/index.html \
 				downloads/linuxvilag/index.html \
+				edu/math/exams06/index.html \
 				edu/math/exams07/index.html \
 				edu/math/exams08/index.html \
 				edu/math/exams09/index.html \
