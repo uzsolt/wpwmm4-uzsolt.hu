@@ -42,7 +42,7 @@ ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
 	${MSG1} Generating feed.xml...
 	@scripts/genrss.sh > ${.TARGET}
 
-MKDIR_REQ=data/menu.psv comp_lists.mk
+MKDIR_REQ=data/menu.psv mk/comp_lists.mk
 
 notes/latex/angles.html_REQ=${DEST_DIR}notes/latex/angles.png
 notes/latex/grid.html_REQ=${DEST_DIR}notes/latex/grid.png
@@ -152,7 +152,7 @@ VIRTUALREQ_pdf+=scripts/pdfitems.sh
 VIRTUALREQRULE_pdf=C,(.*)/index.html,data/\1.psv,
 
 VIRTUALOUT_select_tanev_evf=${COMP_LISTS:=/index.html}
-VIRTUALREQ_select_tanev_evf+=comp_lists.mk
+VIRTUALREQ_select_tanev_evf+=mk/comp_lists.mk
 
 VIRTUALOUT_select_tanev=${COMP_LISTS:=/tanev.html}
 VIRTUALREQ_select_tanev+=scripts/list_tanev.sh
@@ -164,8 +164,8 @@ VIRTUALREQ_list_evf_pdf=scripts/list_comp_pdf.sh
 VIRTUALREQ_list_tanev_pdf+=${VIRTUALREQ_list_evf_pdf}
 
 MENUDATAFILE=data/menu.psv
-include comp_lists.mk
-include generate_menu.mk
+include mk/comp_lists.mk
+include mk/generate_menu.mk
 
 pre-everything:
 
