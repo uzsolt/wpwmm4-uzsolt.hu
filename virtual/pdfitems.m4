@@ -4,6 +4,8 @@ _2_BODY(_include_menu)
 _2_HEAD(_INCL(01_header.m4))
 _2_BODY(
   <div id="content">
+  <h1>_ACTIVEMENU</h1>
+  <h2>_ACTIVETOOLTIP</h2>
   _SCRIPT(pdfitems.sh /_DIRECTORY)
   </div>
 )
