@@ -3,6 +3,7 @@ _INCL(common.m4)
 _2_BODY(_include_menu)
 _2_HEAD(m4_include(01_header.m4))
 _2_BODY(<div id="content">
+  <h1>_ACTIVETOOLTIP</h1>
   _SCRIPT(list_notes.sh _DIRECTORY)
 </div>
 )
