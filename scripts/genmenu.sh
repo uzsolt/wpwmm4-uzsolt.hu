@@ -4,6 +4,18 @@ IFS="|"
 FILE=data/menu.psv
 STR_HOMEPAGE="Kezdőlap"
 
+# $1 : level number
+# $2 : url
+get_current_level() {
+  local ln="$1"
+  echo "${2}" | cut -d / -f -$((ln+1))
+}
+
+# $1 : pattern
+get_pattern() {
+  echo "$1/[^/]*/|"
+}
+
 print_menu() {
 
   local level=${1:-0} ; shift
@@ -14,16 +26,12 @@ print_menu() {
   if [ ${level} -eq 0 ]; then
     local pattern='^http://\|^/[^/]*/|'
   else
-    local current_level=`echo ${current} | cut -d / -f -$((level+1))`
-    local pattern="${current_level}/[^/]*/|"
+    local current_level=`get_current_level ${level} "${current}"`
+    local pattern="`get_pattern ${current_level}`"
   fi
 
   local indentstr=`jot -b ' ' -s '' $((level*2+2))`
-  if [ "${level}" -gt 0 ]; then
-    if grep -q "^${next_level}/" ${FILE}; then
-      printf '%s<div class="div_submenu">\n' "${indentstr}"
-    fi
-  fi
+
   grep "${pattern}" ${FILE} | \
     while read href title tooltip; do
       if echo ${href} | grep -q "^${next_level}/$"; then
@@ -38,15 +46,17 @@ print_menu() {
       printf "%s_DIV(%s,\n" "${indentstr}" ${divclass}
       printf "  %s\`_HREF(\`%s\',\`%s\',\`class=menu_href',\`%s\')" "${indentstr}" "${href}" "${title}" "${tooltip}"
       if echo ${href} | grep -q "^${next_level}/$"; then
-        print_menu $((level+1)) ${current}
+        local sub_current_level=`get_current_level $((level+1)) "${current}"`
+        local sub_pattern="`get_pattern ${sub_current_level}`" #/[^/]*/|"
+        if grep -q "${sub_pattern}" ${FILE}; then
+          printf "%s<div class=div_submenu>\n" "${indentstr}"
+          print_menu $((level+1)) ${current}
+          printf "%s</div>\n" "${indentstr}"
+        fi
       fi
       printf "'\n%s)\n" "${indentstr}"
     done
-  if [ "${level}" -gt 0 ]; then
-    if grep -q "^${next_level}/" ${FILE}; then
-      printf "%s</div>\n" "${indentstr}"
-    fi
-  fi
+
 }
 
 # kilistázza a gyökérben levő pontokat (0. szint)
