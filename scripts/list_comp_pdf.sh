@@ -15,8 +15,12 @@ else
 fi
 
 IFS="|"
-DIR=`echo ${1} | sed "s,/[^/]*,/static/stuff,"`
+DIR=`echo ${1} | sed "s,[^/]*,/static/stuff,"`
 cat data/$1.psv | awk -F "${IFS}" ${AWKSTR} | while read tanev evf descr path; do
   tanevstr="${tanev}-$((tanev+1))"
-  echo "_verseny_pdf(\`${DIR}/${path}',\`${tanevstr}',\`${evf}',\`${descr}')"
+  printf "_verseny_pdf(\`\`%s\'\',\`\`%s\'\',\`\`%s\'\',\`\`%s\'\')" \
+    "${DIR}/${path}" \
+    "${tanevstr}" \
+    "${evf}" \
+    "${descr}"
 done
