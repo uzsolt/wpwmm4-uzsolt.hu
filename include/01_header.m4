@@ -1,6 +1,11 @@
-_CHARSET(utf-8)m4_dnl
-_TITLE(_ACTIVEMENU)m4_dnl
-_CSS(/css/main.css)m4_dnl
-_CSS(/css/syntax.css)m4_dnl
-<link rel="alternate" type="application/rss+xml" title="Udvari Zsolt honlapja" href="/feed.xml">
-<link rel="shortcut icon" type="image/ico" href="/static/favicon.ico" />
+_2_HEAD(
+  _CHARSET(`utf-8')
+  <link rel="alternate" type="application/rss+xml" title="Udvari Zsolt honlapja" href="/feed.xml">
+  <link rel="shortcut icon" type="image/ico" href="/static/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="http://uzsolt.hu/">
+  _CSS(`/css/main.css')
+  _CSS(`/css/syntax.css')
+  _TITLE(_ACTIVEMENU)
+)
