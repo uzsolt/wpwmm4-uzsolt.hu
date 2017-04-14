@@ -38,16 +38,20 @@ _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
     
     <p>Webszerverként <a href="http://nginx.com/">nginx</a> fut.</p>
     
-    <p>Az oldal <em>korábbi verzióját</em> saját fejlesztésű
+    <p>Az oldal <em>legkorábbi verzióját</em> saját fejlesztésű
     <a href="http://php.net/">PHP</a>-szkriptek generálták, 
     a megjelenítendő adatok 
     <a href="https://mariadb.org/">MariaDB</a> (<a href="http://www.mysql.com/">MySQL</a>-fork) 
     adatbázisban tárolva.</p>
 
-    <p><em>Jelenleg</em> statikus HTML-ek segítségével jelenik meg a böngészőn az oldal.
+    <p><em>Egy későbbi verzióban</em> statikus HTML-ek segítségével jelenik meg a böngészőn az oldal.
     A HTML-fájlokat a <a href="http://jekyllrb.com/">jekyll</a> generálja. Az
     adatok <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV-fájlokban</a> 
-    tárolva.
+    tárolva.</p>
+
+    <p><em>Jelenleg</em> statikus HTML-ek szolgálják az információ olvashatóvá tételét,
+    viszont már egy saját fejlesztésű eszköz, a <a href="http://git.uzsolt.hu/?p=wpwmm4">wpwmm4</a>
+    generálja. A forrás <a href="http://git.uzsolt.hu/?p=wpwmm4-uzsolt.hu">itt</a> megtekinthető.</p>
     
     <p>Nem vagyok webdesigner, így a külcsín esetleg hagy némi kívánnivalót maga után, de remélem, 
     hogy az oldal használhatósága, egyszerűsége, gyorsasága ellensúlyozza ezt a hiányosságot.</p> 
