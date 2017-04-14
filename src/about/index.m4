@@ -50,7 +50,7 @@ _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
     tárolva.</p>
 
     <p><em>Jelenleg</em> statikus HTML-ek szolgálják az információ olvashatóvá tételét,
-    viszont már egy saját fejlesztésű eszköz, a <a href="http://git.uzsolt.hu/?p=wpwmm4">wpwmm4</a>
+    viszont ezeket már egy saját fejlesztésű eszköz, a <a href="http://git.uzsolt.hu/?p=wpwmm4">wpwmm4</a>
     generálja. A forrás <a href="http://git.uzsolt.hu/?p=wpwmm4-uzsolt.hu">itt</a> megtekinthető.</p>
     
     <p>Nem vagyok webdesigner, így a külcsín esetleg hagy némi kívánnivalót maga után, de remélem, 
