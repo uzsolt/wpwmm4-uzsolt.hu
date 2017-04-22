@@ -36,6 +36,11 @@ TARGETS=index.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv
+.for T in ${TARGETS}
+.if ${T:C,/.*,,}==notes
+${T}_REQ+=${LAYOUT_DIR}note.m4
+.endif
+.endfor
 
 TARGETS_MANUAL=feed.xml
 ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
