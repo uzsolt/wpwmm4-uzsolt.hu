@@ -35,7 +35,7 @@ TARGETS=index.html \
 		notes/phys/atom.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
-index.html_REQ=scripts/genmain.sh data/news.psv
+index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
 .for T in ${TARGETS}
 .if ${T:C,/.*,,}==notes
 ${T}_REQ+=${LAYOUT_DIR}note.m4
