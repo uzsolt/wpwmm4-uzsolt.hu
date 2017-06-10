@@ -63,6 +63,6 @@ _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
 <div  class=div_about>
     <h3>Kapcsolat</h3>
     <p>Bármilyen ügyben az 
-    <a href="mailto:udvzsolt@gmail.com">udvzsolt<img src="http://uzsolt.hu/static/pict/icons/kukac.png" width=16 height=16 alt="KUKAC"/>gmail.com</a>
+    <a href="mailto:uzsolt@uzsolt.hu">uzsolt<img src="http://uzsolt.hu/static/pict/icons/kukac.png" width=16 height=16 alt="KUKAC"/>uzsolt.hu</a>
     e-mail címen veheted fel velem a kapcsolatot.</p>
 </div>
