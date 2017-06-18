@@ -118,9 +118,8 @@ h1 {
     width:93%;
 }
 #news a {
-    color: #4da682;
+    color: black;
     text-decoration: underline;
-    font-weight: bold;
 }
 a {
     position: relative;
