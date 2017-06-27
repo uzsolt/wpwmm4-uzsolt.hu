@@ -5,7 +5,8 @@ SRC_DIR=src/
 ASSETS_DIR=assets/
 
 # Destination directory
-DEST_DIR=/home/zsolt/public_html/uzsolt/
+DEST_DIR=/usr/local/www/uzsolt/
+COMMON_DIR=/home/zsolt/git/wpwmm4/
 
 # Where the layouts are.
 LAYOUT_DIR=layout/
@@ -64,13 +65,14 @@ VIRTUALS=kep \
 		 menu \
 		 edumath eduphys \
 		 notes_list \
+		 select_exams_evf \
 		 select_tanev_evf \
 		 select_tanev select_evf\
 		 list_evf_pdf list_tanev_pdf \
-		 pdf
+		 pdf exams_pdf
 
 MENUDATAFILE=data/menu.psv
-STATICDIR=/home/zsolt/public_html/uzsolt-static/static/
+STATICDIR=/usr/local/www/static/
 
 include mk/v_menu.mk
 include mk/v_edumath.mk
@@ -78,12 +80,14 @@ include mk/v_eduphys.mk
 include mk/v_keplist.mk
 include mk/v_kep.mk
 include mk/v_notes_list.mk
+include mk/v_select_exams_evf.mk
 include mk/v_select_tanev_evf.mk
 include mk/v_select_tanev.mk
 include mk/v_select_evf.mk
 include mk/v_list_evf_pdf.mk
 include mk/v_list_tanev_pdf.mk
 include mk/v_pdf.mk
+include mk/v_exams_pdf.mk
 include mk/comp_lists.mk
 include mk/generate_menu.mk
 
