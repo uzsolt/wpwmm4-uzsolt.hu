@@ -7,6 +7,10 @@ VIRTUALOUT_exams_pdf= \
 				edu/math/exams/09.html \
 				edu/math/exams/10.html \
 				edu/math/exams/11.html \
-				edu/math/exams/12.html
+				edu/math/exams/12.html \
+				edu/phys/exams/07.html \
+				edu/phys/exams/08.html \
+				edu/phys/exams/10.html \
+				edu/phys/exams/11.html
 VIRTUALREQ_exams_pdf+=scripts/pdf_exams_items.sh
 VIRTUALREQRULE_exams_pdf=C,(.*)/(..).html,data/\1/\2.psv,
