@@ -7,7 +7,9 @@ ASSETS_DIR=assets/
 # Destination directory
 DEST_DIR=/usr/local/www/uzsolt/
 COMMON_DIR=/home/zsolt/git/wpwmm4/
-
+.ifdef WIP
+include wip.mk
+.endif
 # Where the layouts are.
 LAYOUT_DIR=layout/
 
