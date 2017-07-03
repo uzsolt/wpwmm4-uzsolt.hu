@@ -1,6 +1,6 @@
 MENUDIR=menu
 MENUFILE=menu.gen
-MENUTARGET!=sed -n '/^\// s,^\([^|]*\).*,${MENUDIR}\1${MENUFILE},p' ${MENUDATAFILE}
+MENUTARGET!=sed -n '/^\// s,^\([^|]*\).*,${MENUDIR}\1${MENUFILE},p' ${MENUDATAFILE} data/comp_lists.psv
 MENUTARGET:=${MENUDIR}/${MENUFILE} ${MENUTARGET}
 
 .for T in ${TARGETS}

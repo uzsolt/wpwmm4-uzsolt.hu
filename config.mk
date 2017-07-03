@@ -67,6 +67,7 @@ VIRTUALS=kep \
 		 menu \
 		 edumath eduphys \
 		 notes_list \
+		 select_comp \
 		 select_exams_evf \
 		 select_tanev_evf \
 		 select_tanev select_evf\
@@ -82,6 +83,7 @@ include mk/v_eduphys.mk
 include mk/v_keplist.mk
 include mk/v_kep.mk
 include mk/v_notes_list.mk
+include mk/v_select_comp.mk
 include mk/v_select_exams_evf.mk
 include mk/v_select_tanev_evf.mk
 include mk/v_select_tanev.mk

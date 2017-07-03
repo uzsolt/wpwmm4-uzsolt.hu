@@ -1,6 +1,6 @@
 COMP_LISTS!=sed -n \
-  '/^\/comp\/[^\|]*\/[^\|]*\// s,/\([^\|]*\)/.*,\1,p' \
-  ${MENUDATAFILE}
+  's,/\([^\|]*\)/.*,\1,p' \
+  data/comp_lists.psv
 
 .for C in ${COMP_LISTS}
 CTANEV_${C}!=cut -d \| -f 1 data/${C}.psv | sort -u
