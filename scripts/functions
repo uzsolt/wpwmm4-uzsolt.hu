@@ -1,0 +1,22 @@
+# $1 - fuggveny
+# $2- - parameterek
+read_data_stdin() {
+  FUNC=$1
+  shift
+
+  IFS='|'
+  while read $*; do
+    ${FUNC}
+  done
+}
+
+# $1 - file
+# $2 - fuggveny
+# $3- - parameterek
+read_data() {
+  FILE=$1
+  shift
+
+  cat ${FILE} | read_data_stdin $*
+}
+

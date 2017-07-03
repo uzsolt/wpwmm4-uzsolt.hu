@@ -1,9 +1,9 @@
 #!/bin/sh
 
-IFS="|"
+. scripts/functions
 DIR=`echo ${1} | sed "s,/[^/]*,/static/stuff,"`
-DATAFILE=data/${1}.psv
-cat ${DATAFILE} | while read txt path tooltip; do
+process() {
   echo "_own_pdf(\`${txt}',\`${DIR}/${path}',\`${tooltip}')"
-done
+}
 
+read_data data/${1}.psv process txt path tooltip
