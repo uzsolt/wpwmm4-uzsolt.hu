@@ -53,6 +53,7 @@ CSS_FILES=main syntax
 .for css in ${CSS_FILES}
 TARGETS_MANUAL+=css/${css}.css
 ${DEST_DIR}css/${css}.css: assets/css/${css}.css
+	@mkdir -p ${DEST_DIR}css
 	sassc -t compressed ${.ALLSRC} ${.TARGET}
 .endfor
 
