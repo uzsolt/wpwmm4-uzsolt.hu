@@ -17,6 +17,7 @@ VIRT_DIR=virtual/
 TARGETS=index.html \
 		about/cv.html \
 		about/index.html \
+		edu/phys/art/index.html \
 		notes/bsd/copy_cddvd.html \
 		notes/bsd/daemon.html \
 		notes/bsd/dump_volume.html \
@@ -38,6 +39,7 @@ TARGETS=index.html \
 		notes/phys/h2o.html \
 		notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
+edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
 .for T in ${TARGETS}
 .if ${T:C,/.*,,}==notes
 ${T}_REQ+=${LAYOUT_DIR}note.m4
