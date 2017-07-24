@@ -1,9 +1,6 @@
 # Where the sources (m4) are.
 SRC_DIR=src/
 
-# Where the assets are.
-ASSETS_DIR=assets/
-
 # Destination directory
 DEST_DIR=/usr/local/www/uzsolt/
 COMMON_DIR=/home/zsolt/git/wpwmm4/
@@ -51,6 +48,13 @@ TARGETS_MANUAL=feed.xml
 ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
 	${MSG1} Generating feed.xml...
 	@scripts/genrss.sh > ${.TARGET}
+
+CSS_FILES=main syntax
+.for css in ${CSS_FILES}
+TARGETS_MANUAL+=css/${css}.css
+${DEST_DIR}css/${css}.css: assets/css/${css}.css
+	sassc -t compressed ${.ALLSRC} ${.TARGET}
+.endfor
 
 MKDIR_REQ=data/menu.psv mk/comp_lists.mk
 
