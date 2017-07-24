@@ -18,6 +18,7 @@ VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
 TARGETS=index.html \
+		about/cv.html \
 		about/index.html \
 		notes/bsd/copy_cddvd.html \
 		notes/bsd/daemon.html \
@@ -73,6 +74,7 @@ VIRTUALS=kep \
 		 select_tanev_evf \
 		 select_tanev select_evf\
 		 list_evf_pdf list_tanev_pdf \
+		 list_art_pdf \
 		 pdf exams_pdf
 
 MENUDATAFILE=data/menu.psv
@@ -91,6 +93,7 @@ include mk/v_select_tanev.mk
 include mk/v_select_evf.mk
 include mk/v_list_evf_pdf.mk
 include mk/v_list_tanev_pdf.mk
+include mk/v_list_art.mk
 include mk/v_pdf.mk
 include mk/v_exams_pdf.mk
 include mk/comp_lists.mk
