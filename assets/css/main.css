@@ -187,6 +187,23 @@ $art_stuff_width:500px;
   @extend %stuffbase;
   width:$stuff_width;
 }
+.note_stuff {
+  @extend %stuffbase;
+  width:95%;
+}
+.note_date {
+  text-decoration:none;
+  font-weight: bold;
+  color: #444444;
+}
+.note_title {
+  @extend .note_date;
+  margin-left: 5pt;
+}
+.note_descr {
+  @extend .note_date;
+  font-weight: normal;
+}
 .art_stuff {
   @extend %stuffbase;
   width:$art_stuff_width;
