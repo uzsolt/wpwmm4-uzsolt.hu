@@ -1,7 +1,6 @@
 #!/bin/sh
 
 . scripts/functions
-int=0
 
 process() {
   printf '  <a href="%s"><div class="note_stuff" title="%s">\n' "${url}" "${title}"
