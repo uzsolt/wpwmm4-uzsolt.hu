@@ -12,6 +12,7 @@ h1 {
   text-shadow: 0px 1px 2px #4da682;
 }
 /* Menu-specific settings */
+$menusize:30%;
 .menu_href {
   font-family:arial;
   font-size:14px;
@@ -31,7 +32,10 @@ h1 {
   text-shadow:0px 1px 0px #2f6627;
   text-align:center;
   margin-bottom:5px;
+  padding-top:  5px;
+  padding-bottom: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color:#4da682;
 }
 %menuhover {
   &:hover {
@@ -47,12 +51,10 @@ h1 {
 .menu {
   @extend %menubase;
   @extend %menuhover;
-  background-color:#4da682;
   background:linear-gradient(#4da682,#5eb792);
   border-radius:10px;
   border:1px solid #3d9672;
   color:#ffffff;
-  padding:2px 2px 2px 2px;
 }
 .selected {
   @extend %menubase;
@@ -64,13 +66,11 @@ h1 {
 .submenu {
   @extend %menubase;
   @extend %menuhover;
-  margin-bottom:0px;
   background-color:#5eb793;
   border-radius:6px;
   border:1px solid #8888ff;
   cursor:pointer;
   color:#ffffff;
-  padding:2px 2px;
 }
 
 %divmenu {
@@ -82,8 +82,10 @@ h1 {
   @extend %divmenu;
   min-height: 30px;
   background-color: #bbbbbb;
-  width:90%;
+  width:95%;
   height:auto;
+  text-align: center;
+  margin: auto;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .div_submenu {
@@ -104,7 +106,7 @@ a {
 #menu {
   position:absolute;
   height:100%;
-  width:20%;
+  width:$menusize;
   background-color: #666666;
   background: radial-gradient(#666666,#555555);
   display: inline-block;
@@ -112,9 +114,11 @@ a {
   margin:0;
   overflow-y:auto;
 }
+$headerheight:50px;
 #menu_header {
   display:block;
-  min-height:50px;
+  height:$headerheight;
+  line-height:$headerheight;
   background-color:#cccccc;
   backround: linear-gradient(#cccccc,#aaaaaa);
   text-align:center;
@@ -123,7 +127,9 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   text-shadow:0px 2px 2px #4da682;
   border-radius:  5px;
-  max-width: 98%;
+  width: 99%;
+  margin:auto;
+  margin-bottom:3px;
   h2 {
     text-decoration: none;
   }
@@ -133,10 +139,10 @@ a {
 #content {
   position:relative;
   padding-left:6px;
-  left:20%;
+  left:$menusize;
   background-color: #cccccc;
   display: inline-block;
-  width:79.5%;
+  width:100% - $menusize - 0.5%;
   height:99%;
   min-height:99%;
   overflow:auto;
@@ -249,4 +255,23 @@ $art_stuff_width:500px;
   width:95%;
   margin: 0 auto;
   text-align:center;
+}
+
+div.imgview {
+  max-width: 90%;
+  height: 80%;
+  text-align: center;
+}
+.imgnav {
+  width: 100%;
+  text-align: center;
+}
+.imgviewed {
+  border-radius: 10px;
+  height: 100%;
+  width: auto;
+}
+.imgdesc {
+  text-align: center;
+  font-weight: bold;
 }
