@@ -43,8 +43,8 @@ print_menu() {
           local divclass=submenu
         fi
       fi
-      printf "%s_DIV(%s,\n" "${indentstr}" ${divclass}
-      printf "  %s\`_HREF(\`%s\',\`%s\',\`class=menu_href',\`%s\')" "${indentstr}" "${href}" "${title}" "${tooltip}"
+      printf '%s<div class="%s">' "${indentstr}" "${divclass}"
+      printf '  %s<a href="%s" title="%s" class="menu_href"><div class="menu_text">%s</div></a>' "${indentstr}" "${href}" "${tooltip}" "${title}"
       if echo ${href} | grep -q "^${next_level}/$"; then
         local sub_current_level=`get_current_level $((level+1)) "${current}"`
         local sub_pattern="`get_pattern ${sub_current_level}`" #/[^/]*/|"
@@ -54,7 +54,7 @@ print_menu() {
           printf "%s</div>\n" "${indentstr}"
         fi
       fi
-      printf "'\n%s)\n" "${indentstr}"
+      printf "\n%s</div>\n" "${indentstr}"
     done
 
 }
@@ -72,6 +72,7 @@ cat << EOF
 EOF
 
 print_menu 0 $*
+
 cat << EOF
   </div>
 </div>
