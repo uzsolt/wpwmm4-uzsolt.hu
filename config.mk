@@ -55,6 +55,7 @@ ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
 
 TARGETS_MANUAL+=css/main.css
 ${DEST_DIR}css/main.css: \
+	assets/css/image.css \
 	assets/css/main.css \
 	assets/css/menu.css \
 	assets/css/stuff.css \

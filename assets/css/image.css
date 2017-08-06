@@ -1,6 +1,6 @@
 /* Image thumb settings */
 .thumb{
-  background-color:#888888;
+  background-color:#73bf9f;
   display: inline-block;
   float:left;
   width:120px;
@@ -15,7 +15,7 @@
   }
 }
 .thumb_desc {
-  background-color:#555555;
+  background-color:#306951;
   color:#ffffff;
   font-family:arial;
   font-size:12px;

@@ -2,11 +2,12 @@
 $pdf_icon_height:32px;
 $pdf_icon_width:32px;
 $stuff_width:300px;
-$art_stuff_width:500px;
+$art_stuff_width:400px;
 %stuffbase {
-  background-color:#bbbbbb;
+  background:linear-gradient(to bottom right,#8fbca9,$menubg);
   display: inline-block;
-  border:1px solid #119900;
+  /*border:1px solid #119900;*/
+  border:1px solid black;
   border-radius:5px;
   padding:5px;
   margin:5px;
