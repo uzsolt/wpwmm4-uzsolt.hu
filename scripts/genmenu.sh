@@ -65,7 +65,7 @@ print_menu() {
 #   közben megtalálja a belépési pontot a következő szintre...
 cat << EOF
 <div id=menu>
-  <a href=http://uzsolt.hu>
+  <a href=/>
   <div id=menu_header><h2>Udvari Zsolt honlapja</h2></div>
   </a>
   <div class=div_menu>
