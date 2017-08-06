@@ -189,6 +189,8 @@ $art_stuff_width:500px;
 }
 .note_stuff {
   @extend %stuffbase;
+  margin-bottom: 3px;
+  margin-top: 0;
   width:95%;
 }
 .note_date {
