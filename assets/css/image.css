@@ -1,0 +1,44 @@
+/* Image thumb settings */
+.thumb{
+  background-color:#888888;
+  display: inline-block;
+  float:left;
+  width:120px;
+  height:120px;
+  text-align:center;
+  border:1px solid #119900;
+  border-radius:5px;
+  padding:5px;
+  margin:5px;
+  img {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
+.thumb_desc {
+  background-color:#555555;
+  color:#ffffff;
+  font-family:arial;
+  font-size:12px;
+  width:95%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+div.imgview {
+  max-width: 90%;
+  height: 80%;
+  text-align: center;
+}
+.imgnav {
+  width: 100%;
+  text-align: center;
+}
+.imgviewed {
+  border-radius: 10px;
+  height: 100%;
+  width: auto;
+}
+.imgdesc {
+  text-align: center;
+  font-weight: bold;
+}

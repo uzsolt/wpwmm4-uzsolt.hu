@@ -53,13 +53,14 @@ ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
 	${MSG1} Generating feed.xml...
 	@scripts/genrss.sh > ${.TARGET}
 
-CSS_FILES=main syntax
-.for css in ${CSS_FILES}
-TARGETS_MANUAL+=css/${css}.css
-${DEST_DIR}css/${css}.css: assets/css/${css}.css
+TARGETS_MANUAL+=css/main.css
+${DEST_DIR}css/main.css: \
+	assets/css/main.css \
+	assets/css/menu.css \
+	assets/css/stuff.css \
+	assets/css/syntax.css
 	@mkdir -p ${DEST_DIR}css
-	sassc -t compressed ${.ALLSRC} ${.TARGET}
-.endfor
+	sassc -t compressed assets/css/main.css ${.TARGET}
 
 MKDIR_REQ=data/menu.psv mk/comp_lists.mk
 
