@@ -38,26 +38,3 @@ a {
   overflow:auto;
 }
 .highlight { background-color:#dddddd; }
-
-/* Table of notes */
-table#note_table {
-  width:  80%;
-  border: 1px solid black;
-  .col_date {
-    width:  auto;
-  }
-  .col_href {
-    width: 200px;
-  }
-  .col_desc {
-    width: auto;
-  }
-  .row1 {
-    background-color: #dddddd;
-  }
-  .row2 {
-    background-color: #bbbbbb;
-  }
-}
-
-
