@@ -15,30 +15,32 @@ VIRT_DIR=virtual/
 
 # Targets in ${DEST_DIR}
 TARGETS=index.html \
-		about/cv.html \
-		about/index.html \
-		edu/phys/art/index.html \
-		notes/bsd/copy_cddvd.html \
-		notes/bsd/daemon.html \
-		notes/bsd/dump_volume.html \
-		notes/bsd/vmware.html \
-		notes/cli/feh_wallpaper.html \
-		notes/cli/ffmpeg_dvd_player.html \
-		notes/cli/html_parse.html \
-		notes/cli/pdf_jelszo.html \
-		notes/cli/pdfjam.html \
-		notes/cli/rsync_transmission.html \
-		notes/joke/curry.html \
-		notes/joke/kenyer.html \
-		notes/latex/angles.html \
-		notes/latex/grid.html \
-		notes/latex/randomize_exsheets.html \
-		notes/latex/segments.html \
-		notes/latex/smiley.html \
-		notes/phys/atom.html \
-		notes/phys/h2o.html \
-		notes/web/gyors-oldal.html
+	news.html \
+	about/cv.html \
+	about/index.html \
+	edu/phys/art/index.html \
+	notes/bsd/copy_cddvd.html \
+	notes/bsd/daemon.html \
+	notes/bsd/dump_volume.html \
+	notes/bsd/vmware.html \
+	notes/cli/feh_wallpaper.html \
+	notes/cli/ffmpeg_dvd_player.html \
+	notes/cli/html_parse.html \
+	notes/cli/pdf_jelszo.html \
+	notes/cli/pdfjam.html \
+	notes/cli/rsync_transmission.html \
+	notes/joke/curry.html \
+	notes/joke/kenyer.html \
+	notes/latex/angles.html \
+	notes/latex/grid.html \
+	notes/latex/randomize_exsheets.html \
+	notes/latex/segments.html \
+	notes/latex/smiley.html \
+	notes/phys/atom.html \
+	notes/phys/h2o.html \
+	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
+news.html_REQ=${index.html_REQ}
 edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
 .for T in ${TARGETS}
 .if ${T:C,/.*,,}==notes
