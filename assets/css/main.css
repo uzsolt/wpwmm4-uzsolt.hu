@@ -117,8 +117,6 @@ a {
 $headerheight:50px;
 #menu_header {
   display:block;
-  height:$headerheight;
-  line-height:$headerheight;
   background-color:#cccccc;
   backround: linear-gradient(#cccccc,#aaaaaa);
   text-align:center;
