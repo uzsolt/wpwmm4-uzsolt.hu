@@ -13,7 +13,6 @@ h1 {
 }
 /* Menu-specific settings */
 $menusize:30%;
-$maxmenuwidth:350px;
 .menu_href {
   font-family:arial;
   font-size:14px;
@@ -108,7 +107,6 @@ a {
   position:absolute;
   height:100%;
   width:$menusize;
-  max-width:$maxmenuwidth;
   background-color: #666666;
   background: radial-gradient(#666666,#555555);
   display: inline-block;
