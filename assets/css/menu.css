@@ -27,8 +27,7 @@ a #menu_header {
   position:absolute;
   height:100%;
   width:$menusize;
-  background-color: #666666;
-  background: radial-gradient(#666666,#555555);
+  background: radial-gradient(#50afaf,#306969);
   display: inline-block;
   padding:0;
   margin:0;
@@ -110,12 +109,12 @@ a #menu_header {
   border:2px solid;
   border-radius:10px;
   padding-left: 5px;
+  background-color: #b9dfdf;
 }
 
 .div_menu {
   @extend %divmenu;
   min-height: 30px;
-  background-color: #bbbbbb;
   width:95%;
   height:auto;
   text-align: center;
@@ -127,7 +126,5 @@ a #menu_header {
   @extend %divmenu;
   padding-top: 2px;
   min-height: 30px;
-  background-color: #888888;
   width:93%;
 }
-
