@@ -76,7 +76,7 @@ a #menu_header {
   border:1px solid #3d9672;
   .menu_href {
     @extend %menuhref;
-    color:#000000;
+    color:#102323;
   }
 }
 
@@ -88,7 +88,7 @@ a #menu_header {
   padding:10px 10px;
   .menu_href {
     @extend %menuhref;
-    color:#ffffff;
+    color:#eef7f7;
   }
 }
 
