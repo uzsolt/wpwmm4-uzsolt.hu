@@ -22,7 +22,7 @@ _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
     Másrészt néhány Linux disztribúcióhoz készítettem, tartottam karban csomagokat 
     (<a href="https://www.pld-linux.org/">PLD Linux</a>, <a href="https://www.archlinux.org/">Arch Linux</a>), 
     illetve jelenleg is néhány FreeBSD-s portnak a 
-    <a href="http://www.freshports.org/search.php?stype=maintainer&method=match&query=udvzsolt%40gmail.com&num=100&orderby=category&orderbyupdown=asc&search=Search">karbantartója</a> 
+    <a href="http://www.freshports.org/search.php?stype=maintainer&method=match&query=uzsolt%40uzsolt.hu&num=100&orderby=category&orderbyupdown=asc&search=Search">karbantartója</a>
     vagyok.</p>
     
     <p>Ablakkezelőként a tiling típusú ablakkezelőket részesítem előnyben 
