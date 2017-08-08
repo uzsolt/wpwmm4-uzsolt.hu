@@ -4,3 +4,4 @@ Videókonvertálás|asztali DVD-lejátszók számára|2016-01-28|ffmpeg_dvd_play
 pdfjam oldal válogatás|különböző pdf-fájlokból|2016-03-22|pdfjam.html
 PDF jelszó eltávolítás|jelszó ismeretében|2016-03-24|pdf_jelszo.html
 Háttér változtatása feh-hel|akár cron használatával|2016-05-26|feh_wallpaper.html
+GIT konvertálás SVN-re|egyszerű tárolókra|2017-08-08|git2svn.html
