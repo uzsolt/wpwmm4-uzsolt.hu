@@ -36,5 +36,8 @@ a {
   height:99%;
   min-height:99%;
   overflow:auto;
+  border-left-style: solid;
+  border-color: #dcefef;
+  border-width: 5px;
 }
 .highlight { background-color:#dddddd; }
