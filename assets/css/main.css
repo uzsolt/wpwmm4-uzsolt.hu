@@ -26,18 +26,19 @@ a {
 }
 
 /* Content */
+$content-border-width:7%;
 #content {
   position:relative;
   padding-left:6px;
   left:$menusize;
   background-color:#cbe7db;
   display: inline-block;
-  width:100% - $menusize - 0.5%;
+  width:100% - $menusize - 1%;
   height:99%;
   min-height:99%;
   overflow:auto;
   border-left-style: solid;
   border-color: #dcefef;
-  border-width: 5px;
+  border-width: $content-border-width;
 }
 .highlight { background-color:#dddddd; }
