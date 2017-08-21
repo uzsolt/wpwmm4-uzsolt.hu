@@ -1,6 +1,7 @@
 VIRTUALTEMPLATE_kep=kep
 VIRTUALDIR_kep=
 VIRTUALREQ_kep=scripts/kep.sh
+VIRTUALREQRULE_kep=C,(.*)/.*.html,data/\1.psv,
 
 .for K in ${VIRTUALOUT_keplist}
 DIR:=${K:C,/index.html,,}
