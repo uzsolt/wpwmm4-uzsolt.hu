@@ -25,7 +25,6 @@ TARGETS=index.html \
 	notes/bsd/vmware.html \
 	notes/cli/feh_wallpaper.html \
 	notes/cli/ffmpeg_dvd_player.html \
-	notes/cli/git2svn.html \
 	notes/cli/html_parse.html \
 	notes/cli/pdf_jelszo.html \
 	notes/cli/pdfjam.html \
@@ -39,9 +38,10 @@ TARGETS=index.html \
 	notes/latex/smiley.html \
 	notes/phys/atom.html \
 	notes/phys/h2o.html \
+	notes/svn/git2svn.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
-notes/cli/git2svn.html_REQ=src/notes/cli/git2svn.sh
+notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh
 news.html_REQ=${index.html_REQ}
 edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
 .for T in ${TARGETS}
