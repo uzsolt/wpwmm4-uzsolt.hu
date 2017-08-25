@@ -39,6 +39,7 @@ TARGETS=index.html \
 	notes/phys/atom.html \
 	notes/phys/h2o.html \
 	notes/svn/git2svn.html \
+	notes/svn/svnlog.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
 notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh
