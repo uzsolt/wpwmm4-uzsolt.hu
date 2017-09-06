@@ -3,7 +3,7 @@ SRC_DIR=src/
 
 # Destination directory
 DEST_DIR=/usr/local/www/uzsolt/
-COMMON_DIR=/home/zsolt/git/wpwmm4/
+COMMON_DIR=/home/zsolt/svn/wpwmm4/
 .ifdef WIP
 include wip.mk
 .endif
