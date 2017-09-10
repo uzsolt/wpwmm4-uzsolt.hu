@@ -16,7 +16,6 @@ VIRT_DIR=virtual/
 # Targets in ${DEST_DIR}
 TARGETS=index.html \
 	news.html \
-	about/cv.html \
 	about/index.html \
 	edu/phys/art/index.html \
 	notes/bsd/copy_cddvd.html \
