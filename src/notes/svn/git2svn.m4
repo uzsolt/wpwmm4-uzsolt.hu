@@ -9,3 +9,5 @@ _file_highlight(src/notes/svn/git2svn.sh,sh)</p>
 _HREF(`http://sandrotosi.blogspot.hu/2010/02/migrate-git-repo-to-svn-one.html',`sandrotosi.blogspot')
 és
 _HREF(https://stackoverflow.com/questions/2771033/git-svn-object-doesnt-exist-in-the-repository-at-opt-local-libexec-git-cor/,`stackoverflow válasz')</p>
+<p>Hasznos lehet a commit-ok idejének (timestamp) megőrzése is. Ha egyszerű a git-tároló, viszonylag egyszerűen megoldható:
+_file_highlight(src/notes/svn/git2svn_time.sh,sh)</p>

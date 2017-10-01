@@ -42,7 +42,7 @@ TARGETS=index.html \
 	notes/svn/svnsync.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
-notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh
+notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh src/notes/svn/git2svn_time.sh
 notes/svn/svnsync.html_REQ=src/notes/svn/svnsync_init.sh
 news.html_REQ=${index.html_REQ}
 edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
