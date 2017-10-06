@@ -6,7 +6,7 @@ DIR=${1}
 NR=0
 process() {
   printf '  <div class="thumb">\n'
-  printf '    <a href="%s"><img class="thumbsprite-%s" width=64 height=64 src="%s" alt="%s"/></a>\n' \
+  printf '    <a href="%s"><img class="thumbsprite-%s" src="%s" alt="%s"/></a>\n' \
     "${pict}.html" \
     "${NR}" \
     "/static/${DIR}/thumbsprite.jpg" \
