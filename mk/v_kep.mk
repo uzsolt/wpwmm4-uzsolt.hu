@@ -12,13 +12,13 @@ KEPHTML:=${KEP:C,$,.html,}
 VIRTUALOUT_kep+=${KEPHTML}
 VIRTUALOUT_kep:=${VIRTUALOUT_kep}
 
-.for P in ${TMP}
-THUMBFILE:=${P:C,^,${STATICDIR}pict/${DIR}/thumb/,}
-${VIRTUALDIR_keplist}${K}_REQ:=${THUMBFILE}
+THUMBFILE:=${STATICDIR}pict/${DIR}/thumbsprite.jpg
+${VIRTUALDIR_keplist}${K}_REQ+=${THUMBFILE}
+${VIRTUALDIR_keplist}${K}_REQ:=${${VIRTUALDIR_keplist}${K}_REQ}
 
-${THUMBFILE}: ${STATICDIR}pict/${DIR}/${P}
-	@convert -resize 64x64^ -gravity center -extent 64x64 -strip ${.ALLSRC} ${.TARGET}
+${THUMBFILE}: ${KEP:C,^,${STATICDIR},}
+	@${MSG1} Create ${.TARGET}
+	@convert ${.ALLSRC} -resize 64x64^ -gravity center -extent 64x64 -strip -append ${.TARGET}
 
-.endfor
 .endfor
 

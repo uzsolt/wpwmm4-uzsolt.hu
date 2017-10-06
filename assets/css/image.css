@@ -24,6 +24,18 @@
   text-align:center;
 }
 
+@mixin thumbsprites {
+  @for $i from 0 through 100 {
+    .thumbsprite-#{$i} {
+      width: 64px;
+      height: 64px;
+      object-fit: none;
+      object-position: 0 $i*-64px;
+    }
+  }
+}
+@include thumbsprites;
+
 div.imgview {
   max-width: 90%;
   height: 80%;
