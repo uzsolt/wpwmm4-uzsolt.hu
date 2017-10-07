@@ -41,11 +41,16 @@ TARGETS=index.html \
 	notes/svn/svnlog.html \
 	notes/svn/svn-mirror-github.html \
 	notes/svn/svnsync.html \
+	notes/svn/svn-taskwarrior.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
 notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh src/notes/svn/git2svn_time.sh
 notes/svn/svn-mirror-github.html_REQ=src/notes/svn/svn-mirror-github.sh src/notes/svn/svn-mirror-github-post-commit.sh
 notes/svn/svnsync.html_REQ=src/notes/svn/svnsync_init.sh
+notes/svn/svn-taskwarrior.html_REQ= \
+	src/notes/svn/svn-taskwarrior-add.sh \
+	src/notes/svn/svn-taskwarrior-exit.sh \
+	src/notes/svn/svn-taskwarrior-modify.sh
 news.html_REQ=${index.html_REQ}
 edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
 .for T in ${TARGETS}
