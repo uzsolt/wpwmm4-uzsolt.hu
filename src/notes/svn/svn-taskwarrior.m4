@@ -11,10 +11,10 @@ akkor a _HREF(`https://taskwarrior.org/docs/hooks.html',`hook') lehetőség jöh
 fut le, így a verziókezelő (subversion, git, stb.) az _onexit-ben kell, hogy lefusson.</p>
 <p>Az _onadd és az _onmod szkriptek létrehozzák a <code>commit_msg</code> fájlt, ami a verziókezelő commit-üzenete
 lesz.</p>
-<p>A _onadd fájl:
-_file_highlight(`src/notes/svn/svn-taskwarrior-add.sh',`sh')</p>
-<p>A _onmod fájl:
-_file_highlight(`src/notes/svn/svn-taskwarrior-modify.sh',`sh')</p>
-<p>A _onexit fájl:
-_file_highlight(`src/notes/svn/svn-taskwarrior-exit.sh',`sh')</p>
+<p>A _onadd fájl:</p>
+_file_highlight(`src/notes/svn/svn-taskwarrior-add.sh',`sh')
+<p>A _onmod fájl:</p>
+_file_highlight(`src/notes/svn/svn-taskwarrior-modify.sh',`sh')
+<p>A _onexit fájl:</p>
+_file_highlight(`src/notes/svn/svn-taskwarrior-exit.sh',`sh')
 <p>Természetesen más verziókezelő is használható, az _onexit fájlban a megfelelő módosításokat végrehajtva.</p>
