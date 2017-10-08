@@ -13,6 +13,9 @@ LAYOUT_DIR=layout/
 # Virtual directory
 VIRT_DIR=virtual/
 
+HOOK_POST_HTML=${MSG2} Checking validity ; tidy5 -e -f /dev/stdout ${.TARGET} | sed '/About/,$$d ; s,^,     ,'
+HOOK_POST_VHTML=${HOOK_POST_HTML}
+
 # Targets in ${DEST_DIR}
 TARGETS=index.html \
 	news.html \
