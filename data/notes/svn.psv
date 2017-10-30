@@ -3,3 +3,4 @@ SVN commit message modify|SVN commit message változtatása|2017-07-25|svnlog.ht
 SVN repository mirror|SVN repository tükrözés svnsync-kel|2017-09-19|svnsync.html
 SVN mirror into GitHub|SVN repository tükrözés GitHub-ra|2017-10-01|svn-mirror-github.html
 SVN taskwarrior|Automatikus subversion (vagy akár git) taskwarrior-hoz|2017-10-07|svn-taskwarrior.html 
+SVN config versioning|SVN konfiguráció verziókezelve|2017-10-30|config_under_svn.html
