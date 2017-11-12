@@ -46,6 +46,7 @@ TARGETS=index.html \
 	notes/svn/svnsync.html \
 	notes/svn/svn-taskwarrior.html \
 	notes/svn/config_under_svn.html \
+	notes/svn/automatic-ignore.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
 notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh src/notes/svn/git2svn_time.sh
