@@ -1,4 +1,4 @@
-_LAYOUT(`note.m4',_title,`Négyzetrács',_subtitle,`Négyzetrács (grid) rajzolása')
+_LAYOUT(`note.m4',_title,`Véletlenszerű sorrend',_subtitle,`exsheets shuffle')
 _INCL(`highlight.m4')
 <p>Az <a href=http://ctan.org/pkg/exsheets>exsheets</a> csomag által
 biztosított feladatsor-sablonban a feladatok sorrendje véletlenszerűen
