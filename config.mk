@@ -33,6 +33,7 @@ TARGETS=index.html \
 	notes/cli/rsync_transmission.html \
 	notes/joke/curry.html \
 	notes/joke/kenyer.html \
+	notes/joke/komuves.html \
 	notes/latex/angles.html \
 	notes/latex/grid.html \
 	notes/latex/randomize_exsheets.html \
