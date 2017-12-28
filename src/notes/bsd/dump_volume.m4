@@ -22,7 +22,7 @@ szereti, azzal is megoldhatja. A fenti <code>jot</code>-parancs 1-től
 100-ig kiírja a számokat, elválasztóként a vesszőt használva
 (<code>-s ,</code>), ui. a <code>dump</code> parancs így várja.</p>
 <p>A <code>dump</code> így 100 Mb-s fájlokat hoz létre, a
-<code>/var/dump</code> könyvtárba, <code>dump_001.dump</code>,
-<code>dump_002.dump</code>, stb. nevekkel. Ha 100 fájlnál többet hozna
+_filename(`/var/dump') könyvtárba, _filename(`dump_001.dump'),
+_filename(`dump_002.dump'), stb. nevekkel. Ha 100 fájlnál többet hozna
 létre, kérdezni fog - persze a <code>jot</code> paramétereként 999 is
 megadható, illetve a blokkméret (<code>-B</code>, kb-ban) növelhető.</p>

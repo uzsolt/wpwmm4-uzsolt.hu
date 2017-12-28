@@ -8,7 +8,7 @@ Első pillantásra talán annyira nem egyszerű, de némi ötlet segítségével
 <li>létrehozzuk az svn szerverek könyvtárait: _highlight(`svn mkdir server1 server2 server3',`sh')</li>
 <li>a szerverek könyvtárain belül a projektek könyvtárait:
   _highlight(``svn mkdir --parents server1/{project1,project2}/{conf,hooks} server2/{project3,project4}/{conf,hooks}'',`sh')</li>
-<li>az <code>svn.server/svnadmin/hooks</code> könyvtárban létrehozunk egy <code>post-commit</code> 
+<li>az _filename(`svn.server/svnadmin/hooks') könyvtárban létrehozunk egy _filename(`post-commit')
   _HREF(`https://svn.uzsolt.hu/svnadmin/localhost/svnadmin/hooks/post-commit?view=markup',`hook')-ot, amely majd mindig
   a megfelelő helyre másolja a változtatott állományt. Persze ezt is verziókezelő alá lehet venni :)</li>
 </ol>

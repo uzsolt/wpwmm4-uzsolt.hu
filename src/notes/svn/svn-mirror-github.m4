@@ -4,7 +4,7 @@ _INCL(`highlight.m4')
 <p>A következő kód könnyen megérthető:</p>
 _file_highlight(`src/notes/svn/svn-mirror-github.sh',sh)
 <p>Ezután létrehozzuk az
-<code>svn.yourdomain.com/repos/project_name/hooks/post-commit</code> fájlt:</p>
+_filename(`svn.yourdomain.com/repos/project_name/hooks/post-commit') fájlt:</p>
 _file_highlight(src/notes/svn/svn-mirror-github-post-commit.sh,sh)
 <p>És persze futtathatóvá tesszük:</p>
 _highlight(`chmod +x svn.yourdomain.com/repos/project_name/hooks/post-commit',sh)

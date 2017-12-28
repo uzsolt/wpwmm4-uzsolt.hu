@@ -3,10 +3,10 @@ _INCL(`highlight.m4')
 <p>Ha bármilyen okból úgy érezzük, hogy a subversion repository-ról kell egy
 tükör (mirror), akkor ez könnyen megoldható az <code>svnsync</code> parancs
 segítségével.</p>
-<p>Adott egy subversion tároló, legyen <code>svn://already.exist/myrepo</code>.
-Ezt szeretnénk tükrözni (mirror), legyen <code>svn://mirror.server/myrepo</code>.</p>
-<p>Ehhez először létre kell hozni a <code>mirror.server</code>-en a megfelelő
-<code>myrepo</code>-t:</p>
+<p>Adott egy subversion tároló, legyen _filename(`svn://already.exist/myrepo').
+Ezt szeretnénk tükrözni (mirror), legyen _filename(`svn://mirror.server/myrepo').</p>
+<p>Ehhez először létre kell hozni a _filename(`mirror.server')-en a megfelelő
+_filename(`myrepo')-t:</p>
 _file_highlight(`src/notes/svn/svnsync_init.sh',sh)
 <p>Ezután az <code>svnsync</code> parancs segítségével inicializálni kell:</p>
 _highlight(`svnsync init --allow-non-empty svn://mirror.server/myrepo svn://already.exist/myrepo',sh)
@@ -16,7 +16,7 @@ _highlight(`svnsync sync svn://mirror.server/myrepo',sh)
 <code>mirror</code>-ba <code>commit</code>-olunk, akkor a tükrözést ezzel elrontjuk
 (hiszen a kiindulási repository-ban ez a commit nincs benne). Ennek lehetőségei:
 <ul>
-<li><code>svn://</code>: az <code>authz</code> fájlban írásjogot csak egy külön,
+<li><code>svn://</code>: az _filename(`authz') fájlban írásjogot csak egy külön,
 erre a célra létrehozott felhasználónak adunk. Mindig az ő nevében fut az
 <code>svnsync</code>.</li>
 <li><code>http://</code>: hasonlóan, mint előbb</li>
