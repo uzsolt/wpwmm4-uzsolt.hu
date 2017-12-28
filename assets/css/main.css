@@ -42,3 +42,8 @@ $content-border-width:7%;
   border-width: $content-border-width;
 }
 .highlight { background-color:#dddddd; }
+
+.filename { 
+  color:darkblue;
+  font-family:courier;
+}

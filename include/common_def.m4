@@ -24,3 +24,5 @@ m4_define(_own_pdf,
 </div></a>')
 
 m4_define(_include_menu,`m4_include(menu/_DIRECTORY/menu.gen)')
+
+m4_define(_filename,`<span class="filename">$1</span>')
