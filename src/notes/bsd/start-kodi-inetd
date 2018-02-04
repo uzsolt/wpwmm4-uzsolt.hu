@@ -1,0 +1,9 @@
+#!/bin/sh
+
+HOME=/home/USER/
+LOGFILE=${HOME}/kodi.log
+KODIBIN=/usr/local/lib/kodi/kodi.bin
+
+printf "\n\n<<<<<<<<<<<<< Start: %s >>>>>>>>>>>>\n" $(date +%Y-%m-%d_%H%M%S) >> ${LOGFILE}
+${KODIBIN} --standalone --legacy-res >> ${LOGFILE} 2>&1
+printf "<<<<<<<<<<<<< End: %s >>>>>>>>>>>>\n\n" $(date +%Y-%m-%d_%H%M%S) >> ${LOGFILE}

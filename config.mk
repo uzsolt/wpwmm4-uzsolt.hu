@@ -51,6 +51,7 @@ TARGETS=index.html \
 	notes/svn/automatic-ignore.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
+notes/bsd/kodi.html_REQ=src/notes/bsd/start-kodi-inetd
 notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh src/notes/svn/git2svn_time.sh
 notes/svn/svn-mirror-github.html_REQ=src/notes/svn/svn-mirror-github.sh src/notes/svn/svn-mirror-github-post-commit.sh
 notes/svn/svnsync.html_REQ=src/notes/svn/svnsync_init.sh

@@ -36,6 +36,22 @@ _highlight(`
 <li>&lt;webserver&gt; &rarr; <strong>true</strong></li> 
 <li>&lt;zeroconf&gt; &rarr; <strong>true</strong></li> 
 </ul>
+<h3 id="inetd">Automatikus Kodi-indulás (on-request)</h3>
+Ha nem akarjuk feleslegesen pazarolni az RPi (korábbi verziókban igen szűkös) erőforrásait, akkor egy megoldás lehet,
+ha az _HREF(`https://www.freebsd.org/doc/handbook/network-inetd.html',`inetd') segítségével indítjuk automatikusan:
+<ol>
+<li>A _filename(`/etc/services') fájlba vegyük fel a _highlight(`kodi 9090/tcp',`sh')</li>
+<li>A _filename(`/etc/inetd.conf') fájlba pedig a _highlight(`kodi stream tcp nowait/1/1 USER /home/USER/bin/start-kodi-inetd',`sh')</li>
+<li>A _filename(`/home/USER/bin/start-kodi-inetd') tartalma pedig legyen _file_highlight(`src/notes/bsd/start-kodi-inetd',`sh')
+Persze a <code>printf</code>-es részek elhagyhatóak. A <code>HOME</code> beállítása viszont szükséges, különben a Kodi hibával kilép. Azért nem
+a _filename(`/usr/local/bin/kodi')-t használjuk indításra, mert ha nem nulla visszatérési értékkel fejeződik be a Kodi futása, automatikusan
+újraindítja - ezt pedig nem akarjuk.
+</li>
+<li>Vegyük fel a _filename(`/etc/rc.conf')-ba a _highlight(`inetd_enable="YES"',`sh') sort, majd Indítsuk el
+az _filename(`inetd') szervert: _highlight(`service inetd start',`sh')</li>
+</ol>
+A _HREF(`https://yatse.tv/redmine/projects/yatse',`Yatse') androidos távirányítóval jól működik, a _HREF(`https://kodi.wiki/view/Kore',`Kore') valamiért
+nem tud csatlakozni, ha az _filename(`inetd') indítja a Kodi-t.
 <h3>Megjegyzés</h3>
 <p>Ha régi CRT (katódsugárcsöves) TV-nk van, akkor a _filename(`/boot/msdos/config.txt') fájlba a</p>
 _highlight(`sdtv_mode=2',`sh')
