@@ -19,6 +19,7 @@ VIRTUALOUT_exams_pdf= \
 				edu/phys/exams/11.html \
 				edu/phys/guide/07.html \
 				edu/phys/guide/08.html \
+				edu/phys/guide/09.html \
 				edu/phys/guide/10.html \
 				edu/phys/guide/11.html
 VIRTUALREQ_exams_pdf+=scripts/pdf_exams_items.sh
