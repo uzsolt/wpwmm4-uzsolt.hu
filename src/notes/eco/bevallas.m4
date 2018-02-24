@@ -17,4 +17,4 @@ _sor(`veszteség',`EV-62') összegével:</p>
 <p>A nyereséget csökkentjük ezzel az értékkel, majd ennek a csökkentett értéknek a 15&percnt;-a fizetendő még
 személyi jövedelemadóként, illetve 14&percnt;-át <em>egészségügyi hozzájárulásként</em>, amelyet az
 _sor(`A magánszemély 14%-os hozzájárulása',`290') sorba a <em>További kötelezettség</em> rovatba írunk be.</p>
-<p>($Date$)</p>
+<p>(m4_patsubst(`$Date$',`\$',`'))</p>
