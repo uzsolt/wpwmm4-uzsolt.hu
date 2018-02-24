@@ -33,5 +33,7 @@ is az <em>eSZJA</em>-ban található sorhivatkozások.</p>
   <p>Ha maradt még veszteség, akkor ne felejtsük a _sor(`A korábbi évekről áthozott, még el nem számolt elhatárolt veszteség összege',`EV-82')
   sorba beírni!</p>
 </li>
+<li>A bevallás következtében fizetendő összegek az <em>Egyenlegek</em> pontban találhatóak meg. Az <em>adónemkód</em> alapján
+a _HREF(`https://www.nav.gov.hu/nav/szolgaltatasok/szamlaszamok',`megfelelő számlaszámra') be is fizethetünk mindent.</li>
 </ol>
 <p>(m4_patsubst(`$Date$',`\$',`'))</p>
