@@ -47,3 +47,8 @@ $content-border-width:7%;
   color:darkblue;
   font-family:courier;
 }
+
+.center{
+  width:100%;
+  text-align:center;
+}

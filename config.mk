@@ -32,6 +32,7 @@ TARGETS=index.html \
 	notes/cli/pdf_jelszo.html \
 	notes/cli/pdfjam.html \
 	notes/cli/rsync_transmission.html \
+	notes/eco/bevallas.html \
 	notes/joke/curry.html \
 	notes/joke/kenyer.html \
 	notes/joke/komuves.html \
