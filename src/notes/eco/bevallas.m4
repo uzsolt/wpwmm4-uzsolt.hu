@@ -21,9 +21,13 @@ is az <em>eSZJA</em>-ban található sorhivatkozások.</p>
   <div class="center">VSZJA = nyereség&times;0,09</div>
 </li>
 <li>
-  <p>A nyereséget csökkentjük ezzel az értékkel, majd ennek a csökkentett értéknek a 15&percnt;-a fizetendő még
-  személyi jövedelemadóként, illetve 14&percnt;-át <em>egészségügyi hozzájárulásként</em>, amelyet az
-  _sor(`A magánszemély 14%-os hozzájárulása',`290') sorba a <em>További kötelezettség</em> rovatba írunk be.</p>
+  <p>A nyereséget csökkentjük ezzel az értékkel, majd ennek a csökkentett értéknek a</p>
+  <ul>
+    <li>15&percnt;-a fizetendő még személyi jövedelemadóként,</li>
+    <li>illetve 14&percnt;-át <em>egészségügyi hozzájárulásként</em></li>
+  </ul>
+  <p>Az egészségügyi hozzájárulást nekünk kell beírni a
+  _sor(`A magánszemély 14%-os hozzájárulása',`290') sorba, ezen belül a <em>További kötelezettség</em> rovatba.</p>
 </li>
 <li>
   <p>Ha maradt még veszteség, akkor ne felejtsük a _sor(`A korábbi évekről áthozott, még el nem számolt elhatárolt veszteség összege',`EV-82')
