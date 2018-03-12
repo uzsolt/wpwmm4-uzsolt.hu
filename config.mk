@@ -96,17 +96,17 @@ GREQ=${MENUTARGET} include/01_header.m4
 # Category of virtually created files.
 # Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
 VIRTUALS=kep \
-		 keplist \
-		 menu \
-		 edumath eduphys \
-		 notes_list \
-		 select_comp \
-		 select_exams_evf \
-		 select_tanev_evf \
-		 select_tanev select_evf\
-		 list_evf_pdf list_tanev_pdf \
-		 list_art_pdf \
-		 pdf exams_pdf
+	keplist \
+	menu \
+	edumath eduphys \
+	notes_list \
+	select_comp \
+	select_exams_evf \
+	select_tanev_evf \
+	select_tanev select_evf\
+	list_evf_pdf list_tanev_pdf \
+	list_art_pdf \
+	pdf exams_pdf
 
 MENUDATAFILE=data/menu.psv
 STATICDIR=/usr/local/www/static/
