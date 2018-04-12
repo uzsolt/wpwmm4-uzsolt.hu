@@ -82,8 +82,8 @@ ACTIVE_FILES=""
 if [ "${1}" = "/" ]; then
   ACTIVE_MENU="${STR_HOMEPAGE}"
 else
-  ACTIVE_MENU=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv | awk -F '|' '{print $2}'`
-  ACTIVE_TOOLTIP=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv | awk -F '|' '{print $3}'`
+  ACTIVE_MENU=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv data/video_lists.psv | awk -F '|' '{print $2}'`
+  ACTIVE_TOOLTIP=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv data/video_lists.psv | awk -F '|' '{print $3}'`
 fi
 
 echo "m4_define(_ACTIVEMENU,\`${ACTIVE_MENU}')"

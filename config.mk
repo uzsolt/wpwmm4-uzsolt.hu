@@ -21,6 +21,7 @@ TARGETS=index.html \
 	news.html \
 	about/index.html \
 	edu/phys/art/index.html \
+	edu/phys/video/index.html \
 	notes/bsd/copy_cddvd.html \
 	notes/bsd/daemon.html \
 	notes/bsd/dump_volume.html \
@@ -62,6 +63,7 @@ notes/svn/svn-taskwarrior.html_REQ= \
 	src/notes/svn/svn-taskwarrior-modify.sh
 news.html_REQ=${index.html_REQ}
 edu/phys/art/index.html_REQ=scripts/select_art.sh data/art_lists.psv
+edu/phys/video/index.html_REQ+=scripts/select_video.sh
 .for T in ${TARGETS}
 .if ${T:C,/.*,,}==notes
 ${T}_REQ+=${LAYOUT_DIR}note.m4
@@ -106,6 +108,7 @@ VIRTUALS=kep \
 	select_tanev select_evf\
 	list_evf_pdf list_tanev_pdf \
 	list_art_pdf \
+	list_video \
 	pdf exams_pdf
 
 MENUDATAFILE=data/menu.psv
@@ -116,6 +119,7 @@ include mk/v_edumath.mk
 include mk/v_eduphys.mk
 include mk/v_keplist.mk
 include mk/v_kep.mk
+include mk/v_list_video.mk
 include mk/v_notes_list.mk
 include mk/v_select_comp.mk
 include mk/v_select_exams_evf.mk

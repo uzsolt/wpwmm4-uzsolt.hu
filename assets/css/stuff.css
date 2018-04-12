@@ -78,3 +78,22 @@ $art_stuff_width:400px;
   @extend %stuffdescrbase;
   width:$art_stuff_width - $pdf_icon_width - 5px;
 }
+video {
+  width:95%;
+  height:auto;
+}
+.video {
+  @extend %stuffbase;
+  width:80%;
+}
+.videotitle {
+  width:auto;
+  color:black;
+  font-family:arial;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.videotitle a {
+  font-size:12px;
+}
