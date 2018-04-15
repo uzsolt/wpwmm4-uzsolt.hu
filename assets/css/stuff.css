@@ -107,5 +107,6 @@ video {
 }
 .video_desc {
   text-decoration:none;
-  color:black;
+  color:#111;
+  font-weight:bold;
 }
