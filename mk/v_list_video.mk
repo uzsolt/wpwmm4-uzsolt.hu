@@ -1,8 +1,7 @@
 VIRTUALTEMPLATE_list_video=list_video
 VIRTUALDIR_list_video=edu/phys/video/
-VIRTUALOUT_list_video=	\
-	mech/index.html \
-	modern/index.html
+VIRTUALOUT_list_video!=	\
+  sed "s@/edu/phys/video/\([^\|]*\).*@\1index.html@" data/video_lists.psv
 VIRTUALREQ_list_video=scripts/list_video.sh
 VIRTUALREQRULE_list_video=C,(.*)/index.html,data/edu/phys/video/\1.psv,
 
