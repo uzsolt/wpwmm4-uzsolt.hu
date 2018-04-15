@@ -108,7 +108,7 @@ VIRTUALS=kep \
 	select_tanev select_evf\
 	list_evf_pdf list_tanev_pdf \
 	list_art_pdf \
-	list_video \
+	list_video show_video \
 	pdf exams_pdf
 
 MENUDATAFILE=data/menu.psv

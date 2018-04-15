@@ -97,3 +97,15 @@ video {
 .videotitle a {
   font-size:12px;
 }
+
+.video_thumb {
+  @extend %stuffbase;
+  width:50%;
+}
+.video_thumb img {
+  float:left;
+}
+.video_desc {
+  text-decoration:none;
+  color:black;
+}

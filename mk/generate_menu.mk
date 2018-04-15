@@ -29,4 +29,3 @@ ${MENUTARGET}: ${MENUDATAFILE} scripts/genmenu.sh ${MENUEXTRAFILES}
 	@${MSG1} Creating menu ${.TARGET}
 	@mkdir -p ${.TARGET:S/${MENUFILE}$//}
 	@scripts/genmenu.sh ${.TARGET:S/^${MENUDIR}//:S/${MENUFILE}$//} > ${.TARGET}
-
