@@ -43,15 +43,18 @@ $art_stuff_width:400px;
 }
 %artfield {
   line-height:1em;
-  height:2em;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 .art_author {
   @extend %artfield;
   font-style: italic;
+  height:2em;
 }
 .art_title {
   @extend %artfield;
   font-weight: bold;
+  height:3em;
 }
 
 .pdf_icon {
