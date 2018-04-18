@@ -43,7 +43,7 @@ print_menu() {
           local divclass=submenu
         fi
       fi
-      printf '%s<div class="%s">' "${indentstr}" "${divclass}"
+      printf '%s<div class="%s">\n' "${indentstr}" "${divclass}"
       printf '  %s<a href="%s" title="%s" class="menu_href"><div class="menu_text">%s</div></a>' "${indentstr}" "${href}" "${tooltip}" "${title}"
       if echo ${href} | grep -q "^${next_level}/$"; then
         local sub_current_level=`get_current_level $((level+1)) "${current}"`
