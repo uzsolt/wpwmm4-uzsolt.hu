@@ -1,3 +1,4 @@
+m4_define(LANG,`hu')
 m4_define(_csoportositas,
 `<a href="$1"><div class="stuff" title="$3">
   <div class="stuff_icon">
