@@ -68,7 +68,7 @@ cat << EOF
   <a href=/>
   <div id=menu_header><h2>Udvari Zsolt honlapja</h2></div>
   </a>
-  <div class=div_menu>
+  <div class="div_menu">
 EOF
 
 print_menu 0 $*
