@@ -43,18 +43,18 @@ print_menu() {
           local divclass=submenu
         fi
       fi
-      printf '%s<div class="%s">\n' "${indentstr}" "${divclass}"
-      printf '  %s<a href="%s" title="%s" class="menu_href"><div class="menu_text">%s</div></a>' "${indentstr}" "${href}" "${tooltip}" "${title}"
+      printf '%s_DIVB(%s)\n' "${indentstr}" "${divclass}"
+      printf '  %s<a href="%s" title="%s" class="menu_href">_DIVB(menu_text)%s _DIVE</a>' "${indentstr}" "${href}" "${tooltip}" "${title}"
       if echo ${href} | grep -q "^${next_level}/$"; then
         local sub_current_level=`get_current_level $((level+1)) "${current}"`
         local sub_pattern="`get_pattern ${sub_current_level}`" #/[^/]*/|"
         if grep -q "${sub_pattern}" ${FILE}; then
-          printf "%s<div class=div_submenu>\n" "${indentstr}"
+          printf "%s_DIVB(div_submenu)\n" "${indentstr}"
           print_menu $((level+1)) ${current}
-          printf "%s</div>\n" "${indentstr}"
+          printf "%s_DIVE\n" "${indentstr}"
         fi
       fi
-      printf "\n%s</div>\n" "${indentstr}"
+      printf "\n%s_DIVE\n" "${indentstr}"
     done
 
 }
@@ -68,14 +68,14 @@ cat << EOF
   <a href=/>
   <div id=menu_header><h2>Udvari Zsolt honlapja</h2></div>
   </a>
-  <div class="div_menu">
+  _DIVB(div_menu)
 EOF
 
 print_menu 0 $*
 
 cat << EOF
-  </div>
-</div>
+  _DIVE
+_DIVE
 EOF
 
 ACTIVE_FILES=""

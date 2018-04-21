@@ -185,6 +185,7 @@ szűk keresztmetszetek.</p>
         nyitva hagyjuk.</li>
 </ul>
 
-<div class="center">
+_DIVB(center)
 _HREF(`https://www.veremcsere.hu/53/mitol-lesz-gyors-egy-weboldal-megjelenesi-sebessege',`(alap forrás, Pásztor János)')<br>
-_HREF(`https://creativecommons.org/licenses/by-nc-sa/3.0/',`Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc')</div>
+_HREF(`https://creativecommons.org/licenses/by-nc-sa/3.0/',`Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc')
+_DIVE
