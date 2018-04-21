@@ -6,13 +6,14 @@ atomenergia ill. megújuló energiaforrás (elsősorban napenergia).</p>
 kötött szerződés ill. hitel mennyire jó, illetve mennyire jó, hogy az orosz
 Roszatommal ill. az orosz állammal történt ez a szerződés. Ez a téma maradjon a
 politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tisztázni.</p>
-<p>Az atomenergia hátrányai mindenki ismeri:
+<p>Az atomenergia hátrányait mindenki ismeri:</p>
 <ul>
     <li>felrobban az erőmű (pl. Csernobil)
         <p>Ez az érv szerencsére már nem
         aktuális, mivel az atomerőművek többségének jelenleg is használt típusa
-        az ún. <a href=https://hu.wikipedia.org/wiki/Nyomottvizes_reaktor>nyomottvizes
-        reaktor</a>, amely gyakorlatilag teljesen biztonságos. Persze a
+        az ún.
+        _HREF(`https://hu.wikipedia.org/wiki/Nyomottvizes_reaktor',`nyomottvizes reaktor'),
+        amely gyakorlatilag teljesen biztonságos. Persze a
         földrengést, cunamit, betaláló rakétát nem érdekli, hogy mi a típus,
         rombolni fog. Magyarországon cunami, földrengés nem valószínű.</p>
         <p>A nyomottvizes reaktor biztonsága azon múlik, hogy amikor a hűtőközeg
@@ -38,8 +39,7 @@ politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tiszt�
         meg még egyszer, melyik is az olcsóbb.</p>
     </li>
 </ul>
-</p>
-<p>Essen szó az atomenergia előnyeiről is:
+<p>Essen szó az atomenergia előnyeiről is:</p>
 <ul>
     <li>viszonylag olcsó az üzemeltetés</li>
     <li>szabályozható energiatermelés (ellentétben a "klasszikus" megújuló
@@ -47,8 +47,7 @@ politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tiszt�
     <li>viszonylag nagy mennyiségben (nem 5-10 évre elegendő) található uránérc
         a Földön</li>
 </ul>
-</p>
-<p>A megújuló energia hívei néhány dolgot elfelejtenek:
+<p>A megújuló energia hívei néhány dolgot elfelejtenek:</p>
 <ul>
     <li>ha nem fúj a szél vagy nem süt a Nap, akkor az energiatermelés csökken.
         Az energiaszükséglet meg nem a széltől ill. a naptól függ (azaz amikor
@@ -67,8 +66,8 @@ politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tiszt�
         szivattyúz fel vizet, amelyet a szükséges időben "leengednek", és a
         lezúduló víz turbinákat hajt meg, amelyek elektromos áramot termelnek
         (mint a vízi erőműveknél). Ez az ún.
-        <a href=https://hu.wikipedia.org/wiki/V%C3%ADzer%C5%91m%C5%B1#Szivatty.C3.BAs-t.C3.A1roz.C3.B3s_er.C5.91m.C5.B1>szivattyús
-            energiatározók</a>, Ausztriában, Luxemburgban pl. találhatóak.</p>
+        <a href="https://hu.wikipedia.org/wiki/V%C3%ADzer%C5%91m%C5%B1#Szivatty.C3.BAs-t.C3.A1roz.C3.B3s_er.C5.91m.C5.B1">szivattyús energiatározók</a>,
+        Ausztriában, Luxemburgban pl. találhatóak.</p>
     </li>
     <li>általában hatalmas területigény. Paks 2 a hírek szerint 2&middot;1200
         MW=2400 MW teljesítményt nyújt.
@@ -79,8 +78,8 @@ politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tiszt�
         Összehasonlításképpen: a Balaton területe kb. 59400 hektár, azaz a
         Balaton területének kb. ötöde szükséges! Ezt már térképen is jelölni
         kell &#9786;</p>
-        <p>A sellyei naperőmű beruházási költsége 0,46 milliárd HUF volt (<a
-            href=http://ecolounge.hu/zoldmotor/a-legnagyobb-hazai-naperomu>forrás</a>),
+        <p>A sellyei naperőmű beruházási költsége 0,46 milliárd HUF volt
+        (_HREF(`http://ecolounge.hu/zoldmotor/a-legnagyobb-hazai-naperomu',`forrás')),
         ezt felszorozva 4800-zal, kb. 2200 milliárd HUF-ot kapunk, ami kb.
         <sup>2</sup>&frasl;<sub>3</sub>-a paksi beruházásnak (kb. 33%-kal
         olcsóbb).</p>
@@ -101,9 +100,9 @@ politikára, én csak fizikai szemszögből szeretnék egy-két kérdést tiszt�
         fizikailag le akar válni a "közös" hálózatról, mivel csúcsidőben annyi
         energiát nyomnak a németek át, hogy veszélyezteti az elektromos
         hálózatukat
-        (ld. <a href=http://444.hu/2016/07/19/egyre-nagyobbra-gerjed-a-nemet-aramhurok>itt</a>).</p>
+        (ld. _HREF(`http://444.hu/2016/07/19/egyre-nagyobbra-gerjed-a-nemet-aramhurok',`itt')).</p>
     </li>
 </ul>
-Kis utópia: ha az összes nyugat-európai ország zöldenergiára tér át, akkor kitől
+<p>Kis utópia: ha az összes nyugat-európai ország zöldenergiára tér át, akkor kitől
 is fogják importálni a hiányzó energiát (ld. utolsó pont)?
 </p>
