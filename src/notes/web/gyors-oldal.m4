@@ -3,8 +3,8 @@ _LAYOUT(`note.m4',_title,``Webhelyek gyorsasága'',_subtitle,``Mitől lesz egy h
 
 <p>A frontendet talán a legegyszerűbb optimalizálni, mivel kevés egyéb függősége
 van. Ebben a tekintetben érdemes megnézni - a már kissé koros, de továbbra is
-érvényes - <a href=https://developer.yahoo.com/performance/rules.html>írást a
-    Yahootól</a>.</p>
+érvényes -
+_HREF(`https://developer.yahoo.com/performance/rules.html',`írást a Yahootól').</p>
 
 <p>Mint ahogy a Yahoo is írja, sokkal fontosabb a lekérések számának csökkentése,
 mint a méretcsökkentés, hiszen mobilinterneten sokszor rendelkezésre áll kellő
@@ -12,11 +12,11 @@ sávszélesség, azonban a késleltetés elérhet akár egy másodpercet is. Egy
 másodperces késleltetés esetén egy oldal betöltés hosszú tíz másodpercekbe is
 telhet.</p>
 <p>Ezt érzékelteti az index.hu főoldalának betöltése a
-<a href=https://gtmetrix.com/>GTMetrix</a> kanadai szerveréről.</p>
+_HREF(`https://gtmetrix.com/',`GTMetrix') kanadai szerveréről.</p>
 
 <h4>SASS/SCSS</h4>
 
-<p>A <a href=http://sass-lang.com/>SASS vagy SCSS</a> 
+<p>A _HREF(`http://sass-lang.com/',`SASS vagy SCSS') 
 (kinek melyik szintaxis tetszik jobban) egy olyan nyelv, amit
 egy fordító CSS-é alakít át. Amellett, hogy kellemes funkciókat ad hozzá a
 nyelvhez, mint például változók, az az előnye is megvan, hogy az összes
@@ -65,7 +65,7 @@ bar, ami mozgatja a tartalmat, megszakítva a folyamatot.</p>
 összecsomagolunk egybe és CSS-el pozicionáljuk a háttérbe, ezzel megtakarítva
 több tucatnyi requestet. Erről a technikáról nem is szeretnék beszélni.</p>
 <p>Egy másikról viszont igen. Ma már szerencsére minden böngésző támogatja a
-<a href=https://en.wikipedia.org/wiki/Data_URI_scheme>data uri</a>-kat.
+_HREF(`https://en.wikipedia.org/wiki/Data_URI_scheme',`data uri')-kat.
 Ennek segítségével magába a CSS-be ágyazható be kép anélkül, hogy ez
 bármilyen hátránnyal járna (feltételezve, hogy a kép kellően kicsi). Én így
 tettem a háttérképpel, hiszen mindenképpen szükség van rá, teljesen fölösleges
@@ -77,8 +77,8 @@ de egy árnyékolás hiánya nagyon sok esetben még nem rontja számottevően a
 böngészési élményt, azonban rengeteg fölösleges lekérdezéstől menthet meg
 minket.</p>
 <p>Megjelenítendő egyéb kép optimalizálása: az 
-<a href=http://www.imagemagick.org/script/index.php>ImageMagick</a>
-programcsomag <a href=http://www.imagemagick.org/script/convert.php>convert</a>
+_HREF(`http://www.imagemagick.org/script/index.php',`ImageMagick')
+programcsomag _HREF(`http://www.imagemagick.org/script/convert.php',`convert')
 parancsa képes elvégezni: <code>convert -strip input.jpg output.jpg</code>.
 Ezzel jelentős méretcsökkenést érhetünk el.</p>
 <p>Képek listázásakor (albumok, bélyegképek) érdemes a kép méretét megadni, 
@@ -87,7 +87,7 @@ betöltődött, és már tudható a kép mérete. Ekkor a
 <code>convert -resize 64x64^ -gravity center -extent 64x64 input.jpg output.jpg</code> 
 parancs lehet hasznos. Ezzel egy 64x64-es bélyegképet
 készíthetünk, nem megfelelő arányú eredeti kép esetén széleket fog levágni 
-(részletes magyarázat <a href=http://www.imagemagick.org/script/convert.php>itt</a>).</p>
+(részletes magyarázat _HREF(`http://www.imagemagick.org/script/convert.php',`itt')).</p>
 
 <h4>Óvatosan a CDN-nel</h4>
 <p>Nagyon sok eszköz azt fogja javasolni, hogy a statikus tartalmainkat tartsuk
@@ -113,8 +113,8 @@ könnyen lehet, hogy az oldalunk statikus tartalmai a délután csúcsforgalomba
 <h4>Használjuk az eszközöket!</h4>
 <p>Ma már rengeteg eszköz áll a rendelkezésünkre a frontend teljesítmény
 növelésére, ilyen például a
-<a href=https://developers.google.com/speed/pagespeed/?hl=en>PageSpeed</a> 
-vagy az <a href=http://yslow.org/>Yslow</a>. Használjuk őket!</p>
+_HREF(`https://developers.google.com/speed/pagespeed/?hl=en',`PageSpeed')
+vagy az _HREF(`http://yslow.org/',`Yslow'). Használjuk őket!</p>
 
 <h3>Backend optimalizálás</h3>
 <p>A backend kétség kívül a munkaigényesebb optimalizálási folyamat, azonban itt
@@ -131,7 +131,7 @@ lesz.</p>
 <p>Éppen ezért érdemes az olyan webszerverek irányába nézelődni, amik eleve arra a
 feladatra készültek, hogy több tízezer párhuzamos kapcsolatot szolgáljanak ki és
 a lehető leghatékonyabban lapátolják a biteket a merevlemezről. Az egyik ilyen
-szerver az <a href=http://nginx.org/>nginx</a>.</p>
+szerver az _HREF(`http://nginx.org/',`nginx').</p>
 <p>Mondanom sem kell, hogy a csupaszításnak áldozatul esik néhány kényelmi funkció
 is. Az egyik ilyen a .htaccess támogatás (ami borzasztó hátrányos a
 teljesítményre nézve), valamint a közvetlen PHP integráció is. Ez utóbbi helyett
@@ -152,8 +152,8 @@ tolniuk a kimenetre.</p>
 kiszolgálható tartalmakat előre kigenerálhatjuk egy könyvtárba .html
 kiterjesztéssel, és rávehetjük a webszervert, hogy ha létezik, ezt a változatot
 szolgálja ki. Ennek a tovább fejlesztett változata az olyan statikus oldal
-generátorok, mint például a <a href=https://jekyllrb.com/>Jekyll</a> vagy 
-a <a href=https://sculpin.io/>Sculpin.io</a>.</p>
+generátorok, mint például a _HREF(`https://jekyllrb.com/',`Jekyll') vagy 
+a _HREF(`https://sculpin.io/',`Sculpin.io').</p>
 <p>Ezek a megoldások természetesen mind feltételezik, hogy nincs olyan üzleti
 igényünk, ami minden oldal lekérdezéskor változást kíván meg.</p>
 
@@ -185,5 +185,6 @@ szűk keresztmetszetek.</p>
         nyitva hagyjuk.</li>
 </ul>
 
-<div class="center"><a href=https://www.veremcsere.hu/53/mitol-lesz-gyors-egy-weboldal-megjelenesi-sebessege>(alap forrás, Pásztor János)</a></br>
-<a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc</a></div>
+<div class="center">
+_HREF(`https://www.veremcsere.hu/53/mitol-lesz-gyors-egy-weboldal-megjelenesi-sebessege',`(alap forrás, Pásztor János)')<br>
+_HREF(`https://creativecommons.org/licenses/by-nc-sa/3.0/',`Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc')</div>
