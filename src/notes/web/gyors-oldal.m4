@@ -36,7 +36,7 @@ hogy a böngésző még <q>teker</q>. Ez azért problémás, mert a felhasznál�
 hogy az oldal betöltése után még történik valami, pl. megjelenik a cookie policy
 bar, ami mozgatja a tartalmat, megszakítva a folyamatot.</p>
 
-<p>Éppen ezért a JavaScript optimalizálásnak három nyitja van:
+<p>Éppen ezért a JavaScript optimalizálásnak három nyitja van:</p>
 <ol>
     <li>Amikor csak lehet, a külső forrásból származó információkat a háttérben
         kell lekérni és lehetőség szerint rögtön az oldal forrásába beépíteni.
@@ -58,7 +58,7 @@ bar, ami mozgatja a tartalmat, megszakítva a folyamatot.</p>
         kellő mennyiségű RAM és CPU van, de vagy próbáljuk ki az oldalunkat egy
         két generációval ezelőtti gagyi mobiltelefonon, vagy legyünk észnél a
         JavaScript kódok írásánál.</li>
-</ol></p>
+</ol>
 
 <h4>Képek optimalizálása</h4>
 <p>Remélhetőleg ma már mindenki hallot a CSS sprite-okról, ahol több képet
@@ -185,5 +185,5 @@ szűk keresztmetszetek.</p>
         nyitva hagyjuk.</li>
 </ul>
 
-<center><a href=https://www.veremcsere.hu/53/mitol-lesz-gyors-egy-weboldal-megjelenesi-sebessege>(alap forrás, Pásztor János)</a></center>
-<center><a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc</a></center>
+<div class="center"><a href=https://www.veremcsere.hu/53/mitol-lesz-gyors-egy-weboldal-megjelenesi-sebessege>(alap forrás, Pásztor János)</a></br>
+<a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons Attribution NonCommercial ShareAlike 3.0 licenc</a></div>
