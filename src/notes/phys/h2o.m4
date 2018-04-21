@@ -8,7 +8,7 @@ követelte. Hiszen az anyag - többek között - túlzott izzadást, hányást o
 a savas eső fő komponense, gáz állapotban súlyos égést idézhet elő, hozzájárul 
 az erózióhoz.</p>
 
-<p><hr width=100%/></p>
+<hr style="width:100%"/>
 <h2>TILTSÁK BE A DIHIDROGÉN-MONOXIDOT!</h2>
 
 <h3>A LÁTHATATLAN GYILKOS</h3>
@@ -22,7 +22,7 @@ izzadás és vizeletkiválasztás következhet be, de felfúvódás, hányinger,
 is előfordulhat. A DHMO-dependencia kialakulása után a szer megvonása biztos 
 halált jelent.</p>
 
-<p>A dihidrogén-monoxid
+<p>A dihidrogén-monoxid</p>
 <ul>
     <li>savként is ismert, és a savas esô fô komponense</li>
     <li>hozzájárul az üvegházhatáshoz</li>
@@ -31,7 +31,7 @@ halált jelent.</p>
     <li>számos fém korrózióját, rozsdásodását sietteti</li>
     <li>hibát okozhat az áramszolgáltatásban, rontja az autók fékhatását</li>
     <li>rákos daganatokban is kimutatható</li>
-</ul></p>
+</ul>
 
 <h3>A SZENNYEZÉS JÁRVÁNYSZERŰ MÉRETEKET ÖLT!</h3>
 
@@ -40,7 +40,8 @@ dihidrogén-monoxid. De a szennyezés az egész Földre kiterjed, és az antarkt
 jégtakarót is elérte. A DHMO több millió dolláros kárt okozott a Közép-Nyugaton 
 és nemrég Kaliforniában is!</p>
 
-<p>A veszély ellenére a dihidrogén-monoxidot felhasználják
+<p>A veszély ellenére a dihidrogén-monoxidot felhasználják</p>
+<ul>
     <li>ipari oldószerként és hűtőanyagként</li>
     <li>atomerőművekben</li>
     <li>poliuretán hab gyártásához</li>
@@ -48,7 +49,7 @@ jégtakarót is elérte. A DHMO több millió dolláros kárt okozott a Közép-
     <li>különböző kegyetlen állatkísérletekben</li>
     <li>a rovarirtók permetezéséhez</li>
     <li>a gyorséttermek egyes készítményeihez és más élelmiszerekhez</li>
-</p>
+</ul>
 
 <p>A gyárak a szennyezett DHMO-t a folyókba és a tengerekbe engedik, és semmi sem 
 állíthatja meg őket, mert az eljárásuk még mindig törvényes. A DHMO óriási 
@@ -70,9 +71,11 @@ későbbi felhasználás céljára.</p>
 többet erről a veszélyes vegyszerrôl!</p>
 
 <p>A tudatlanság önmagunknak és embertársainknak is árthat!</p>
-<p><hr width=100%/></p>
+<hr style="width:100%"/>
 <p>A pályázó ötven embert kérdezett meg, hogy támogatná-e a vegyszer betiltását. 
 Negyvenhárom igennel válaszolt, hat nem tudott dönteni, és csak egy jött rá, 
 hogy a dihidrogén-monoxid egyszerűen víz.</p>
-<p><a href=http://www.kfki.hu/~cheminfo/hun/teazo/dhmo.html>(forrás)</a></p>
+_DIVB(`center')
+_HREF(`http://www.kfki.hu/~cheminfo/hun/teazo/dhmo.html',`forrás')
+_DIVE
 
