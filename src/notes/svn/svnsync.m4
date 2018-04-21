@@ -25,4 +25,3 @@ létre a mirror rendszerében, és a mirror repository ennek a felhasználónak 
 tulajdonában lesz. Egyéb helyre a <code>checkout</code> <em>ne</em> ezzel a felhasználóval
 történjen, így biztosítjuk, hogy neki csak olvasási joga legyen.</li>
 </ul>
-</p>
