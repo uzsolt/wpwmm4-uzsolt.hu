@@ -22,6 +22,7 @@ TARGETS=index.html \
 	about/index.html \
 	edu/phys/art/index.html \
 	edu/phys/video/index.html \
+	notes/bsd/biosflash.html \
 	notes/bsd/copy_cddvd.html \
 	notes/bsd/daemon.html \
 	notes/bsd/dump_volume.html \
