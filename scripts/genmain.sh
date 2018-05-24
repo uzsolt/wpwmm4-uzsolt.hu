@@ -3,6 +3,9 @@
 . scripts/functions
 
 echo "<h1>Frissítések, újdonságok</h1>"
+echo '<a href="/feed.xml" class="rss">
+  <img src="/static/rss.png" alt="RSS feed" title="RSS feed">
+</a>'
 if [ "$1" == "all" ]; then
   echo "(összes hír megjelenítve)"
 else

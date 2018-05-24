@@ -16,6 +16,19 @@ h1 {
 @import 'stuff';
 @import 'syntax';
 
+$rsspngsize:32px;
+.rss {
+  position: absolute;
+  top: $rsspngsize;
+  right: $rsspngsize;
+  width:$rsspngsize;
+  height:$rsspngsize;
+}
+.rss img {
+  width:$rsspngsize;
+  height:$rsspngsize;
+}
+
 #news a {
   color: black;
   text-decoration: underline;
