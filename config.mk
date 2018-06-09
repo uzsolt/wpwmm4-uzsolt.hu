@@ -43,6 +43,7 @@ TARGETS=index.html \
 	notes/latex/randomize_exsheets.html \
 	notes/latex/segments.html \
 	notes/latex/smiley.html \
+	notes/other/gyerek.html \
 	notes/phys/atom.html \
 	notes/phys/h2o.html \
 	notes/svn/git2svn.html \

@@ -6,6 +6,7 @@ VIRTUALOUT_notes_list=	\
 	notes/eco/index.html \
 	notes/joke/index.html \
 	notes/latex/index.html \
+	notes/other/index.html \
 	notes/phys/index.html \
 	notes/svn/index.html \
 	notes/web/index.html
