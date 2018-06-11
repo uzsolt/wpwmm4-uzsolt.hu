@@ -64,4 +64,4 @@ _UL(`területileg illetékes védőnő felkeresése, amikor már biztos a terhes
   _HREF(`http://corpus.nytud.hu/utonevportal/',`lehetőség'), igen sok
   szempont szerint.'
 )
-<p>(m4_patsubst(`$Date$',`\$',`'))</p>
+<p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
