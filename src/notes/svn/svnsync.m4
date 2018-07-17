@@ -15,13 +15,13 @@ _highlight(`svnsync sync svn://mirror.server/myrepo',sh)
 <p>Érdemes a hozzáférést a <code>mirror</code>-hoz korlátozni, hiszen ha véletlenül a
 <code>mirror</code>-ba <code>commit</code>-olunk, akkor a tükrözést ezzel elrontjuk
 (hiszen a kiindulási repository-ban ez a commit nincs benne). Ennek lehetőségei:
-<ul>
-<li><code>svn://</code>: az _filename(`authz') fájlban írásjogot csak egy külön,
+_UL(
+`<code>svn://</code>: az _filename(`authz') fájlban írásjogot csak egy külön,
 erre a célra létrehozott felhasználónak adunk. Mindig az ő nevében fut az
-<code>svnsync</code>.</li>
-<li><code>http://</code>: hasonlóan, mint előbb</li>
-<li><code>file://</code> és <code>svn+ssh://</code>: egy külön felhasználót hozunk
+<code>svnsync</code>.',
+`<code>http://</code>: hasonlóan, mint előbb',
+`<code>file://</code> és <code>svn+ssh://</code>: egy külön felhasználót hozunk
 létre a mirror rendszerében, és a mirror repository ennek a felhasználónak a
 tulajdonában lesz. Egyéb helyre a <code>checkout</code> <em>ne</em> ezzel a felhasználóval
-történjen, így biztosítjuk, hogy neki csak olvasási joga legyen.</li>
-</ul>
+történjen, így biztosítjuk, hogy neki csak olvasási joga legyen.'
+)

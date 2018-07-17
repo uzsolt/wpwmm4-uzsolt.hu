@@ -23,15 +23,15 @@ is előfordulhat. A DHMO-dependencia kialakulása után a szer megvonása biztos
 halált jelent.</p>
 
 <p>A dihidrogén-monoxid</p>
-<ul>
-    <li>savként is ismert, és a savas esô fô komponense</li>
-    <li>hozzájárul az üvegházhatáshoz</li>
-    <li>súlyos égést okozhat</li>
-    <li>hozzájárul természeti környezetünk eróziójához</li>
-    <li>számos fém korrózióját, rozsdásodását sietteti</li>
-    <li>hibát okozhat az áramszolgáltatásban, rontja az autók fékhatását</li>
-    <li>rákos daganatokban is kimutatható</li>
-</ul>
+_UL(
+`savként is ismert, és a savas esô fô komponense',
+`hozzájárul az üvegházhatáshoz',
+`súlyos égést okozhat',
+`hozzájárul természeti környezetünk eróziójához',
+`számos fém korrózióját, rozsdásodását sietteti',
+`hibát okozhat az áramszolgáltatásban, rontja az autók fékhatását',
+`rákos daganatokban is kimutatható'
+)
 
 <h3>A SZENNYEZÉS JÁRVÁNYSZERŰ MÉRETEKET ÖLT!</h3>
 
@@ -41,15 +41,15 @@ jégtakarót is elérte. A DHMO több millió dolláros kárt okozott a Közép-
 és nemrég Kaliforniában is!</p>
 
 <p>A veszély ellenére a dihidrogén-monoxidot felhasználják</p>
-<ul>
-    <li>ipari oldószerként és hűtőanyagként</li>
-    <li>atomerőművekben</li>
-    <li>poliuretán hab gyártásához</li>
-    <li>tűzoltáshoz</li>
-    <li>különböző kegyetlen állatkísérletekben</li>
-    <li>a rovarirtók permetezéséhez</li>
-    <li>a gyorséttermek egyes készítményeihez és más élelmiszerekhez</li>
-</ul>
+_UL(
+`ipari oldószerként és hűtőanyagként',
+`atomerőművekben',
+`poliuretán hab gyártásához',
+`tűzoltáshoz',
+`különböző kegyetlen állatkísérletekben',
+`a rovarirtók permetezéséhez',
+`a gyorséttermek egyes készítményeihez és más élelmiszerekhez'
+)
 
 <p>A gyárak a szennyezett DHMO-t a folyókba és a tengerekbe engedik, és semmi sem 
 állíthatja meg őket, mert az eljárásuk még mindig törvényes. A DHMO óriási 
@@ -78,4 +78,3 @@ hogy a dihidrogén-monoxid egyszerűen víz.</p>
 _DIVB(`center')
 _HREF(`http://www.kfki.hu/~cheminfo/hun/teazo/dhmo.html',`forrás')
 _DIVE
-

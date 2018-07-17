@@ -1,4 +1,5 @@
 _LAYOUT(`note.m4',_title,``Webhelyek gyorsasága'',_subtitle,``Mitől lesz egy honlap megjelenítése gyors?'')
+_INCL(`highlight.m4')
 <h3>Frontend optimalizálás</h3>
 
 <p>A frontendet talán a legegyszerűbb optimalizálni, mivel kevés egyéb függősége
@@ -37,28 +38,28 @@ hogy az oldal betöltése után még történik valami, pl. megjelenik a cookie 
 bar, ami mozgatja a tartalmat, megszakítva a folyamatot.</p>
 
 <p>Éppen ezért a JavaScript optimalizálásnak három nyitja van:</p>
-<ol>
-    <li>Amikor csak lehet, a külső forrásból származó információkat a háttérben
-        kell lekérni és lehetőség szerint rögtön az oldal forrásába beépíteni.
-        Ha például egy Twitter feedet kérünk le, akkor a szerver oldali API-t
-        használva frissítsük 15 percenként, ne hagyatkozzunk a Twitter
-        JavaScript kódjára. (Ez megment minket az EU által megkövetelt cookie
-        policy bonyolódásától is.)</li>
-    <li>Ha már valamilyen embed kódot használunk, nézzük meg, nem ágyazható-e be
-        közvetlenül, tömörítve a saját JavaScript kódunkba. Én így tettem
-        például a Piwik tracking kóddal, ami megkímélte a böngészőket egy
-        fölösleges requesttől az oldal betöltődése után. Ezt a problémát még
-        súlyosbítja, amikor az "embed kód" semmi mást nem csinál, csak beszúr
-        egy script taget. Erre sokszor semmi szükség, nézzük meg, nem tudjuk-e
-        helyettesíteni egy saját, optimálisabb kóddal! (Emlékeztetőül: a
-        szolgáltatók által biztosított kód célja az, hogy a lehető legtöbb
-        helyzetben működjön, ezért hajlandóak beáldozni némi
-        teljesítményt.)</li>
-    <li>Ügyeljünk a CPU használatra! Természetes, hogy a fejlesztői gépünkben
-        kellő mennyiségű RAM és CPU van, de vagy próbáljuk ki az oldalunkat egy
-        két generációval ezelőtti gagyi mobiltelefonon, vagy legyünk észnél a
-        JavaScript kódok írásánál.</li>
-</ol>
+_OL(
+  `Amikor csak lehet, a külső forrásból származó információkat a háttérben
+    kell lekérni és lehetőség szerint rögtön az oldal forrásába beépíteni.
+    Ha például egy Twitter feedet kérünk le, akkor a szerver oldali API-t
+    használva frissítsük 15 percenként, ne hagyatkozzunk a Twitter
+    JavaScript kódjára. (Ez megment minket az EU által megkövetelt cookie
+    policy bonyolódásától is.)',
+  `Ha már valamilyen embed kódot használunk, nézzük meg, nem ágyazható-e be
+    közvetlenül, tömörítve a saját JavaScript kódunkba. Én így tettem
+    például a Piwik tracking kóddal, ami megkímélte a böngészőket egy
+    fölösleges requesttől az oldal betöltődése után. Ezt a problémát még
+    súlyosbítja, amikor az "embed kód" semmi mást nem csinál, csak beszúr
+    egy script taget. Erre sokszor semmi szükség, nézzük meg, nem tudjuk-e
+    helyettesíteni egy saját, optimálisabb kóddal! (Emlékeztetőül: a
+    szolgáltatók által biztosított kód célja az, hogy a lehető legtöbb
+    helyzetben működjön, ezért hajlandóak beáldozni némi
+    teljesítményt.)',
+  `Ügyeljünk a CPU használatra! Természetes, hogy a fejlesztői gépünkben
+    kellő mennyiségű RAM és CPU van, de vagy próbáljuk ki az oldalunkat egy
+    két generációval ezelőtti gagyi mobiltelefonon, vagy legyünk észnél a
+    JavaScript kódok írásánál.'
+)
 
 <h4>Képek optimalizálása</h4>
 <p>Remélhetőleg ma már mindenki hallot a CSS sprite-okról, ahol több képet
@@ -79,13 +80,14 @@ minket.</p>
 <p>Megjelenítendő egyéb kép optimalizálása: az 
 _HREF(`http://www.imagemagick.org/script/index.php',`ImageMagick')
 programcsomag _HREF(`http://www.imagemagick.org/script/convert.php',`convert')
-parancsa képes elvégezni: <code>convert -strip input.jpg output.jpg</code>.
-Ezzel jelentős méretcsökkenést érhetünk el.</p>
+parancsa képes elvégezni:</p>
+_highlight(`convert -strip input.jpg output.jpg',`sh')
+<p>Ezzel jelentős méretcsökkenést érhetünk el.</p>
 <p>Képek listázásakor (albumok, bélyegképek) érdemes a kép méretét megadni, 
 így a böngésző nem fogja újrarajzolni az egész oldalt, amikor a kép 
-betöltődött, és már tudható a kép mérete. Ekkor a 
-<code>convert -resize 64x64^ -gravity center -extent 64x64 input.jpg output.jpg</code> 
-parancs lehet hasznos. Ezzel egy 64x64-es bélyegképet
+betöltődött, és már tudható a kép mérete. Ekkor a</p>
+_highlight(`convert -resize 64x64^ -gravity center -extent 64x64 input.jpg output.jpg',`sh')
+<p>parancs lehet hasznos. Ezzel egy 64x64-es bélyegképet
 készíthetünk, nem megfelelő arányú eredeti kép esetén széleket fog levágni 
 (részletes magyarázat _HREF(`http://www.imagemagick.org/script/convert.php',`itt')).</p>
 
@@ -94,7 +96,7 @@ készíthetünk, nem megfelelő arányú eredeti kép esetén széleket fog lev�
 CDN-en. Ez azonban kisebb oldalak esetén, különösen Magyarországon, nem
 feltétlenül előnyös.</p>
 <p>Ennek két oka van. Az első a CDN-ek működéséből adódik. Ha egy erőforrást sokáig
-nem kértek le, a CDN eldobja azt, es igény esetén újra kéri az "origin"
+nem kértek le, a CDN eldobja azt, és igény esetén újra kéri az "origin"
 szervertől. Ez természetesen időbe telik, ami nálam egy laza másodpercet dobott
 az oldal betöltési idejére. Valamennyire ez néhány szolgáltatónál
 kiküszöbölhető, de látni fogjuk, hogy ennek ellenére semmi értelme.</p>
@@ -125,7 +127,7 @@ vagy béreljünk és megfizessük az ehhez értő rendszergazdát.</p>
 <h4>A helyes webszerver választás</h4>
 <p>Ha Linux/UNIX platformon mozgunk, hagyományosan Apache HTTPd fut a
 szolgáltatásaink alatt. Ez a webszerver azonban amellett, hogy igen csak koros,
-küzd egy csomo problémával, például régről megmaradt funkciókkal, amik rontják a
+küzd egy csomó problémával, például régről megmaradt funkciókkal, amik rontják a
 teljesítményt, de nem lehet megszabadulni tőle, mert akkor kaszás lázadás
 lesz.</p>
 <p>Éppen ezért érdemes az olyan webszerverek irányába nézelődni, amik eleve arra a
@@ -133,7 +135,7 @@ feladatra készültek, hogy több tízezer párhuzamos kapcsolatot szolgáljanak
 a lehető leghatékonyabban lapátolják a biteket a merevlemezről. Az egyik ilyen
 szerver az _HREF(`http://nginx.org/',`nginx').</p>
 <p>Mondanom sem kell, hogy a csupaszításnak áldozatul esik néhány kényelmi funkció
-is. Az egyik ilyen a .htaccess támogatás (ami borzasztó hátrányos a
+is. Az egyik ilyen a _filename(`.htaccess') támogatás (ami borzasztó hátrányos a
 teljesítményre nézve), valamint a közvetlen PHP integráció is. Ez utóbbi helyett
 kénytelenek leszünk PHP-FPM-et használni.</p>
 
