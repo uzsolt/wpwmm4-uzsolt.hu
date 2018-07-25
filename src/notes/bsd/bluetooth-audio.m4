@@ -12,3 +12,4 @@ _OL(
     _highlight(`/usr/local/sbin/virtual_oss -C 2 -c 2 -r 48000 -b 16 -s 1024 -R /dev/null -P /dev/bluetooth/BD_ADDR -d dsp',`sh')',
   `Ha minden jól megy, most már mennie kellene.'
 )
+<p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
