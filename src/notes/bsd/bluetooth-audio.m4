@@ -9,7 +9,7 @@ _OL(
     telepítése:
     _highlight(`pkg install virtual_oss',`sh')',
   `az új hangeszköz létrehozásához a <code>cuse</code> modult be kell tölteni:
-    _highlight(`kldstat cuse',`sh')',
+    _highlight(`kldload cuse',`sh')',
   `egy új hangeszköz létrehozása:
     _highlight(`/usr/local/sbin/virtual_oss -C 2 -c 2 -r 48000 -b 16 -s 1024 -R /dev/null -P /dev/bluetooth/BD_ADDR -d dsp',`sh')',
   `Ha minden jól megy, most már mennie kellene.'
