@@ -34,7 +34,7 @@ _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
 <div  class=div_about>
     <h3>Rendszerinformáció</h3>
     <p>Az oldal egy <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a>-en fut. 
-    A használt operációs rendszer <a href="http://www.freebsd.org/">FreeBSD</a> 11.1.</p>
+    A használt operációs rendszer <a href="http://www.freebsd.org/">FreeBSD</a> 11.2.</p>
     
     <p>Webszerverként <a href="http://nginx.com/">nginx</a> fut.</p>
     
