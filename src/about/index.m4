@@ -1,37 +1,37 @@
 _LAYOUT(`note.m4',_title,`Információk',_subtitle,`Rólam és a honlapról')
 _DIVB(`div_about')
   <h3>Gyors szakmai áttekintés</h3>
-  <p>2005. szeptembere óta a <a href="http://www.bgrg.hu">Bethlen Gábor Református Gimnáziumban</a> tanítok fizikát és 
+  <p>2005. szeptembere óta a _HREF(`http://www.bgrg.hu',`Bethlen Gábor Református Gimnáziumban') tanítok fizikát és 
   matematikát. 2012. szeptembere óta a matematika munkaközösség vezetője vagyok.</p>
 
-  <p>Önéletrajzom letöltheted <a href="http://uzsolt.hu/static/oneletrajz.pdf">innen</a>.</p>
+  <p>Önéletrajzom letöltheted _HREF(`http://uzsolt.hu/static/oneletrajz.pdf',`innen').</p>
 _DIVE
 _DIVB(`div_about')
   <h3>Rendszerinformáció</h3>
-  <p>Az oldal egy <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a>-en fut. 
-  A használt operációs rendszer <a href="http://www.freebsd.org/">FreeBSD</a> 11.2.</p>
+  <p>Az oldal egy _HREF(`http://en.wikipedia.org/wiki/Virtual_private_server',`VPS')-en fut. 
+  A használt operációs rendszer _HREF(`http://www.freebsd.org/',`FreeBSD') 11.2.</p>
   
-  <p>Webszerverként <a href="http://nginx.com/">nginx</a> fut.</p>
+  <p>Webszerverként _HREF(`http://nginx.com/',`nginx') fut.</p>
   
   <p>Az oldal <em>legkorábbi verzióját</em> saját fejlesztésű
-  <a href="http://php.net/">PHP</a>-szkriptek generálták, 
+  _HREF(`http://php.net/',`PHP')-szkriptek generálták, 
   a megjelenítendő adatok 
-  <a href="https://mariadb.org/">MariaDB</a> (<a href="http://www.mysql.com/">MySQL</a>-fork) 
+  _HREF(`https://mariadb.org/',`MariaDB') (_HREF(`http://www.mysql.com/',`MySQL')-fork) 
   adatbázisban tárolva.</p>
 
   <p><em>Egy későbbi verzióban</em> statikus HTML-ek segítségével jelenik meg a böngészőn az oldal.
-  A HTML-fájlokat a <a href="http://jekyllrb.com/">jekyll</a> generálja. Az
-  adatok <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV-fájlokban</a> 
+  A HTML-fájlokat a _HREF(`http://jekyllrb.com/',`jekyll') generálja. Az
+  adatok _HREF(`https://en.wikipedia.org/wiki/Comma-separated_values',`CSV-fájlokban')
   tárolva.</p>
 
   <p><em>Jelenleg</em> statikus HTML-ek szolgálják az információ olvashatóvá tételét,
-  viszont ezeket már egy saját fejlesztésű eszköz, a <a href="https://svn.uzsolt.hu/wpwmm4">wpwmm4</a>
-  generálja. A forrás <a href="https://svn.uzsolt.hu/uzsolt.hu/wpwmm4-uzsolt.hu/">itt</a> megtekinthető.</p>
+  viszont ezeket már egy saját fejlesztésű eszköz, a _HREF(`https://svn.uzsolt.hu/wpwmm4',`wpwmm4')
+  generálja. A forrás _HREF(`https://svn.uzsolt.hu/uzsolt.hu/wpwmm4-uzsolt.hu/',`itt') megtekinthető.</p>
   
   <p>Nem vagyok webdesigner, így a külcsín esetleg hagy némi kívánnivalót maga után, de remélem, 
   hogy az oldal használhatósága, egyszerűsége, gyorsasága ellensúlyozza ezt a hiányosságot.</p> 
 
-  <p>Az oldal NEM használ <a href=https://hu.wikipedia.org/wiki/HTTP-s%C3%BCti>sütiket</a> (cookie),
+  <p>Az oldal NEM használ _HREF(`https://hu.wikipedia.org/wiki/HTTP-s%C3%BCti',`sütiket') (cookie),
   így nem kell se elfogadni, se megérteni a velük kapcsolatos dolgokat.</p>
 _DIVE
 _DIVB(`div_about')
