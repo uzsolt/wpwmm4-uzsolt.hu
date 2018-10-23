@@ -80,11 +80,11 @@ ${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
 
 TARGETS_MANUAL+=css/main.css
 ${DEST_DIR}css/main.css: \
-	assets/css/image.css \
 	assets/css/main.css \
-	assets/css/menu.css \
-	assets/css/stuff.css \
-	assets/css/syntax.css
+	assets/css/_image.scss \
+	assets/css/_menu.scss \
+	assets/css/_stuff.scss \
+	assets/css/_syntax.scss
 	@mkdir -p ${DEST_DIR}css
 	sassc -t compressed assets/css/main.css ${.TARGET}
 
