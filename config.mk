@@ -46,6 +46,7 @@ TARGETS=index.html \
 	notes/latex/segments.html \
 	notes/latex/smiley.html \
 	notes/other/gyerek.html \
+	notes/other/pedagogus_ber.html \
 	notes/phys/atom.html \
 	notes/phys/h2o.html \
 	notes/svn/git2svn.html \
@@ -58,6 +59,7 @@ TARGETS=index.html \
 	notes/web/gyors-oldal.html
 index.html_REQ=scripts/genmain.sh data/news.psv ${LAYOUT_DIR}main.m4
 notes/bsd/kodi.html_REQ=src/notes/bsd/start-kodi-inetd
+notes/other/pedagus_ber.html_REQ=scripts/ped_tabla_1.sh
 notes/svn/git2svn.html_REQ=src/notes/svn/git2svn.sh src/notes/svn/git2svn_time.sh
 notes/svn/svn-mirror-github.html_REQ=src/notes/svn/svn-mirror-github.sh src/notes/svn/svn-mirror-github-post-commit.sh
 notes/svn/svnsync.html_REQ=src/notes/svn/svnsync_init.sh
@@ -85,7 +87,8 @@ ${DEST_DIR}css/main.css: \
 	assets/css/_image.scss \
 	assets/css/_menu.scss \
 	assets/css/_stuff.scss \
-	assets/css/_syntax.scss
+	assets/css/_syntax.scss \
+	assets/css/_table.scss
 	@mkdir -p ${DEST_DIR}css
 	sassc -t compressed assets/css/main.css ${.TARGET}
 

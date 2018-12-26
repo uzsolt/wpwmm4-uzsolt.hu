@@ -16,6 +16,7 @@ h1 {
 @import 'menu';
 @import 'stuff';
 @import 'syntax';
+@import 'table';
 
 $rsspngsize:32px;
 .rss {
