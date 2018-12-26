@@ -60,4 +60,4 @@ m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz p
 a fenti táblázat nem hivatalos,
 nem alkalmas hivatalos közlésre és felhasználásra,
 csak tájékozódásra felel meg.</p>
-<p>m4_patsubst(`$Módosítva$',`$',`')</p>
+<p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
