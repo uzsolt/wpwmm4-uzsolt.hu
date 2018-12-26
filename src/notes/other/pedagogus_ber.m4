@@ -43,6 +43,7 @@ esetén a bér (azaz a megfelelő illetményalap megadott százaléka).</p>
 besorolás) az illetményalap 100%-a a bér.</p>
 
 <table id="bertabla">
+<caption>Pedagógus bértábla.<br/>Forrás: hivatkozott törvények, saját számítás.</caption>
 <tr>
   <th class="kateg">Kategória</th>
   <th class="kateg">Év</th>
@@ -54,7 +55,6 @@ besorolás) az illetményalap 100%-a a bér.</p>
 <tbody>
 m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz peddkat peddsz pedevmax _ilalapkozep _ilalapbsc _ilalapmsc)
 </tbody>
-<caption>Pedagógus bértábla.<br/>Forrás: hivatkozott törvények, saját számítás.</caption>
 </table>
 <p><b>Megjegyzés:</b>
 a fenti táblázat nem hivatalos,
