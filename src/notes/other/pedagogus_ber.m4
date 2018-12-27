@@ -16,7 +16,7 @@ m4_define(`pedbkat',`4')m4_define(`pedbsz',`150')m4_dnl
 m4_define(`pedckat',`6')m4_define(`pedcsz',`200')m4_dnl
 m4_define(`peddkat',`6')m4_define(`peddsz',`220')m4_dnl
 m4_define(`pedevmax',`45')m4_dnl
-<h3>Vetítési alap, illetményalap</h3>
+<h3>Vetítési alap, illetményalap, pótlékok</h3>
 <p>A <em>vetítési alap</em> a _HREF(_vetalaptvurl,_vetalaptv) _vetalaptvpar. § szerint
 _vetalap Ft.</p>
 <p>A _HREF(`https://net.jogtar.hu/jogszabaly?docid=A1100190.TV',`Köznevelési törvény') 65. § (2) szerint az <em>illetményalap</em></p>
@@ -28,6 +28,19 @@ a <em>Köznevelési törvény</em> 8. mellékletében vannak felsorolva.</p>
 <p>A pótlékok törvényben meghatározott minimális és maximális mértéke
 az <em>illetményalap</em> megfelelő százaléka, azaz értéke nem változik
 a fizetési kategória vagy minősülés után, csak végzettség emelkedésekor.</p>
+<p>A táblázat <q>fizetési</q> celláiban az első sor az illetményalap százaléka,
+a második-harmadik-negyedik sorok rendre a középfokú, BSc, MSc végzettség
+esetén a pótlék összege.
+<table class="bertabla">
+<caption>Pótlékok táblázata.
+<br/>Forrás: hivatkozott törvények, saját számítások.</caption>
+<tr>
+  <th>Pótlék megnevezése</th>
+  <th>Pótlék alsó határa</th>
+  <th>Pótlék felső határa</th>
+</tr>
+m4_esyscmd(scripts/ped_tabla_0.sh _ilalapkozep _ilalapbsc _ilalapmsc)
+</table>
 
 <h3>Bértábla</h3>
 <p>A bértábla a törvényben forintosítva nem szerepel, viszont a fenti
@@ -42,7 +55,7 @@ esetén a bér (azaz a megfelelő illetményalap megadott százaléka).</p>
 <p>Az első fizetési fokozatban (1. kategória, lényegében a <em>Gyakornok</em>
 besorolás) az illetményalap 100%-a a bér.</p>
 
-<table id="bertabla">
+<table class="bertabla">
 <caption>Pedagógus bértábla.<br/>Forrás: hivatkozott törvények, saját számítás.</caption>
 <tr>
   <th class="kateg">Kategória</th>
@@ -57,7 +70,7 @@ m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz p
 </tbody>
 </table>
 <p><b>Megjegyzés:</b>
-a fenti táblázat nem hivatalos,
-nem alkalmas hivatalos közlésre és felhasználásra,
-csak tájékozódásra felel meg.</p>
+a fenti táblázatok nem hivatalosak,
+nem alkalmasak hivatalos közlésre és felhasználásra,
+csak tájékozódásra felelnek meg.</p>
 <p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
