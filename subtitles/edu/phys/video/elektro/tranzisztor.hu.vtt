@@ -1,0 +1,284 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:00.500
+Tranzisztorok, Vajon hogyan működnek ?
+
+00:00:00.840 --> 00:00:08.020
+A tranzisztorok feltalálása minden másnál inkább átalakította a civilizációt
+
+00:00:08.400 --> 00:00:13.660
+az okostelefon középpontjában egy mikroprocesszor található
+
+00:00:14.640 --> 00:00:18.440
+amely kb. 2 milliárd transzisztort tartalmaz
+
+00:00:18.900 --> 00:00:21.860
+mit csinálnak ezek a hihetetlenül apró eszközök,
+
+00:00:21.860 --> 00:00:24.340
+és hogyan müködnek ?
+
+00:00:25.120 --> 00:00:31.180
+ebben a kapcsolásban egy  mozgó alkatrészek nélküli tranzisztoros kapcsoló látható
+
+00:00:31.920 --> 00:00:38.560
+A példában a mikrofon gyenge jelét erösítjük hallható hanggá, a tranzisztorokat valójában analóg jelek erösítésére szánták a kezdetekben, ill. az elektroncsövek kiváltására.
+
+00:00:39.040 --> 00:00:44.640
+most teszünk egy kitérőt a félvezető-fizika alapjai felé, ami a tranzisztor működének megértéséhez  szükséges, az eredeti témánkat később folytatjuk
+
+00:00:45.000 --> 00:00:48.760
+A tranzisztorok  félvezető anyagokból készülnek, amelyek anyaga pl. a szilícium
+
+00:00:49.280 --> 00:00:52.840
+Minden szilícium atom négy szomszédos szilícium-atomhoz  van kötve
+
+00:00:53.360 --> 00:00:56.160
+a szilíciumnak a négy elektronja vegyérték-kötésben van a körülötte levőkkel.
+
+00:00:56.640 --> 00:01:00.080
+Helyettesítsük a könnyebb megértés kedvéért a szilicium atomot egy 4 kezű figurával
+
+00:01:00.680 --> 00:01:04.240
+Mindegyik kezében van egy elektron
+
+00:01:04.720 --> 00:01:09.480
+A 4 elektront megosztja  a szomszéd négy őt körbevevő atom elektronjával és azok is ezt teszik. Így mindegyik atomnak 8 elektronja lesz a külső héján a kölcsönkapottakkal együtt  és  stabil kristályszerkezet alakul ki
+
+00:01:09.480 --> 00:01:11.880
+Ennek a neve kovalens kötés.
+
+00:01:12.400 --> 00:01:15.600
+Jelenleg az  elektronok  alapállapotú energiahelyzetben vannak.
+
+00:01:16.220 --> 00:01:18.771
+Ahhoz, hogy a szilícium áramot  vezessen
+
+00:01:18.780 --> 00:01:23.220
+Az elektronokkal energiát kell közölni,  ekkor  szabad elektronokká  válnak.
+
+00:01:24.000 --> 00:01:29.360
+Ezért a  tiszta szilíciumnak alacsony az elektromos vezetőképessége
+
+00:01:30.320 --> 00:01:35.580
+Az "adalékolás" ( doping ) nevű technikát a félvezetők vezetőképességének javítására használják
+
+00:01:37.200 --> 00:01:41.720
+Például, mondjuk, hogy 5 külső elektronnal rendelkező foszfort juttassunk a szilicium kristályba
+
+00:01:42.080 --> 00:01:45.500
+Az ötödik, le nem kötött elektron nagyon könnyen felszabadul
+
+00:01:45.500 --> 00:01:49.500
+Ezt N-típusú dopingnak nevezik
+
+00:01:49.960 --> 00:01:53.760
+Másrészt, ha bórral injekciózunk három vegyérték elektronnal
+
+00:01:53.771 --> 00:01:58.010
+akkor egy üres pozíció lesz egy elektron számára, amely üres pozíció ismert
+
+00:01:58.020 --> 00:02:02.400
+mint egy lyuk és egy szomszédos elektron képes tölteni ezt a lyukat bármikor
+
+00:02:02.660 --> 00:02:06.780
+Amikor az elektronok a lyukakat betöltve áramlanak, akkor úgy látszik, mintha a lyukak az ellenkező irányban mozognának, mint az elektronok
+
+00:02:07.400 --> 00:02:11.080
+Ez fordul elő a P-típusú doping esetén.
+
+00:02:12.880 --> 00:02:16.920
+Ha egy szilíciumlapot speciális módon szennyezünk, akkor  egy tranzisztor születik.
+
+00:02:17.280 --> 00:02:20.400
+De ha tényleg meg akarjuk érteni, hogyan működik egy tranzisztor,
+
+00:02:20.462 --> 00:02:27.280
+akkor világos elképzelésünk kell legyen arról, hogy mi történik az elektron szintjén egy olyan alapvető alkatrészben , mint a  dióda.
+
+00:02:27.800 --> 00:02:33.657
+Dióda keletkezik, amikor a szilícium egy részét p-típusúnak, a másik pedig N típusúnak szennyezzük.
+
+00:02:34.234 --> 00:02:38.110
+Valami nagyon érdekes történik az N és a P kötés határán
+
+00:02:38.750 --> 00:02:40.954
+Bőségesen vannak szabad elektronok a kristályban
+
+00:02:40.960 --> 00:02:46.680
+A hőmozgás következtében a határrétegnél az elektronok átmennek a P oldalra, mivel ott lyukak vannak.
+
+00:02:47.140 --> 00:02:50.360
+Ezzel a P oldalon enyhén negatív töltés jelenik meg
+
+00:02:50.360 --> 00:02:53.280
+és az N oldal kissé pozitív töltésű lesz.
+
+00:02:53.280 --> 00:03:00.080
+A keletkező elektromos mező ellene hat az elektronok további természetes migrációjának.
+
+00:03:00.860 --> 00:03:04.680
+Ha külső tápforrást kötünk  a diódára, ahogy az látható,
+
+00:03:04.680 --> 00:03:08.360
+az áramforrás vonzza az elektronokat és a lyukakat, 
+(a kék a P oldal)
+
+00:03:08.820 --> 00:03:13.540
+A villamos áramlás ebben az esetben lehetetlen
+
+00:03:14.000 --> 00:03:18.450
+Azonban, ha megfordítja a hálózati csatlakozást, a helyzet egészen más lesz
+
+00:03:18.450 --> 00:03:22.580
+Tegyük fel, hogy az áramforrásnak elegendő feszültsége van ahhoz, hogy leküzdje a potenciál gátat
+
+00:03:22.760 --> 00:03:27.200
+Rögtön látja, hogy az elektront a negatív terminál taszítani fogja
+
+00:03:27.210 --> 00:03:29.520
+Amikor az elektronok átlépik a potenciális gátat,
+
+00:03:29.530 --> 00:03:34.045
+a potenciálgát energiája lecsökken  és az elektronok könnyen elfoglalják a P-régióban a  lyukakat
+
+00:03:34.460 --> 00:03:36.970
+A pozitív terminál vonzereje miatt,
+
+00:03:36.970 --> 00:03:40.491
+ezek az elektronok most a P régió közelében lévő lyukakra ugorhatnak
+
+00:03:40.502 --> 00:03:42.630
+és áramlik a külső áramkörön
+
+00:03:43.080 --> 00:03:47.860
+Ez  a dióda nyitóirányú előfeszítéseként  ismert
+
+00:03:48.340 --> 00:03:51.210
+Csak tartsd fejben a dióda ezen egyszerű elvét,
+
+00:03:51.210 --> 00:03:58.820
+akkor könnyen megérted a tranzisztor működését
+
+00:04:00.160 --> 00:04:04.100
+Most vissza a tranzisztorhoz
+
+00:04:05.020 --> 00:04:09.240
+Megjegyezzük, hogy a P réteg nagyon vékony és csak kis mértékben adalékolt
+
+00:04:09.740 --> 00:04:14.540
+Látható, hogy egy tranzisztor lényegében két,  azonos oldalával összekötött dióda
+
+00:04:14.550 --> 00:04:17.280
+Tehát bármilyen módon kapcsolja rá  az áramforrást,
+
+00:04:17.280 --> 00:04:21.794
+egy dióda mindig záróirányban lesz előfeszítve, és blokkolja a villamos áramot
+
+00:04:22.240 --> 00:04:26.160
+Ez azt jelenti, hogy a tranzisztor kikapcsolt állapotban van
+
+00:04:26.480 --> 00:04:29.600
+Most csatlakoztassunk egy második tápegységet az ábrán látható módon
+
+00:04:29.700 --> 00:04:34.200
+A tápegységnek elegendő feszültséggel kell rendelkeznie ahhoz, hogy leküzdje a potenciális gátat
+
+00:04:34.420 --> 00:04:38.320
+Tehát ez nyitóirányban előfeszített dióda
+
+00:04:38.600 --> 00:04:43.600
+Így nagyszámú elektron keletkezik az N tartományból
+
+00:04:43.960 --> 00:04:47.690
+Csakúgy, mint egy diódánál, néhány elektron összekapcsolódik a lyukakkal
+
+00:04:47.690 --> 00:04:51.320
+és átugorva  a szomszédos lyukakon  áramlik a Bázis felé
+
+00:04:51.880 --> 00:04:55.340
+De sokkal több elektron van, amely átkerült a P oldalra,
+
+00:04:55.340 --> 00:04:57.580
+mi fognak ezek a maradék elektronok csinálni ?
+
+00:04:57.580 --> 00:05:00.160
+Vegyük észre, hogy ...
+
+00:05:00.380 --> 00:05:04.910
+... a  fennmaradó elektronokat az első áramforrás pozitív terminálja fogja vonzani
+
+00:05:04.910 --> 00:05:07.068
+és egyenesen halad az ábrán látható módon
+
+00:05:07.200 --> 00:05:09.700
+Mivel a  P-régió (Bázis) nagyon keskeny
+
+00:05:09.700 --> 00:05:15.200
+ez biztosítja, hogy a fennmaradó elektronok ne a második áramforrás pozitív termináljához áramoljanak.
+
+00:05:15.560 --> 00:05:20.340
+Röviden,  egy kis bázisáram felerősödik egy nagy kollektorárammá.
+
+00:05:20.700 --> 00:05:25.940
+Könnyen kapcsolatba hozhatjuk a  tranzisztor kivezetéseinek elnevezését  az elektronáramlás mibenlétével.
+
+00:05:26.620 --> 00:05:31.520
+Ha növeljük a bázisáramot,  a kollektoráram arányosan növekedni fog
+
+00:05:32.000 --> 00:05:36.500
+ez az áramerősítés egyértelmű esete
+
+00:05:37.180 --> 00:05:42.220
+Az a fajta tranzisztor, amelyet megbeszéltünk,  bipoláris csatlakozású tranzisztornak nevezzük
+
+00:05:42.220 --> 00:05:48.020
+Helyettesítsük  ezt a reprezentatív tranzisztort  egy valódival.
+
+00:05:48.700 --> 00:05:53.200
+Az erősítés  tovább javítható még egy tranzisztor bekötésével.
+
+00:05:53.940 --> 00:06:01.160
+Ennek a tranzisztornak a bázisa az első tranzisztor emitterével van összekötve
+
+00:06:02.120 --> 00:06:07.140
+Ha a bemenetre olyan gyenge ingadozó jelet adunk, mint amit egy mikrofonon  találunk,
+
+00:06:07.140 --> 00:06:13.120
+a hangszóróban erősebb  jelet kapunk
+
+00:06:15.100 --> 00:06:16.660
+A másik érdekes dolog, amit meg lehet jegyezni erről a másik alapvető áramkörről,
+
+00:06:16.900 --> 00:06:19.540
+hogy az alkalmazott feszültség értékétől függően,
+
+00:06:19.800 --> 00:06:22.980
+a tranzisztor be- vagy kikapcsolt állapotban lehet
+
+00:06:23.740 --> 00:06:26.740
+Itt a tranzisztor kapcsolóként működik
+
+00:06:27.649 --> 00:06:29.070
+A tranzisztor e  tulajdonsága ...
+
+00:06:29.070 --> 00:06:33.171
+... megnyitja az ajtókat a digitális elektronika és a digitális memória világához
+
+00:06:33.750 --> 00:06:38.937
+Két BJT-t használva, megépíthetsz egy  számítógép  memória  elemet is,
+
+00:06:38.937 --> 00:06:40.630
+egy flip-flop -ot
+
+00:06:40.640 --> 00:06:44.820
+Ha többet szeretne tudni erről, kérjük, nézze meg a "tranzisztor, mint kapcsoló" c.  videót.
+
+00:06:45.360 --> 00:06:50.520
+Kérjük, támogasson minket a patreon.com webhelyen, hogy folytathassuk ingyenes oktatási szolgáltatásunkat !
+
+00:06:50.540 --> 00:06:51.780
+Valamint kövesse figyelemmel a Vidám Park Youtube csatornáját, Köszönjük !
+
