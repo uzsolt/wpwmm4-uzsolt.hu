@@ -9,3 +9,6 @@ VIRTUALTEMPLATE_show_video=	show_video
 VIRTUALDIR_show_video=	${VIRTUALDIR_list_video}
 VIRTUALREQ_show_video=	scripts/show_video.sh
 VIRTUALOUT_show_video!=	scripts/list_video_targets.sh
+
+ASSETS_DIR+=	\
+	subtitles/
