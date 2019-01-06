@@ -13,4 +13,4 @@ process() {
   printf "\t</div></a>\n"
 }
 
-cat data/$1.psv | read_data_stdin process url source title
+cat data/$1.psv | read_data_stdin process url source title subtitle
