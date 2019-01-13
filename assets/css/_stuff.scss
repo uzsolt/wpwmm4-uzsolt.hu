@@ -81,6 +81,9 @@ $art_stuff_width:400px;
   @extend %stuffdescrbase;
   width:$art_stuff_width - $pdf_icon_width - 5px;
 }
+.pdfcategory {
+  @extend %stuffbase;
+}
 video {
   width:95%;
   height:auto;

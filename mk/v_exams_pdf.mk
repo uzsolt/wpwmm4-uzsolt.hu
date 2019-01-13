@@ -4,7 +4,6 @@ VIRTUALOUT_exams_pdf= \
 	edu/math/exams/06.html \
 	edu/math/exams/07.html \
 	edu/math/exams/08.html \
-	edu/math/exams/09.html \
 	edu/math/exams/10.html \
 	edu/math/exams/11.html \
 	edu/math/exams/12.html \
@@ -23,5 +22,6 @@ VIRTUALOUT_exams_pdf= \
 	edu/phys/guide/09.html \
 	edu/phys/guide/10.html \
 	edu/phys/guide/11.html
-VIRTUALREQ_exams_pdf+=scripts/pdf_exams_items.sh
+VIRTUALREQ_exams_pdf+=	\
+	scripts/pdf_exams_items.sh scripts/functions-pdf_exams_items
 VIRTUALREQRULE_exams_pdf=C,(.*)/([^/]*).html,data/\1/\2.psv,

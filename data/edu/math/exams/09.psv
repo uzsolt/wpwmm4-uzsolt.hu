@@ -1,25 +1,5 @@
-Hatványozás|hatvanyozas.pdf|Hatványozás egész kitevőre
-Normálalak|normalalak.pdf|Normálalak gyakorlás
-Szöveges feladatok|szoveges.pdf|Elsőfokú egyenlettel megoldható szöveges feladatok
-Keveréses feladatok|../08/keveresek.pdf|Feladatok oldatok keverésére
-Algebra összevonások|algebra_osszevonas.pdf|Zárójel-felbontás, összevonás
-Zárójel felbontás|algebra_zfelbontas.pdf|Zárójel-felbontás
-Algebrai törtek|algebrai_tortek.pdf|Algebrai törtek egyszerűsítése, összevonása
-Halmazok|halmazok.pdf|Gyakorló feladatok halmazokra
-Intervallumok|intervallum.pdf|Gyakorló feladatok intervallumok metszetére
-Algebra gyakorló|algebra_gyakorlo.pdf|Nevezetes azonosságok, algebrai törtek összevonása
-Nevezetes azonosságok|nevezetes_azonossagok.pdf|Nevezetes azonosságok: két tag összegének és különbségének négyzete, összeg és különbség szorzata, kéttagú kifejezés köbe
-Polinomok osztása|polinom_osztas.pdf|Polinomok osztása gyakorló feladatsor
-Kombinatorika|kombinatorika_09.pdf|Egyszerűbb kombinatorikai feladatok, permutáció
-Szorzattá alakítások|szorzatta_alakitas.pdf|Szorzattá alakítások kiemeléssel, nevezetes azonosságokkal
-Szorzattá alakítások II.|szorzatta_alakitas_2.pdf|Szorzattá alakítások nevezetes azonosságokkal
-Függvények ábrázolása|fuggvenyek.pdf|Függvények ábrázolása: elsőfokú, másodfokú, törtfüggvény, négyzetgyök, abszolútérték
-Függvény elemzés, felismerés|fuggveny_elemzes.pdf|Függvények elemzése, felismerése
-Egyenletek|egyenletek.pdf|Elsőfokú és abszolútértékes egyenletek
-Egyenletrendszerek|egyenletrendszerek.pdf|Elsőfokú egyenletrendszerek, velük megoldható szöveges feladatok
-Egyenlőtlenség|egyenlotlenseg.pdf|Elsőfokú egyenlőtlenségek, szorzat alakban megadott egyenlőtlenségek
-Determinánsok|determinans.pdf|Determinánsok számítása (2x2, 3x3)
-Oszthatóság, számrendszerek|oszthatosag.pdf|Oszthatóság, prímszámok, számrendszerek
-Összetettebb függvények ábrázolása|fuggvenyek_osszetett.pdf|Átalakítást, egyszerűsítést igénylő függvények ábrázolása
-Geometriai szerkesztések|geom_szerkesztesek.pdf|Mértani helyek, Thalesz tétele, egybevágósági transzformációk
-Geometriai számítások, bizonyítások|geom_szambiz.pdf|Geometriai bizonyítások
+Algebra|09-algebra
+Egyenletek|09-egyenlet
+Függvények|09-fuggveny
+Geometria|09-geometria
+Egyebek|09-egyeb
