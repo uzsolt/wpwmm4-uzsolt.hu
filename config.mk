@@ -17,17 +17,16 @@ HOOK_POST_HTML=${MSG2} Checking validity ; tidy5 -q -e -f /dev/stdout ${.TARGET}
 HOOK_POST_VHTML=${HOOK_POST_HTML}
 
 # Targets in ${DEST_DIR}
-TARGETS=	\
-	about/index.html \
-	notes/eco/bevallas.html \
-	notes/web/gyors-oldal.html
+TARGETS=	about/index.html
 .include "mk/edu_phys.mk"
 .include "mk/notes_bsd.mk"
 .include "mk/notes_cli.mk"
+.include "mk/notes_eco.mk"
 .include "mk/notes_joke.mk"
 .include "mk/notes_latex.mk"
 .include "mk/notes_other.mk"
 .include "mk/notes_svn.mk"
+.include "mk/notes_web.mk"
 .include "mk/root.mk"
 
 .for T in ${TARGETS}
@@ -36,21 +35,7 @@ ${T}_REQ+=${LAYOUT_DIR}note.m4
 .endif
 .endfor
 
-TARGETS_MANUAL=feed.xml
-${DEST_DIR}feed.xml: data/news.psv scripts/genrss.sh
-	${MSG1} Generating feed.xml...
-	@scripts/genrss.sh > ${.TARGET}
-
-TARGETS_MANUAL+=css/main.css
-${DEST_DIR}css/main.css: \
-	assets/css/main.css \
-	assets/css/_image.scss \
-	assets/css/_menu.scss \
-	assets/css/_stuff.scss \
-	assets/css/_syntax.scss \
-	assets/css/_table.scss
-	@mkdir -p ${DEST_DIR}css
-	sassc -t compressed assets/css/main.css ${.TARGET}
+.include "mk/css.mk"
 
 MKDIR_REQ=data/menu.psv mk/comp_lists.mk
 
