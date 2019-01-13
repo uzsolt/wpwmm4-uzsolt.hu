@@ -17,7 +17,7 @@ HOOK_POST_HTML=${MSG2} Checking validity ; tidy5 -q -e -f /dev/stdout ${.TARGET}
 HOOK_POST_VHTML=${HOOK_POST_HTML}
 
 # Targets in ${DEST_DIR}
-TARGETS=	about/index.html
+.include "mk/about.mk"
 .include "mk/edu_phys.mk"
 .include "mk/notes_bsd.mk"
 .include "mk/notes_cli.mk"
@@ -43,7 +43,6 @@ MKDIR_REQ=data/menu.psv mk/comp_lists.mk
 GREQ=${MENUTARGET} include/01_header.m4
 
 # Category of virtually created files.
-# Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
 .include "mk/virtuals.mk"
 
 MENUDATAFILE=data/menu.psv

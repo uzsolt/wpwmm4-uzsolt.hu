@@ -1,3 +1,4 @@
+# Name of values will use the ${value}.m4 inside ${VIRT_DIR}.
 VIRTUALS=kep \
 	keplist \
 	menu \

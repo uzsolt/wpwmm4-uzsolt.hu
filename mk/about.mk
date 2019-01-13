@@ -1,0 +1,1 @@
+TARGETS+=	about/index.html
