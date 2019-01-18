@@ -8,7 +8,7 @@ FILE=${2}
 
 process_pdf() {
   printf "_own_pdf(\`%s',\`%s',\`%s')\n" \
-    "${txt}" "${path}" "${tooltip}"
+    "${txt}" "${DIR}/${path}" "${tooltip}"
 }
 
 process() {
@@ -19,4 +19,5 @@ process() {
 }
 
 create_header $@
+DIR=`echo ${1}/${2} | sed "s,/[^/]*,/static/stuff,"`
 read_data data/${DIRECTORY}/${FILE}.psv process title files
