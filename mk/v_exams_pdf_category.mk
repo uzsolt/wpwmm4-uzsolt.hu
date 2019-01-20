@@ -5,4 +5,4 @@ VIRTUALOUT_exams_pdf_category=	\
 VIRTUALREQ_exams_pdf_category+=	\
 	scripts/pdf_exams_items_category.sh \
 	scripts/functions-pdf_exams_items
-VIRTUALREQRULE_exams_pdf_category=C,(.*)/([^/]*).html,data/\1/\2.psv,
+VIRTUALREQRULE_exams_pdf_category=C,(.*)/([^/]*).html,data/\1/\2*.psv,
