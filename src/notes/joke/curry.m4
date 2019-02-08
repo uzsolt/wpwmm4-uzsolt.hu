@@ -34,7 +34,7 @@ kóstolgatás teljes idejére, tehát belementem.</blockquote>
     <li> BÍRÓ: Bab nélküli curry, kisse sós, remekül használja a piros paprikát.</li>
     <li> BÍRÓ: Hívjatok szakembert, felfedeztem egy uránium szivárgást! Az orromban 
         olyan érzésem van, mintha Domestost szipákoltam volna. Már mindenki tudja, mi a 
-        dolga, hozzak a söröket, mielőtt meggyulladok. A pincér kislány hátba vágott, 
+        dolga: hozzák a söröket, mielőtt meggyulladok. A pincér kislány hátba vágott, 
         így most a gerincem a mellkasom első részében van. Az ábrázatom kezd igen 
         ramatyul kinézni a sok sör miatt.</li>
 </ol>
@@ -47,7 +47,7 @@ kóstolgatás teljes idejére, tehát belementem.</blockquote>
     <li> BÍRÓ: Éreztem, hogy valami a nyelvemhez dörgölőzik, de az ízet nem éreztem, 
         lehetséges az ízlelőbimbókat kiégetni? A pincér kislány mögöttem állt a friss 
         sör utánpótlással; az a 150 kilós lotyó egyre izgibbnek néz ki. Ez a nukleáris 
-        hulladék, amit eszem szintén. Nem lehet, hogy a curry fokozza a nemi vágyat?</li>
+        hulladék, amit eszem, szintén. Nem lehet, hogy a curry fokozza a nemi vágyat?</li>
 </ol>
 
 <h3>Curry #5: Laveshnee Legális Ajak – Eltávolítója</h3>
@@ -71,7 +71,7 @@ kóstolgatás teljes idejére, tehát belementem.</blockquote>
         fokhagymát. Igazán nagyszerű.</li>
     <li> BÍRÓ: A beleim immár egyenes csövek gáz állapotú, kénes lánggal megtöltve. 
         Összecsináltam magam, mikor fingottam és attól félek, hamarosan átégeti a 
-        széket. Úgy tűnik, senki nem tud megmaradni mögöttem, kivéve a pincérlányt, azt 
+        széket. Úgy tűnik, senki nem tud megmaradni mögöttem, kivéve a pincérlányt - azt 
         hiszem, perverzebb, mint gondoltam. Már nem érzem az ajkaimat. Kéne egy nagy 
         fagyi, hogy kitörölhessem a fenekem vele.</li>
 </ol>
@@ -100,6 +100,6 @@ kóstolgatás teljes idejére, tehát belementem.</blockquote>
     <li> BÍRÓ: Ez az utolsó darab egy jó, kiegyensúlyozott curry, nem túl erős és nem 
         is túl enyhe. Sajnálattal láttam, hogy nagy része kárba veszett mikor a 3-as 
         számú bíró elájult, leesett a székről és magára rántotta a currys tálat. Nem 
-        biztos, hogy túléli. Kíváncsi lennék mit szólt volna egy igazan csípős curryhez?</li>
+        biztos, hogy túléli. Kíváncsi lennék, mit szólt volna egy igazan csípős curryhez.</li>
     <li> BÍRÓ: Nincs feljegyzés.</li>
 </ol>
