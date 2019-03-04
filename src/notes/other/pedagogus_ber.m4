@@ -33,7 +33,9 @@ a második-harmadik-negyedik sorok rendre a középfokú, BSc, MSc végzettség
 esetén a pótlék összege.
 <table class="bertabla">
 <caption>Pótlékok táblázata.
-<br/>Forrás: hivatkozott törvények, saját számítások.</caption>
+<br/>Forrás: hivatkozott törvények, saját számítások.
+<br/>m4_esyscmd(`date +"%Y. %B %d."')
+</caption>
 <tr>
   <th>Pótlék megnevezése</th>
   <th>Pótlék alsó határa</th>
@@ -56,7 +58,10 @@ esetén a bér (azaz a megfelelő illetményalap megadott százaléka).</p>
 besorolás) az illetményalap 100%-a a bér.</p>
 
 <table class="bertabla">
-<caption>Pedagógus bértábla.<br/>Forrás: hivatkozott törvények, saját számítás.</caption>
+<caption>Pedagógus bértábla.<br/>
+Forrás: hivatkozott törvények, saját számítás.
+<br/>m4_esyscmd(`date +"%Y. %B %d."')
+</caption>
 <tr>
   <th class="kateg">Kategória</th>
   <th class="kateg">Év</th>
@@ -73,4 +78,3 @@ m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz p
 a fenti táblázatok nem hivatalosak,
 nem alkalmasak hivatalos közlésre és felhasználásra,
 csak tájékozódásra felelnek meg.</p>
-<p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
