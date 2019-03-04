@@ -74,6 +74,18 @@ Forrás: hivatkozott törvények, saját számítás.
 m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz peddkat peddsz pedevmax _ilalapkozep _ilalapbsc _ilalapmsc)
 </tbody>
 </table>
+
+<h2>Szabadság</h2>
+<p>A _HREF(`https://net.jogtar.hu/jogszabaly?docid=A1100190.TV',`Köznevelési törvény') 64. § (2a) a) szerint</p>
+<blockquote>a középfokú végzettségű pedagógusnak évi 20, a felsőfokú végzettségű pedagógusnak évi 21 munkanap alapszabadság jár</blockquote>
+<p>A _HREF(`https://net.jogtar.hu/jogszabaly?docid=99200033.TV',`Közalkalmazottak jogállásáról') 57. § (3) szerint</p>
+<blockquote>A bölcsődékben, mini bölcsődékben, a nevelési-oktatási és a pedagógiai szakszolgálati intézményekben,
+a felsőfokú oktatás keretében, valamint az egészségügyi ágazatban a nevelő, nevelő-oktató, oktató munkát,
+pedagógiai szakszolgálati tevékenységet végző közalkalmazottakat évi huszonöt munkanap pótszabadság illeti meg...</blockquote>
+<p>Azaz középfokú végzettség esetén 20+25=45, felsőfokú végzettség esetén 21+25=46 nap szabadság jár.</p>
+<p>A <em>Köznevelési törvény</em> szerint <q>a fizetési fokozat alapján járó pótszabadság <em>nem illeti</em> meg az oktató,
+nevelő munkát végzőknek járó pótszabadságra jogosult pedagógust</q>.</p>
+
 <p><b>Megjegyzés:</b>
 a fenti táblázatok nem hivatalosak,
 nem alkalmasak hivatalos közlésre és felhasználásra,
