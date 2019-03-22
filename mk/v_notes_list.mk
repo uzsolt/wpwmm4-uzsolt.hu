@@ -8,6 +8,7 @@ VIRTUALOUT_notes_list=	\
 	notes/latex/index.html \
 	notes/other/index.html \
 	notes/phys/index.html \
+	notes/r/index.html \
 	notes/svn/index.html \
 	notes/web/index.html
 VIRTUALREQ_notes_list=scripts/list_notes.sh

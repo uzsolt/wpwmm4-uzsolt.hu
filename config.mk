@@ -25,6 +25,7 @@ HOOK_POST_VHTML=${HOOK_POST_HTML}
 .include "mk/notes_joke.mk"
 .include "mk/notes_latex.mk"
 .include "mk/notes_other.mk"
+.include "mk/notes_r.mk"
 .include "mk/notes_svn.mk"
 .include "mk/notes_web.mk"
 .include "mk/root.mk"
