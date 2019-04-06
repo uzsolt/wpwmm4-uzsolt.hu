@@ -8,7 +8,7 @@ _DIVB(`div_about')
 _DIVE
 _DIVB(`div_about')
   <h3>Rendszerinformáció</h3>
-  <p>Az oldal egy _HREF(`http://en.wikipedia.org/wiki/Virtual_private_server',`VPS')-en fut. 
+  <p>Az oldal egy _HREF(`https://hu.wikipedia.org/wiki/Virtu%C3%A1lis_dedik%C3%A1lt_szerver',`VPS')-en fut. 
   A használt operációs rendszer _HREF(`http://www.freebsd.org/',`FreeBSD') 11.2.</p>
   
   <p>Webszerverként _HREF(`http://nginx.com/',`nginx') fut.</p>
@@ -40,3 +40,4 @@ _DIVB(`div_about')
   <a href="mailto:uzsolt@uzsolt.hu">uzsolt<img src="http://uzsolt.hu/static/pict/icons/kukac.png" width=16 height=16 alt="KUKAC"/>uzsolt.hu</a>
   e-mail címen veheted fel velem a kapcsolatot.</p>
 _DIVE
+<p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
