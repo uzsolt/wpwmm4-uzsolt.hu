@@ -18,7 +18,9 @@ _OL(
   <div class="center">VSZJA = nyereség&times;0,09</div>',
 `<p>A nyereséget csökkentjük ezzel az értékkel, majd ennek a csökkentett értéknek a</p>'
   _UL(
-    `15&percnt;-a fizetendő még személyi jövedelemadóként',
+    `15&percnt;-a fizetendő még személyi jövedelemadóként
+      (ezt az automatikusan számolt összeget a
+      _sor(`Vállalkozói személyi jövedelemadó módosított összege',`EV-75') sorban találjuk meg)',
     `illetve 14&percnt;-át <em>egészségügyi hozzájárulásként</em>'
   )
   `<p>Az egészségügyi hozzájárulást nekünk kell beírni a
