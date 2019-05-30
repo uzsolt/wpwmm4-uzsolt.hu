@@ -47,7 +47,7 @@ GREQ=${MENUTARGET} include/01_header.m4
 .include "mk/virtuals.mk"
 
 MENUDATAFILE=data/menu.psv
-STATICDIR=/usr/local/www/static/
+STATICDIR=/home/zsolt/svn/uzsolt.hu/static/
 
 include mk/comp_lists.mk
 include mk/generate_menu.mk
