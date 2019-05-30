@@ -30,4 +30,6 @@ _OL(
 `A bevallás következtében fizetendő összegek az <em>Egyenlegek</em> pontban találhatóak meg. Az <em>adónemkód</em> alapján
   a _HREF(`https://www.nav.gov.hu/nav/szolgaltatasok/szamlaszamok',`megfelelő számlaszámra') be is fizethetünk mindent.'
 )
+<p>A helyi iparűzési adót (HIPA) az _HREF(`https://ohp-20.asp.lgov.hu/nyitolap',`Önkormányzati Hivatali Portolán') keresztül
+lehet bevallani.</p>
 <p>(m4_patsubst(`$Módosítva$',`\$',`'))</p>
