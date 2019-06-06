@@ -2,6 +2,7 @@ _LAYOUT(`stat.m4',m4_dnl
 _title,``A nagy dobókocka kísérlet'',m4_dnl
 _subtitle,``Sokaság és minta'',m4_dnl
 _originalpost,``2019/02/01/a_nagy_dobokocka_kiserlet'')
+_INCL(`highlight.m4')
 <script src='/mathjax/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 <p>Vizsgáljuk meg közelebbről a sokaság és a minta kapcsolatát egy egyszerű példán keresztül.
 Tegyük fel, hogy van egy dobókockánk és végtelen türelmünk, hogy egymás után ötezer (!) alkalommal
@@ -111,3 +112,7 @@ $$s_{átlag}=\frac{\sigma}{\sqrt{n}}$$
 akkor igen óvatosan kell eljárni, nehogy téves következtetésekre jussunk amiatt,
 hogy egy túl kevés elemből álló minta alapján próbáljuk meg bizonyítani a feltételezésünket.'
 )
+
+_kieg
+A bejegyzésben szereplő számításokat és ábrázolásokat az alábbi _HREF(`https://www.r-project.org/',`R')-program is elvégzi:
+_file_highlight(`src/edu/math/stat/190201_dobokocka.r',`R')
