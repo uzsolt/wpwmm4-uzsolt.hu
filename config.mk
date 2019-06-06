@@ -18,6 +18,7 @@ HOOK_POST_VHTML=${HOOK_POST_HTML}
 
 # Targets in ${DEST_DIR}
 .include "mk/about.mk"
+.include "mk/edumath_stat.mk"
 .include "mk/edu_phys.mk"
 .include "mk/notes_bsd.mk"
 .include "mk/notes_cli.mk"

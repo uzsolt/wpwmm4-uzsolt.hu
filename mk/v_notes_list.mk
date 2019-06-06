@@ -1,6 +1,7 @@
 VIRTUALTEMPLATE_notes_list=notes_list
 VIRTUALDIR_notes_list=
 VIRTUALOUT_notes_list=	\
+	edu/math/stat/index.html \
 	notes/bsd/index.html \
 	notes/cli/index.html \
 	notes/eco/index.html \
