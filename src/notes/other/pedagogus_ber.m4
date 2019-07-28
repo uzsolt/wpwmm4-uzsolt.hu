@@ -19,6 +19,8 @@ m4_define(`pedevmax',`45')m4_dnl
 <h3>Vetítési alap, illetményalap, pótlékok</h3>
 <p>A <em>vetítési alap</em> a _HREF(_vetalaptvurl,_vetalaptv) _vetalaptvpar. § szerint
 _vetalap Ft.</p>
+<p>A <em>vetítési alap</em> a _HREF(https://net.jogtar.hu/jogszabaly?docid=A1900071.TV&timeshift=fffffff4&txtreferer=00000001.TXT#pr325id,2020-as költségvetési törvény
+60. §) szerint továbbra is _vetalap forint.</p> 
 <p>A _HREF(`https://net.jogtar.hu/jogszabaly?docid=A1100190.TV',`Köznevelési törvény') 65. § (2) szerint az <em>illetményalap</em></p>
 _UL(`középfokú végzettség esetén _szazkozep%, azaz _ilalapkozep Ft',
 `alapfokozat (BSc) esetén _szazbsc%, azaz _ilalapbsc Ft',
