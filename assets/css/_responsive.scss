@@ -1,0 +1,11 @@
+$breakpoint: 600px;
+
+@media all and (max-width: $breakpoint) {
+  .dcell {
+    display:block;
+  }
+  .drow .dcell {
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+  }
+}
