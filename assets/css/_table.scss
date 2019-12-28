@@ -82,10 +82,10 @@ table caption {
 .folder {
   background-image:url('http://uzsolt.hu/static/pict/icons/folder.png');
   background-repeat:no-repeat;
-}
-.folder a {
-  padding-left:24px;
-  color:#102323;
-  text-decoration:underline;
-  font-weight:bold;
+  a {
+    padding-left:24px;
+    color:#102323;
+    text-decoration:underline;
+    font-weight:bold;
+  }
 }
