@@ -84,8 +84,10 @@ if [ "${1}" = "/" ]; then
 else
   ACTIVE_MENU=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv data/video_lists.psv | awk -F '|' '{print $2}'`
   ACTIVE_TOOLTIP=`grep "$1|" ${FILE} data/art_lists.psv data/comp_lists.psv data/video_lists.psv | awk -F '|' '{print $3}'`
+  ACTIVE_COMP_TITLE=`grep "$1|" ${FILE} data/comp_lists.psv | awk -F '|' '{print $2}'`
 fi
 
 echo "m4_define(_ACTIVEMENU,\`${ACTIVE_MENU}')"
 echo "m4_define(_ACTIVETOOLTIP,\`${ACTIVE_TOOLTIP}')"
+echo "m4_define(_ACTIVE_COMP_TITLE,\`${ACTIVE_COMP_TITLE}')"
 
