@@ -85,12 +85,13 @@ $art_stuff_width:400px;
   @extend %stuffbase;
 }
 video {
-  width:95%;
-  height:auto;
+  max-width:90% !important;
+  max-height:90% !important;
 }
 .video {
   @extend %stuffbase;
-  width:80%;
+  max-width:100%;
+  max-height:100%;
 }
 .videotitle {
   width:auto;

@@ -7,8 +7,13 @@ CATEGORY=`echo ${1} | sed "s,.*/,,"`
 
 process() {
   POSTER=$(echo ${url} | sed "s,\(.*\)\..*,\1.jpg,")
+  if echo "${source}" | grep -q "^txt://"; then
+    source=$(echo ${source} | sed 's,^txt://\(.*\),<em>(\1)</em>,')
+  else
+    source=$(printf "<a href=\"%s\">(eredeti)</a>" "${source}")
+  fi
   printf "\t<div class=\"video\">\n"
-  printf "\t\t<div class=\"videotitle\">%s <a href=\"%s\">(eredeti)</a></div>\n" "${title}" "${source}"
+  printf "\t\t<div class=\"videotitle\">%s %s</div>\n" "${title}" "${source}"
   printf "\t\t<video controls poster=\"%s/%s/%s\">\n" "${VIDEOURL}" "${CATEGORY}" "${POSTER}"
   printf "\t\t\t<source src=\"%s/%s/%s\">\n" "${VIDEOURL}" "${CATEGORY}" "${url}"
   if [ -n "${subtitle}" ]; then
