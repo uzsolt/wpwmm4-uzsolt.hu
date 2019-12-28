@@ -1,7 +1,9 @@
 $rowcol1:#b9dfdf;
 $rowcol2:#50afaf;
-$headcol:#408c8c;
+$headbg:#204646;
+$headcol:#eee;
 $rowcolh:#dcefef;
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -11,25 +13,29 @@ table {
 }
 
 th {
-  background-color:#204646;
-  color:white;
+  background-color:$headbg;
+  color:$headcol;
 }
 
 td {
   text-align:center;
 }
 
-tr:nth-child(even) {
-  background-color:$rowcol1;
-  table tr>* {
+tr {
+
+  &:nth-child(even) {
     background-color:$rowcol1;
+    table tr>* {
+      background-color:$rowcol1;
+    }
   }
-}
-tr:nth-child(odd) {
-  background-color:$rowcol2;
-  table tr>* {
+  &:nth-child(odd) {
     background-color:$rowcol2;
+    table tr>* {
+      background-color:$rowcol2;
+    }
   }
+
 }
 
 .besorolas {
@@ -51,41 +57,50 @@ table caption {
 .dtable {
   display:table;
 }
+
 .dheading {
   display:table-row;
   font-weight:bold;
   text-align:center;
-  background:$headcol;
-  color:#eee;
+  background:$headbg;
+  color:$headcol;
+
+  .dcell {
+    border-bottom:1px solid black;
+  }
 }
-.dheading .dcell {
-  border-bottom:1px solid black;
-}
+
 .drow {
   display:table-row;
+
+  &:nth-child(even) {
+    background-color:$rowcol1;
+  }
+  &:nth-child(odd) {
+    background-color:$rowcol2;
+  }
+  &:hover {
+    background-color:$rowcolh;
+  }
+
+  .dcell {
+    padding: 1em 1em 1em;
+  }
 }
-.drow:nth-child(even) {
-  background-color:$rowcol1;
-}
-.drow:nth-child(odd) {
-  background-color:$rowcol2;
-}
-.drow:hover{
-  background-color:$rowcolh;
-}
-.drow .dcell {
-  padding: 1em 1em 1em;
-}
+
 .dcell {
   display:table-cell;
 }
+
 .folder {
   background-image:url('http://uzsolt.hu/static/pict/icons/folder.png');
   background-repeat:no-repeat;
+
   a {
     padding-left:24px;
     color:#102323;
     text-decoration:underline;
     font-weight:bold;
   }
+
 }
