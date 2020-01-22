@@ -4,10 +4,24 @@
 
 BASEURL=`echo "$1" | sed "s,edu,/static/stuff,"`
 process() {
-  printf '<a href="%s"><div class="art_stuff">\n' "${BASEURL}/${url}"
-  printf '\t<div class="pdf_icon"></div>\n'
-  printf '\t<div class="art_stuff_descr"><div class="art_author">%s</div><div class="art_title">%s</div></div>\n' "${author}" "${title}"
-  printf '</div></a>\n'
+  date=$(echo ${url} | sed "s,\(..\)\(..\).*,\1/\2,")
+  printf "\
+    <div class='drow'>
+      <div class='dcell'>%s</div>
+      <div class='dcell art_author'>%s</div>
+      <div class='dcell art_title'><a href='${BASEURL}/%s'>%s</a></div>
+    </div>\n" "${date}" "${author}" "${url}" "${title}"
 }
 
+cat << EOF
+<div class=dtable>
+  <div class=dheading>
+    <div class=dcell>szám</div>
+    <div class=dcell>szerző(k)</div>
+    <div class=dcell>cím</div>
+  </div>
+EOF
+
 cat data/$1.psv | read_data_stdin process url author title
+
+printf '</div>\n'
