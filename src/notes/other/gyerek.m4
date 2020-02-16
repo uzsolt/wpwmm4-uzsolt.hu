@@ -18,7 +18,14 @@ _UL(`területileg illetékes védőnő felkeresése, amikor már biztos a terhes
   `_UL(
     `24-28. héten',
     `75g cukrot gyógyszertárban kell vásárolni',
-    `a terhelés után 7,8 fölé nem mehet az érték'
+    `a terhelés után 7,8 fölé nem mehet az érték',
+    `ha magasabb, akkor'
+    _UL(
+      `belgyógyászat vagy diabetológia felkeresendő',
+      `valószínűleg vércukormérőt kap',
+      `diétát kell tartani, napi 150 gramm szénhidrát (öt étkezés, étkezésenként 30+20+50+20+30 gramm)',
+      ``_HREF(`https://www.vitalkonyha.hu/',`VitálKonyha') kiszámolt szénhidrátokkal, elfogadható árban/minőségben szállít házhoz ételt''
+    )
   )'
 )
 <h3>Pénzbeli támogatások</h3>
