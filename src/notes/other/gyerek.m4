@@ -43,6 +43,14 @@ _UL(
             
         )'
     )',
+  _HREF(`https://cst.tcs.allamkincstar.gov.hu/ell%C3%A1t%C3%A1sok/anyas%C3%A1gi-t%C3%A1mogat%C3%A1s.html',`anyasági támogatás')
+  _UL(
+    ``legalább négy alkalommal terhesgondozáson vett részt (védőnő igazolást ad)'',
+    ``egyszeri összeg (tehát nem rendszeres)'',
+    ``öregségi nyugdíj legkisebb összegének 225%-a (2020-ban 64125 Ft)'',
+    ``elektronikusan is beadható az _HREF(`https://eugyfel.allamkincstar.gov.hu/',`Államkincstárnál')
+      (_HREF(`https://ugyfelkapu.magyarorszag.hu/',`ügyfélkapus azonosítóval'))''
+  ),
   _HREF(`https://egbiztpenzbeli.tcs.allamkincstar.gov.hu/ell%c3%a1t%c3%a1sok/gyermekv%c3%a1llal%c3%a1s-t%c3%a1mogat%c3%a1sa/csecsem%c5%91gondoz%c3%a1si-d%c3%adj.html',`csecsemőgondozási díj (CSED)')
   _UL(
     ``jogosult, aki a szülést megelező két évben legalább 365 napot
@@ -51,6 +59,12 @@ _UL(
     `a munkáltatónál kell leadni az igényt',
     `168 napig jár',
     `összege (leegyszerűsítve) a kereset 70%-a'
+  ),
+  _HREF(`https://cst.tcs.allamkincstar.gov.hu/ell%C3%A1t%C3%A1sok/csal%C3%A1dip%C3%B3tl%C3%A9k.html',`családi pótlék')
+  _UL(
+    ``alanyi jogon jár a gyerek 20. éves koráig (amennyiben köznevelési intézményben tanul)'',
+    ``elektronikusan is beadható az _HREF(`https://eugyfel.allamkincstar.gov.hu/',`Államkincstárnál')
+      (_HREF(`https://ugyfelkapu.magyarorszag.hu/',`ügyfélkapus azonosítóval'))''
   ),
   `_HREF(`https://egbiztpenzbeli.tcs.allamkincstar.gov.hu/ell%C3%A1t%C3%A1sok/gyermekv%C3%A1llal%C3%A1s-t%C3%A1mogat%C3%A1sa/gyermekgondoz%C3%A1si-d%C3%ADj.html',`gyermekgondozási díj (GYED)')'
   `_UL(
