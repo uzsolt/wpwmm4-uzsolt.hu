@@ -1,8 +1,8 @@
 #!/bin/sh
 
-ilalapk=$1
-ilalapb=$2
-ilalapm=$3
+export ilalapk="${1}"
+export ilalapb="${2}"
+export ilalapm="${3}"
 
 # $1 - elnevezés
 # $2 - minimum százalék
@@ -24,13 +24,13 @@ potleksor() {
     </table></td>
   </tr>" "$1" \
     "$2" \
-    $(($2*ilalapk/100))\
-    $(($2*ilalapb/100))\
-    $(($2*ilalapm/100))\
+    "$(bc -e "${2}*${ilalapk}/100" -e "quit")" \
+    "$(bc -e "${2}*${ilalapb}/100" -e "quit")" \
+    "$(bc -e "${2}*${ilalapm}/100" -e "quit")" \
     "$3" \
-    $(($3*ilalapk/100))\
-    $(($3*ilalapb/100))\
-    $(($3*ilalapm/100))
+    "$(bc -e "${3}*${ilalapk}/100" -e "quit")" \
+    "$(bc -e "${3}*${ilalapb}/100" -e "quit")" \
+    "$(bc -e "${3}*${ilalapm}/100" -e "quit")"
 }
 
 potleksor "intézményvezetői" "40" "80"

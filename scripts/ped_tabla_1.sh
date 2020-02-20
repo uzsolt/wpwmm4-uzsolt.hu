@@ -30,7 +30,7 @@ illalapm=$3
 # $3 - kat
 getsz() {
   if [ $3 -ge $1 ]; then
-    echo $(($2+($3-$1)*5))
+    bc -e "$2+($3-$1)*5" -e "quit"
   else
     echo
   fi
@@ -47,9 +47,9 @@ getasz() {
 getsubtable() {
   local PERCENT=$1
   if [ -n "${PERCENT}" ]; then
-    local PARA="$((illalapk*PERCENT/100))"
-    local PARB="$((illalapb*PERCENT/100))"
-    local PARC="$((illalapm*PERCENT/100))"
+    local PARA=$(bc -e "${illalapk}*${PERCENT}/100" -e "quit" )
+    local PARB="$(bc -e "${illalapb}*${PERCENT}/100" -e "quit" )"
+    local PARC="$(bc -e "${illalapm}*${PERCENT}/100" -e "quit" )"
     printf "
       <table>
         <tr><td class='percent'>%s%%</td></tr>
