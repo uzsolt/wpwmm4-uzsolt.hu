@@ -6,9 +6,15 @@ m4_define(`_vetalaptvpar',`62')m4_dnl
 m4_define(`_szazkozep',`119.6')m4_dnl
 m4_define(`_szazbsc',`174.5')m4_dnl
 m4_define(`_szazmsc',`193.2')m4_dnl
+m4_define(`_szazkozep2',`120')m4_dnl
+m4_define(`_szazbsc2',`180')m4_dnl
+m4_define(`_szazmsc2',`200')m4_dnl
 m4_define(`_ilalapkozep',m4_esyscmd(bc -e "print _vetalap*_szazkozep/100" -e "quit"))m4_dnl
 m4_define(`_ilalapbsc',`m4_esyscmd(bc -e "print _vetalap*_szazbsc/100" -e "quit")')m4_dnl
 m4_define(`_ilalapmsc',`m4_esyscmd(bc -e "print _vetalap*_szazmsc/100" -e "quit")')m4_dnl
+m4_define(`_ilalapkozep2',m4_esyscmd(bc -e "print _vetalap*_szazkozep2/100" -e "quit"))m4_dnl
+m4_define(`_ilalapbsc2',`m4_esyscmd(bc -e "print _vetalap*_szazbsc2/100" -e "quit")')m4_dnl
+m4_define(`_ilalapmsc2',`m4_esyscmd(bc -e "print _vetalap*_szazmsc2/100" -e "quit")')m4_dnl
 m4_dnl A kategóriák 3 évenként ugranak
 m4_dnl A fizetési százalékok kategóriánként 5 százalékot, kivéve Ped 1., 2->3. kategória, ott 10%
 m4_define(`pedakat',`2')m4_define(`pedasz',`120')m4_dnl
@@ -25,7 +31,12 @@ _vetalap Ft.</p>
 _UL(`középfokú végzettség esetén _szazkozep%, azaz _ilalapkozep Ft',
 `alapfokozat (BSc) esetén _szazbsc%, azaz _ilalapbsc Ft',
 `mesterfokozat (MSc) esetén _szazmsc%, azaz _ilalapmsc Ft')
-<p><em>Megjegyzés: a 65. § (2) magasabb százalékokat ír, értelmezésem szerint az (1) bekezdés alapján (sajnos) az (1a) az érvényes.</em></p>
+<p><em>Megjegyzés: a 65. § (2) magasabb százalékokat ír, értelmezésem szerint az (1) bekezdés alapján (sajnos) az (1a) az érvényes.</em>
+Több intézményben a (2) szerint határozzák meg a fizetést, ez szerint az <em>illetményalap</em>
+_UL(`középfokú végzettség esetén _szazkozep2%, azaz _ilalapkozep2 Ft',
+`alapfokozat (BSc) esetén _szazbsc2%, azaz _ilalapbsc2 Ft',
+`mesterfokozat (MSc) esetén _szazmsc2%, azaz _ilalapmsc2 Ft')
+</p>
 <p>A pótlékok (osztályfőnöki, munkaközösség-vezetői, intézményvezetői, stb.)
 a <em>Köznevelési törvény</em> 8. mellékletében vannak felsorolva.</p>
 <p>A pótlékok törvényben meghatározott minimális és maximális mértéke
@@ -35,7 +46,7 @@ a fizetési kategória vagy minősülés után, csak végzettség emelkedésekor
 a második-harmadik-negyedik sorok rendre a középfokú, BSc, MSc végzettség
 esetén a pótlék összege.
 <table class="bertabla">
-<caption>Pótlékok táblázata.
+<caption>Pótlékok táblázata az (1a) bekezdés adataival.
 <br/>Forrás: hivatkozott törvények, saját számítások.
 <br/>m4_esyscmd(`date +"%Y. %B %d."')
 </caption>
@@ -45,6 +56,19 @@ esetén a pótlék összege.
   <th>Pótlék felső határa</th>
 </tr>
 m4_esyscmd(`scripts/ped_tabla_0.sh' _ilalapkozep _ilalapbsc _ilalapmsc)
+</table>
+<hr/>
+<table class="bertabla">
+<caption>Pótlékok táblázata a (2) bekezdés adataival.
+<br/>Forrás: hivatkozott törvények, saját számítások.
+<br/>m4_esyscmd(`date +"%Y. %B %d."')
+</caption>
+<tr>
+  <th>Pótlék megnevezése</th>
+  <th>Pótlék alsó határa</th>
+  <th>Pótlék felső határa</th>
+</tr>
+m4_esyscmd(`scripts/ped_tabla_0.sh' _ilalapkozep2 _ilalapbsc2 _ilalapmsc2)
 </table>
 
 <h3>Bértábla</h3>
@@ -61,7 +85,7 @@ esetén a bér (azaz a megfelelő illetményalap megadott százaléka).</p>
 besorolás) az illetményalap 100%-a a bér.</p>
 
 <table class="bertabla">
-<caption>Pedagógus bértábla.<br/>
+<caption>Pedagógus bértábla az (1a) bekezdés adataival.<br/>
 Forrás: hivatkozott törvények, saját számítás.
 <br/>m4_esyscmd(`date +"%Y. %B %d."')
 </caption>
@@ -75,6 +99,24 @@ Forrás: hivatkozott törvények, saját számítás.
 </tr>
 <tbody>
 m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz peddkat peddsz pedevmax _ilalapkozep _ilalapbsc _ilalapmsc)
+</tbody>
+</table>
+<hr/>
+<table class="bertabla">
+<caption>Pedagógus bértábla a (2) bekezdés adataival.<br/>
+Forrás: hivatkozott törvények, saját számítás.
+<br/>m4_esyscmd(`date +"%Y. %B %d."')
+</caption>
+<tr>
+  <th class="kateg">Kategória</th>
+  <th class="kateg">Év</th>
+  <th class="besorolas">Pedagógus I.</th>
+  <th class="besorolas">Pedagógus II.</th>
+  <th class="besorolas">Mesterpedagógus</th>
+  <th class="besorolas">Kutatótanár</th>
+</tr>
+<tbody>
+m4_esyscmd(scripts/ped_tabla_1.sh pedakat pedasz pedbkat pedbsz pedckat pedcsz peddkat peddsz pedevmax _ilalapkozep2 _ilalapbsc2 _ilalapmsc2)
 </tbody>
 </table>
 
