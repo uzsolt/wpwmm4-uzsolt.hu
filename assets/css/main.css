@@ -82,3 +82,16 @@ blockquote {
 q {
   font-style: italic;
 }
+
+#kerdesek {
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-style: bold;
+  text-align: center;
+  font-size: large;
+  background-color: $selectedbg1;
+  a {
+    color: $menubg;
+  }
+}
