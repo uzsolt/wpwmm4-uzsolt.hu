@@ -1,10 +1,14 @@
 # Where the sources (m4) are.
 SRC_DIR=src/
 
+SVN!=	which svn || which svnlite
+
 # Destination directory
 DEST_DIR=/usr/local/www/uzsolt/
 COMMON_DIR=/home/zsolt/svn/wpwmm4/
-.ifdef WIP
+BRANCH!=	${SVN} info --show-item relative-url | sed 's,.*/,,'
+.if ${BRANCH} != trunk
+.info "Branch - use WIP"
 include wip.mk
 .endif
 # Where the layouts are.
