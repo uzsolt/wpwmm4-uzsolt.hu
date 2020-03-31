@@ -9,7 +9,7 @@ _DIVE
 _DIVB(`div_about')
   <h3>Rendszerinformáció</h3>
   <p>Az oldal egy _HREF(`https://hu.wikipedia.org/wiki/Virtu%C3%A1lis_dedik%C3%A1lt_szerver',`VPS')-en fut. 
-  A használt operációs rendszer _HREF(`http://www.freebsd.org/',`FreeBSD') 11.2.</p>
+  A használt operációs rendszer _HREF(`http://www.freebsd.org/',`FreeBSD') 12.1.</p>
   
   <p>Webszerverként _HREF(`http://nginx.com/',`nginx') fut.</p>
   
