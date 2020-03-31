@@ -3,13 +3,13 @@ SRC_DIR=src/
 
 SVN!=	which svn || which svnlite
 
-# Destination directory
-DEST_DIR=/usr/local/www/uzsolt/
 COMMON_DIR=/home/zsolt/svn/wpwmm4/
 BRANCH!=	${SVN} info --show-item relative-url | sed 's,.*/,,'
-.if ${BRANCH} != trunk
-.info "Branch - use WIP"
-include wip.mk
+# Destination directory
+.if ${BRANCH} == trunk
+DEST_DIR=/usr/local/www/uzsolt/
+.else
+DEST_DIR=/usr/local/www/wip/
 .endif
 # Where the layouts are.
 LAYOUT_DIR=layout/
