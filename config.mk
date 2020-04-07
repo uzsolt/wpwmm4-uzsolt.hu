@@ -20,6 +20,8 @@ VIRT_DIR=virtual/
 HOOK_POST_HTML=${MSG2} Checking validity ; tidy5 -q -e -f /dev/stdout ${.TARGET} | sed '/About/,$$d ; s,^,     ,'
 HOOK_POST_VHTML=${HOOK_POST_HTML}
 
+ASSETS_DIR+=	parts/
+
 # Targets in ${DEST_DIR}
 .include "mk/about.mk"
 .include "mk/edumath_stat.mk"
