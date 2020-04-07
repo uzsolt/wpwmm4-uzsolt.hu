@@ -28,7 +28,7 @@ done
 
 printf '  <div class="imgview">\n'
 printf '    <div class="imgdesc">%s</div>\n' "${curr_descr}"
-printf '    <a href="%s"><img src="%s" alt="%s" class="imgviewed"/></a>\n' "/static/$1/${curr_fn}" "/static/$1/${curr_fn}" "${curr_descr}"
+printf '    <a href="%s"><img src="%s" alt="%s" class="imgviewed"/></a>\n' "_STUFFURL/$1/${curr_fn}" "_STUFFURL/$1/${curr_fn}" "${curr_descr}"
 
 printf '  <div class="imgnav">\n'
   [ -n "${prev_fn}" ] && a_img "${prev_fn}.html" "/icons/go-previous.png" "Előző"

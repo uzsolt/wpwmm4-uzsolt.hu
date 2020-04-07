@@ -19,5 +19,5 @@ process() {
 }
 
 create_header $@
-DIR=`echo ${1}/${2} | sed "s,/[^/]*,/static/stuff,"`
+DIR=`echo _STUFFURL/${1}/${2}`
 read_data data/${DIRECTORY}/${FILE}.psv process title files

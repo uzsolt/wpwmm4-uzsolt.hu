@@ -27,3 +27,6 @@ m4_define(_own_pdf,
 m4_define(_include_menu,`m4_include(menu/_DIRECTORY/menu.gen)')
 
 m4_define(_filename,`<span class="filename">$1</span>')
+
+m4_define(_STUFFURL,`http://stuff.uzsolt.hu')
+m4_define(_PICTURL,_STUFFURL`/pict')

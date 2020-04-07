@@ -2,7 +2,7 @@
 
 . scripts/functions
 
-BASEURL=`echo "$1" | sed "s,edu,/static/stuff,"`
+BASEURL=`echo "_STUFFURL/$1"`
 process() {
   date=$(echo ${url} | sed "s,\(..\)\(..\).*,\1/\2,")
   printf "\

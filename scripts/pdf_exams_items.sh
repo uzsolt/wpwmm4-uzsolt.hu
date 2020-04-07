@@ -3,7 +3,7 @@
 . scripts/functions
 . scripts/functions-pdf_exams_items
 
-DIR=`echo ${1}/${2} | sed "s,/[^/]*,/static/stuff,"`
+DIR=`echo _STUFFURL/${1}/${2}`
 process() {
   echo "_own_pdf(\`${txt}',\`${DIR}/${path}',\`${tooltip}')"
 }

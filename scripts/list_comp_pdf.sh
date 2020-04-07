@@ -24,6 +24,6 @@ else
   AWKSTR="{print \$0}"
 fi
 
-DIR=`echo ${1} | sed "s,[^/]*,/static/stuff,"`
+DIR=`echo _STUFFURL/${1}`
 IFS="|"
 cat data/$1.psv | awk -F "${IFS}" "${AWKSTR}" | read_data_stdin process tanev evf descr path

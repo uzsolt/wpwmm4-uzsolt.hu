@@ -9,7 +9,7 @@ process() {
   printf '    <a href="%s"><img class="thumbsprite-%s" src="%s" alt="%s"/></a>\n' \
     "${pict}.html" \
     "${NR}" \
-    "/static/${DIR}/thumbsprite.jpg" \
+    "_STUFFURL/${DIR}/thumbsprite.jpg" \
     "${descr}"
   printf '    <div class="thumb_desc">%s</div>\n' "${descr}"
   printf '  </div>\n'
