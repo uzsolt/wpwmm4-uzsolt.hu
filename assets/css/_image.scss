@@ -6,6 +6,7 @@ Image-specific colors
 $ThumbBG:$MenuBG;
 $ThumbDescBG:$MenuitemBG;
 $ThumbDescFG:$MenuitemFG;
+$ThumbBorder:$MenuBorder;
 
 /***************************
 Styles
@@ -18,7 +19,7 @@ Styles
   width:120px;
   height:120px;
   text-align:center;
-  border:1px solid #119900;
+  border:1px solid $ThumbBorder;
   border-radius:5px;
   padding:5px;
   margin:5px;
