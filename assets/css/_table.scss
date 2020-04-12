@@ -1,8 +1,18 @@
-$rowcol1:#b9dfdf;
-$rowcol2:#50afaf;
-$headbg:#204646;
-$headcol:#eee;
-$rowcolh:#dcefef;
+/* Table-specific settings */
+
+/***************************
+Table-specific colors
+***************************/
+$HeadBG:darken($MenuBG,40%);
+$HeadFG:#eee;
+$RowBG1:$MenuitemSelectedBG1;
+$RowBG2:$MenuitemSelectedBG2;
+$RowFG:black;
+$RowHoverBG:$MenuHoverBG;
+
+/***************************
+Styles
+***************************/
 
 table {
   margin-left: auto;
@@ -13,8 +23,8 @@ table {
 }
 
 th {
-  background-color:$headbg;
-  color:$headcol;
+  background-color:$HeadBG;
+  color:$HeadFG;
 }
 
 td {
@@ -23,16 +33,17 @@ td {
 
 tr {
 
+  color:$RowFG;
   &:nth-child(even) {
-    background-color:$rowcol1;
+    background-color:$RowBG1;
     table tr>* {
-      background-color:$rowcol1;
+      background-color:$RowBG1;
     }
   }
   &:nth-child(odd) {
-    background-color:$rowcol2;
+    background-color:$RowBG2;
     table tr>* {
-      background-color:$rowcol2;
+      background-color:$RowBG2;
     }
   }
 
@@ -62,8 +73,8 @@ table caption {
   display:table-row;
   font-weight:bold;
   text-align:center;
-  background:$headbg;
-  color:$headcol;
+  background:$HeadBG;
+  color:$HeadFG;
 
   .dcell {
     border-bottom:1px solid black;
@@ -74,13 +85,13 @@ table caption {
   display:table-row;
 
   &:nth-child(even) {
-    background-color:$rowcol1;
+    background-color:$RowBG1;
   }
   &:nth-child(odd) {
-    background-color:$rowcol2;
+    background-color:$RowBG2;
   }
   &:hover {
-    background-color:$rowcolh;
+    background-color:$RowHoverBG;
   }
 
   .dcell {

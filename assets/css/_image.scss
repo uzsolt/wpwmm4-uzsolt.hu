@@ -1,6 +1,18 @@
 /* Image thumb settings */
+
+/***************************
+Image-specific colors
+***************************/
+$ThumbBG:$MenuBG;
+$ThumbDescBG:$MenuitemBG;
+$ThumbDescFG:$MenuitemFG;
+
+/***************************
+Styles
+***************************/
+
 .thumb{
-  background-color:#73bf9f;
+  background-color:$ThumbBG;
   display: inline-block;
   float:left;
   width:120px;
@@ -14,9 +26,10 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 }
+
 .thumb_desc {
-  background-color:#306951;
-  color:#ffffff;
+  background-color:$ThumbDescBG;
+  color:$ThumbDescFG;
   font-family:arial;
   font-size:12px;
   width:95%;

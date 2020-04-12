@@ -1,54 +1,70 @@
 /* Menu-specific settings */
 
-$menubg:#dcefe7;
-$selectedbg1:#489d9d;
-$selectedbg2:#183429;
+/***************************
+Menu-specific colors
+***************************/
+$MenuBG:#e6dfcb;
+$MenuHoverBG:#b49e64;
+$MenuitemBG:#eee9dd;
+$MenuitemFG:#4d3200;
+$MenuBorder:#8a7742;
+$MenuSelectedBorder:#564a29;
+$MenuitemSelectedFG:black;
+$MenuitemSelectedBG1:#ded4ba;
+$MenuitemSelectedBG2:#c5b387;
 
-a #menu_header {
-  display:block;
-  background: radial-gradient($selectedbg1,$menubg);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border-radius:  5px;
-  width: 99%;
-  margin:auto;
-  padding-top:1pt;
-  padding-bottom:1pt;
-  margin-bottom:3px;
-  h2 {
-    text-align:center;
-    text-decoration:none;
-    color: black;
-  }
+/***************************
+Menu-specific sizes
+***************************/
+$MenuFontSize:105%;
+$MenuFontSelectedSpacing:2px;
+$MenuFontSelectedSize:1.2*$MenuFontSize;
+$MenuBorderRadius:2px;
+$MenuBorderSelectedRadius:1.5*$MenuBorderRadius;
+
+/***************************
+Inheritences
+***************************/
+%menufont {
+  color:$MenuitemFG;
+  font-family:arial;
+  font-size:$MenuFontSize;
+  font-weight:bold;
+  text-decoration:none;
+  text-align:center;
 }
 
-#menu {
-  position:absolute;
-  height:100%;
-  width:$menusize;
-  background: radial-gradient(#50afaf,#306969);
-  display: inline-block;
-  padding:0;
-  margin:0;
-  overflow-y:auto;
+%menuborder {
+  border:$MenuBorderRadius solid $MenuBorder;
+  border-radius:10px;
+}
+
+%menuborderselected {
+  border:$MenuBorderSelectedRadius solid $MenuSelectedBorder;
+  border-radius:20px;
+}
+
+%menufontselected {
+  @extend %menufont;
+  color:$MenuitemSelectedFG;
+  letter-spacing:$MenuFontSelectedSpacing;
+  font-size:$MenuFontSelectedSize;
 }
 
 %menubase {
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  font-family:arial;
-  font-size:14px;
-  text-decoration:none;
-  text-align:center;
+  @extend %menufont;
+  @extend %menuborder;
+  word-wrap: break-word;
   margin-bottom:5px;
   padding-top:  5px;
   padding-bottom: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color:$menubg;
+  background-color:$MenuitemBG;
 }
 
 %menuhover {
   &:hover {
-    background-color:#1d7652;
+    background-color:$MenuHoverBG;
     text-align:center;
     text-indent:10px;
   }
@@ -58,71 +74,88 @@ a #menu_header {
   }
 }
 
-%menuhref {
-  text-decoration:none;
+%divmenu {
+  @extend %menuborder;
+  padding-left: 5px;
+  background-color: $MenuitemSelectedBG2;
 }
 
-.menu_text {
-  width:100%;
+/***************************
+Styles
+***************************/
+
+a #menu_header {
+  display:block;
+  background: $MenuBG;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:99%;
+  margin:auto;
+  padding-top:1pt;
+  padding-bottom:1pt;
+  margin-bottom:3px;
+  h2 {
+    text-align:center;
+    text-decoration:none;
+    color:black;
+  }
+}
+
+#menu {
+  position:absolute;
+  height:100%;
+  width:$menusize;
+  background:$MenuBG;
+  display:inline-block;
+  padding:0;
+  margin:0;
+  overflow-y:auto;
 }
 
 .menu {
   @extend %menubase;
   @extend %menuhover;
-  background:linear-gradient($menubg,#5eb792);
-  border-radius:10px;
-  border:1px solid #3d9672;
   .menu_href {
-    @extend %menuhref;
-    color:#102323;
+    @extend %menufont;
   }
 }
 
 .selected {
   @extend %menubase;
-  background:linear-gradient($selectedbg1,$selectedbg2);
-  border-radius:20px;
-  border:1px solid #b30000;
+  @extend %menuborderselected;
+  background:linear-gradient($MenuitemSelectedBG1,$MenuitemSelectedBG2);
   padding:10px 10px;
   .menu_href {
-    @extend %menuhref;
-    color:#eef7f7;
+    text-decoration:none;
   }
+}
+
+.selected > .menu_href > .menu_text {
+  @extend %menufontselected;
 }
 
 .submenu {
   @extend %menubase;
   @extend %menuhover;
-  background:linear-gradient($menubg,#5eb792);
-  border-radius:6px;
-  border:1px solid #8888ff;
   cursor:pointer;
-  .menu_href {
-    @extend %menuhref;
-    color:#000000;
+  .menu_text {
+    @extend %menufont;
   }
 }
 
-%divmenu {
-  border:2px solid;
-  border-radius:10px;
-  padding-left: 5px;
-  background-color: #b9dfdf;
-}
 
 .div_menu {
   @extend %divmenu;
-  min-height: 30px;
+  min-height:30px;
   width:95%;
   height:auto;
-  text-align: center;
-  margin: auto;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align:center;
+  margin:auto;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .div_submenu {
   @extend %divmenu;
-  padding-top: 2px;
-  min-height: 30px;
+  padding-top:2px;
+  min-height:30px;
   width:93%;
 }

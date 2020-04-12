@@ -1,25 +1,27 @@
 $menusize:30%;
+$ContentBG:#eee9dd;
+$ContentBorderColor:#564929;
+$LinkColor:#78673a;
+
 /* General settings */
 html,body {
   position:relative;
   height:100%;
   padding:0;
   margin:0;
-  background-color:#dcefe7;
+  background-color:$ContentBG;
   overflow-y: hidden;
 }
-h1 {
-  text-shadow: 0px 1px 2px #4da682;
-}
 
-@import 'image';
 @import 'menu';
+@import 'image';
 @import 'stuff';
 @import 'syntax';
 @import 'table';
 @import 'responsive';
 
 $rsspngsize:32px;
+
 .rss {
   position: absolute;
   top: $rsspngsize;
@@ -36,9 +38,13 @@ $rsspngsize:32px;
   color: black;
   text-decoration: underline;
 }
+
 a {
   position: relative;
   outline: 0;
+  text-decoration: none;
+  font-weight:600;
+  color:$LinkColor;
 }
 
 /* Content */
@@ -47,15 +53,17 @@ $content-border-width:7%;
   position:relative;
   padding-left:6px;
   left:$menusize;
-  background-color:#cbe7db;
+  background-color:$ContentBG;
   display: inline-block;
   width:100% - $menusize - 1%;
   height:99%;
   min-height:99%;
   overflow:auto;
   border-left-style: solid;
-  border-color: #dcefef;
+  border-color: $ContentBorderColor;
   border-width: $content-border-width;
+  line-height:1.5;
+  color:black;
 }
 .highlight { background-color:#dddddd; }
 
@@ -90,8 +98,5 @@ q {
   font-style: bold;
   text-align: center;
   font-size: large;
-  background-color: $selectedbg1;
-  a {
-    color: $menubg;
-  }
+  background-color: $MenuitemSelectedBG1;
 }
