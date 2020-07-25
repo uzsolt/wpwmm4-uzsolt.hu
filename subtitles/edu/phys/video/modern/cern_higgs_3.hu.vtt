@@ -1,0 +1,829 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:11.080 --> 00:00:15.018
+Az előző részt azzal fejeztük be,
+hogy ha egy adott tömegű részecske
+
+00:00:15.138 --> 00:00:16.864
+elbomlik két fotonra,
+
+00:00:16.984 --> 00:00:20.683
+akkor ki tudjuk számolni ezt a tömeget,
+ha megmérjük a fotonok tulajdonságait.
+
+00:00:20.803 --> 00:00:24.843
+Ez egyébként igaz minden olyan részecskére
+történő bomlásra, amit pontosan meg tudunk mérni.
+
+00:00:24.963 --> 00:00:28.387
+Például, ha a Higgs-bozon
+két Z-bozonra bomlik,
+
+00:00:28.507 --> 00:00:31.452
+és az egyik Z-bozon két müonra,
+a másik két elektronra bomlik,
+
+00:00:31.572 --> 00:00:34.082
+akkor két müon és két elektron 
+lesz a végállapotban,
+
+00:00:34.202 --> 00:00:37.112
+és újra lehetséges lesz
+a Higgs tömegének kiszámítása
+
+00:00:37.232 --> 00:00:40.125
+ennek a négy részecskének 
+az energiájából és impulzusából.
+
+00:00:40.245 --> 00:00:44.615
+De maradjunk a foton-párok példájánál,
+és beszéljünk a következő kérdésről:
+
+00:00:44.735 --> 00:00:48.547
+mi van akkor, ha a két foton 
+nem a Higgs-bozon bomlásából jön?
+
+00:00:48.667 --> 00:00:52.206
+És mi van, ha egyáltalán nem egy
+másik részecske bomlásából jönnek?
+
+00:00:52.326 --> 00:00:54.790
+Ez akkor csak két teljesen független foton,
+
+00:00:54.910 --> 00:00:57.288
+amely valahol az ütközés során keletkezett.
+
+00:00:57.408 --> 00:01:01.732
+Amikor érzékeljük őket, nem látjuk az 
+előzményeket, tehát ezt nem fogjuk tudni.
+
+00:01:01.852 --> 00:01:04.813
+De akkor mi lesz az értelme a
+tömegnek, amit kiszámolunk?
+
+00:01:04.933 --> 00:01:09.474
+Nos, két ilyen független foton esetén
+ez tulajdonképpen egy véletlen szám lesz,
+
+00:01:09.594 --> 00:01:11.210
+világos fizikai jelentés nélkül.
+
+00:01:11.330 --> 00:01:13.363
+Tehát alapvetően ez a helyzet:
+
+00:01:13.483 --> 00:01:16.753
+látunk két fotont, kiszámoljuk
+a rendszer invariáns tömegét,
+
+00:01:16.873 --> 00:01:19.330
+és lényegében két lehetőség van:
+
+00:01:19.450 --> 00:01:24.111
+a fotonok vagy egy részecske 
+(pl. Higgs-bozon) bomlásából jönnek,
+
+00:01:24.231 --> 00:01:27.381
+és akkor a tömeg, amit kiszámoltunk,
+az annak a részecskének a tömege,
+
+00:01:27.501 --> 00:01:31.689
+vagy nem bomlásból jönnek,
+és a tömeg egy véletlen szám.
+
+00:01:31.879 --> 00:01:35.793
+Na most, ha csak egyetlen fotonpárt látunk,
+akkor lehetetlen különbséget tenni
+
+00:01:35.913 --> 00:01:37.123
+a fenti két eset között.
+
+00:01:37.243 --> 00:01:39.214
+De ha a kísérletet sokszor elvégezzük,
+
+00:01:39.334 --> 00:01:42.169
+akkor a véletlen szám és a konkrét
+rögzített számérték közötti különbség
+
+00:01:42.289 --> 00:01:44.007
+kisvártatva megmutatkozik majd.
+
+00:01:44.127 --> 00:01:46.378
+Most világítsuk meg ezt egy rövid mesével!
+
+00:01:46.498 --> 00:01:47.837
+Ehhez el kell utaznunk
+
+00:01:47.957 --> 00:01:49.581
+a Svájci Alpok szívébe,
+
+00:01:49.701 --> 00:01:51.777
+ahol mélyen a dús alpesi erdőben
+
+00:01:51.897 --> 00:01:54.232
+megtalálhatjuk egy különleges teremtmény lakhelyét.
+
+00:01:54.352 --> 00:01:55.858
+Nézzük meg!
+
+00:01:58.142 --> 00:02:00.865
+Ami úgy tűnik, mint egy fa alatti, szokásos lyuk,
+
+00:02:00.985 --> 00:02:03.528
+valójában egy alagúthálózat bejárata,
+
+00:02:03.648 --> 00:02:05.561
+amelyben egy nyúl lakik.
+
+00:02:05.681 --> 00:02:07.107
+Ez nem egy mindennapi nyúl,
+
+00:02:07.227 --> 00:02:09.749
+hanem egy fehér nyúl, aki 
+régebben egy kaszinóban élt,
+
+00:02:09.869 --> 00:02:13.716
+de ki kellett költöznie, amikor a kaszinót 
+lebontották egy épülő bevásárlóközpont miatt.
+
+00:02:13.836 --> 00:02:17.651
+Rendben, mostanra valószínűleg 
+eltűnődsz, hogy mi is történt itt?
+
+00:02:17.771 --> 00:02:22.320
+Részecskefizikáról néztél egy videót, 
+és hirtelen - ez lett?
+
+00:02:22.440 --> 00:02:25.336
+Szerencsejátékos varázsnyulak az erdőben?
+
+00:02:25.456 --> 00:02:29.834
+Nos, biztosítalak arról, hogy ez még 
+mindig a részecskefizikáról szóló videó.
+
+00:02:29.954 --> 00:02:33.662
+Ez a mese csak egy fontos 
+dolgot megvilágító hasonlat.
+
+00:02:34.100 --> 00:02:35.559
+Szóval ne veszítsd el a fonalat!
+
+00:02:35.971 --> 00:02:37.293
+A legenda szerint
+
+00:02:37.413 --> 00:02:41.267
+annak idején a kaszinóban a nyúl
+szerette nézni az embereket kockázni,
+
+00:02:41.387 --> 00:02:43.200
+és annak örült a legjobban,
+
+00:02:43.320 --> 00:02:45.320
+amikor a kockadobás eredménye
+
+00:02:45.440 --> 00:02:46.753
+"négy" volt.
+
+00:02:46.968 --> 00:02:49.869
+És mind a mai napig, amikor 
+a nyúl talál egy dobókockát,
+
+00:02:50.281 --> 00:02:54.284
+akkor mindig úgy fordítja, hogy 
+a 4-es szám legyen fölfelé.
+
+00:02:57.761 --> 00:03:00.849
+Na most, ez a nyúl állítólag nagyon, nagyon félénk,
+
+00:03:00.969 --> 00:03:03.289
+olyannyira, hogy még soha senki nem látta,
+
+00:03:03.409 --> 00:03:05.449
+és az egyetlen módja, hogy 
+megtudjuk, hogy itt van-e,
+
+00:03:05.569 --> 00:03:07.748
+ha kockát dobunk a lyukba,
+
+00:03:07.868 --> 00:03:09.995
+és visszajövünk néhány óra, 
+vagy egy nap múlva,
+
+00:03:10.115 --> 00:03:11.952
+és ellenőrizzük az eredményt.
+
+00:03:12.072 --> 00:03:16.007
+Ha a nyúl erre járt, akkor ez 
+biztosan az ő kedvenc száma lesz.
+
+00:03:16.127 --> 00:03:17.793
+Próbáljuk meg!
+
+00:03:19.415 --> 00:03:21.630
+Rendben, nézzük meg mit kaptunk!
+
+00:03:23.587 --> 00:03:25.183
+Igen, ez egy négyes.
+
+00:03:25.741 --> 00:03:28.824
+De valójában az is lehet, hogy csak
+véletlenül éppen négyest dobtam.
+
+00:03:28.944 --> 00:03:30.712
+Ezért próbáljuk meg újra!
+
+00:03:33.029 --> 00:03:34.720
+Ó, most hármas lett.
+
+00:03:34.926 --> 00:03:37.119
+Lehet, hogy most nem járt erre.
+
+00:03:37.239 --> 00:03:38.707
+Próbáljuk meg újra!
+
+00:03:40.200 --> 00:03:41.496
+Most kettest kaptunk.
+
+00:03:41.616 --> 00:03:42.595
+Kettő.
+
+00:03:42.981 --> 00:03:44.501
+Ó, itt a négyes!
+
+00:03:44.621 --> 00:03:45.599
+Egy.
+
+00:03:45.900 --> 00:03:46.818
+Egy.
+
+00:03:47.210 --> 00:03:48.169
+Öt.
+
+00:03:48.435 --> 00:03:49.285
+Három.
+
+00:03:49.405 --> 00:03:50.324
+Hat.
+
+00:03:50.444 --> 00:03:51.273
+Kettő.
+
+00:03:51.393 --> 00:03:52.169
+Kettő.
+
+00:03:53.148 --> 00:03:55.508
+Rendben, tehát mit tanulunk itt pontosan?
+
+00:03:55.628 --> 00:03:58.403
+Van egy számsorunk, közülük néhány négyes,
+
+00:03:58.523 --> 00:04:00.030
+de nem mindegyik.
+
+00:04:00.150 --> 00:04:03.703
+tehát ha létezik is, ez a nyúl 
+nem mindig jön ide és avatkozik közbe.
+
+00:04:03.823 --> 00:04:07.595
+Hogy jobban megértsük, mi történik,
+készítsünk egy hisztogramot!
+
+00:04:10.462 --> 00:04:13.260
+Egy, kettő, három, négy, öt, hat.
+
+00:04:14.264 --> 00:04:17.208
+Tehát egy ábrát fogok rajzolni,
+és bejelölöm az eredményeket.
+
+00:04:17.431 --> 00:04:19.911
+Tehát az első szám amit kaptunk, a négy,
+
+00:04:22.838 --> 00:04:24.229
+aztán hármast kaptunk,
+
+00:04:26.263 --> 00:04:27.897
+aztán kettest,
+
+00:04:29.845 --> 00:04:31.588
+aztán újra egy kettest.
+
+00:04:33.364 --> 00:04:36.010
+Jól van, ez egyszerűbb lesz számítógéppel.
+
+00:04:38.525 --> 00:04:42.722
+Ezt kaptuk: négy, három, 
+kettő, kettő, négy, egy,
+
+00:04:43.143 --> 00:04:47.878
+egy, öt, három, hat, kettő, 
+kettő, négy, öt, három, négy,
+
+00:04:48.657 --> 00:04:53.149
+hat, három, kettő, három, kettő, 
+három, kettő, három (ezeket kaptuk),
+
+00:04:53.473 --> 00:04:56.279
+öt, hat, négy, egy, hat, három.
+
+00:04:57.438 --> 00:04:58.571
+Ez az eredmény amit
+
+00:04:58.691 --> 00:05:00.622
+30 próbálkozás után kaptunk.
+
+00:05:00.742 --> 00:05:03.189
+Tehát egy hónap alatt, 
+ha minden nap megtettük ezt.
+
+00:05:03.309 --> 00:05:07.052
+Rendben, tehát a négyes szám 
+nem jött ki túl sokszor.
+
+00:05:07.339 --> 00:05:09.816
+Valójában a hármas számot gyakrabban kaptuk.
+
+00:05:09.936 --> 00:05:10.960
+Hm, rendben.
+
+00:05:11.080 --> 00:05:15.354
+Mi történik, ha ezt a kísérletet tovább 
+folytatjuk, egy évig, azaz 300-szor ismételve?
+
+00:05:19.535 --> 00:05:22.402
+Egyre furcsább lesz, mi történik itt?
+
+00:05:22.522 --> 00:05:24.925
+Nos, TE mit gondolsz, mi történik?
+
+00:05:25.045 --> 00:05:28.220
+Gyerünk, állítsd le a videót,
+és gondolkozz el rajta egy másodpercig!
+
+00:05:30.031 --> 00:05:31.413
+Rendben, visszajöttünk.
+
+00:05:31.533 --> 00:05:36.062
+Nem mondom meg a választ, helyette 
+10 éven át folytatom a kísérletet.
+
+00:05:38.792 --> 00:05:41.753
+Tehát mostanra 3000-szer dobtunk kockát.
+
+00:05:42.732 --> 00:05:44.315
+Mit látunk?
+
+00:05:44.538 --> 00:05:46.564
+Nos, kétféle következtetésre juthatunk:
+
+00:05:46.684 --> 00:05:50.573
+Az első: a nyulas mese valószínűleg igaz,
+
+00:05:50.779 --> 00:05:54.360
+a második: ügy tűnik, a nyúl kedvenc 
+száma nem "négy", mint ahogy gondoltuk,
+
+00:05:54.480 --> 00:05:55.708
+hanem "három".
+
+00:05:56.052 --> 00:06:00.936
+Az ábra megmutatja, hogy melyik eredményt 
+hányszor kaptuk, 3000 dobás után.
+
+00:06:01.339 --> 00:06:03.266
+És ha a nyúl egyáltalán nem létezne,
+
+00:06:03.386 --> 00:06:06.468
+akkor azt várnánk, hogy minden szám
+egyforma valószínűséggel jöjjön ki.
+
+00:06:06.588 --> 00:06:09.189
+De a "három" esetén van egy 
+jól látható többletünk.
+
+00:06:09.309 --> 00:06:11.335
+tehát úgy látszik, nem minden 
+eredmény véletlenszerű.
+
+00:06:11.455 --> 00:06:14.735
+Némelyiket mintha megváltoztatták volna,
+kicserélve azt a "hármas" számra.
+
+00:06:14.855 --> 00:06:19.148
+Tehát bizonyos értelemben MEGFIGYELTÜK a 
+nyulat, anélkül, hogy valaha LÁTTUK volna.
+
+00:06:19.268 --> 00:06:22.075
+Ebből megtanultuk, hogy a nyúl
+kedvenc száma a "három".
+
+00:06:22.195 --> 00:06:25.767
+És azt a következtetést is levonhatjuk,
+hogy a nyúl átlagosan 
+
+00:06:25.887 --> 00:06:27.679
+minden 10-edik kockadobásnál jelenik meg.
+
+00:06:27.799 --> 00:06:30.068
+Rendben, térjünk most vissza a Higgs-re.
+
+00:06:30.581 --> 00:06:34.530
+A Higgs esetén hasonló a helyzet,
+de kockadobás helyett
+
+00:06:34.650 --> 00:06:38.204
+részecskéket ütköztetünk, és megnézzük, 
+hogy mi keletkezett az ütközésekben.
+
+00:06:38.324 --> 00:06:41.958
+Konkréten a fotonpárok invariáns tömegét nézzük.
+
+00:06:42.078 --> 00:06:46.626
+Ha nem keletkezett Higgs az ütközésben, akkor 
+ez az invariáns tömeg egy véletlen szám lesz,
+
+00:06:46.746 --> 00:06:49.416
+ugyanúgy, ahogy a dobókocka is
+véletlen számot eredményezett,
+
+00:06:49.536 --> 00:06:51.079
+amikor a nyúl nem járt arra.
+
+00:06:51.199 --> 00:06:55.290
+De amikor létrehozunk egy Higgs- 
+bozont, és az két fotonra bomlik,
+
+00:06:55.410 --> 00:06:58.886
+akkor a fotonpár invariáns tömege
+a Higgs-bozon tömege lesz,
+
+00:06:59.006 --> 00:07:01.322
+ugyanúgy, mint a nyúl kedvenc száma.
+
+00:07:01.442 --> 00:07:04.937
+A nyúl segítségével megtanultuk hogy
+az ő kedvenc száma nem az volt
+
+00:07:05.057 --> 00:07:06.425
+mint amire számítottunk.
+
+00:07:06.545 --> 00:07:08.579
+A Higgs-bozon esetén nem számítottunk semmire,
+
+00:07:08.699 --> 00:07:11.220
+mert nem ismertük a tömegét,
+mielőtt megtaláltuk.
+
+00:07:11.340 --> 00:07:12.710
+Csak egy széles tartományunk volt.
+
+00:07:12.830 --> 00:07:16.448
+Meg kellett néznünk, hogy vajon valahol
+előtűnik-e egy csúcs ebben a tartományban.
+
+00:07:16.759 --> 00:07:19.351
+Hogy lássuk, hogyan működik ez, 
+készítsünk egy másik ábrát!
+
+00:07:19.471 --> 00:07:23.463
+Az előbb minden kockadobásnál 
+berajzoltuk a dobás eredményét.
+
+00:07:23.583 --> 00:07:28.751
+Most pedig az ütközések esetén, ahol két fotont 
+találunk, az invariáns tömegüket ábrázoljuk.
+
+00:07:28.871 --> 00:07:31.907
+És amináljuk az ábrát, hogy
+folyamatában lássuk a fejlődését
+
+00:07:32.027 --> 00:07:35.504
+annak megfelelően, ahogy egyre több
+adatot rögzítettünk 2011-ben és 2012-ben.
+
+00:07:38.766 --> 00:07:40.947
+Egy pillanatra álljunk itt meg!
+
+00:07:41.067 --> 00:07:44.770
+Máris láthatjuk, hogy ez az ábra nem lapos.
+
+00:07:44.890 --> 00:07:46.008
+Miért van ez?
+
+00:07:46.128 --> 00:07:49.869
+Nos, a kockadobás esetén a kapott 
+eredmények valószínűsége azonos volt,
+
+00:07:49.989 --> 00:07:51.680
+ezért az ábra lapos volt.
+
+00:07:51.800 --> 00:07:54.871
+Itt nem ez a helyzet.
+A valószínűségek különbözőek.
+
+00:07:54.991 --> 00:07:57.429
+Könnyebb kis energiájú fotonokat kelteni,
+
+00:07:57.549 --> 00:08:00.125
+és nezehebb nagy energiájú 
+fotonokat létrehozni.
+
+00:08:00.245 --> 00:08:04.485
+Tehát ezek még mindig véletlen számok,
+csak egyesek valószínűbbek, mint mások.
+
+00:08:04.605 --> 00:08:07.704
+Ez a valószínűség-eloszlás tehát nem lapos.
+
+00:08:07.824 --> 00:08:10.478
+Rendben, most folytassuk az animációt!
+
+00:08:14.113 --> 00:08:15.663
+És itt van!
+
+00:08:15.783 --> 00:08:18.250
+Nagyjából 125-nél egy csúcsot látunk,
+
+00:08:18.879 --> 00:08:21.458
+elárulva nekünk hogy egy részecske van ott
+
+00:08:21.686 --> 00:08:24.543
+ezzel a tömeggel, és amelyik két fotonra bomlik.
+
+00:08:24.765 --> 00:08:26.520
+Emlékezzünk vissza a nyúlra!
+
+00:08:26.640 --> 00:08:28.106
+Ha nem létezik a nyúl,
+
+00:08:28.226 --> 00:08:31.489
+akkor minden kockadobás olyan lett volna,
+mint a szokásos, véletlen kockadobások,
+
+00:08:31.609 --> 00:08:33.740
+és az eredmény egy lapos ábra lett volna.
+
+00:08:33.860 --> 00:08:36.776
+De az ábrának csúcsa volt, 
+amit a nyúl hozott létre
+
+00:08:36.896 --> 00:08:39.280
+azzal, hogy a "hármas" számot 
+betette az eredmények közé.
+
+00:08:39.400 --> 00:08:41.359
+Na most, ha nem létezne Higgs-bozon,
+
+00:08:41.479 --> 00:08:44.116
+akkor ez az ábra csak egy 
+sima, csökkenő görbe lenne,
+
+00:08:44.236 --> 00:08:45.823
+véletlenszerű tömegeket mutatva.
+
+00:08:45.943 --> 00:08:48.277
+De világos, hogy nem minden szám véletlen.
+
+00:08:48.397 --> 00:08:51.754
+Valami becsempészte a 125-ös számot az eredményekbe.
+
+00:08:52.297 --> 00:08:54.232
+A részecske, pontosan ezzel a tömeggel,
+
+00:08:54.511 --> 00:08:56.398
+és olyan, amelyik két fotonra bomlik,
+
+00:08:56.518 --> 00:08:59.399
+amire a Higgs-bozon esetén számítottunk.
+
+00:08:59.519 --> 00:09:01.983
+Rendben, még valamit hangsúlyozni akarok,
+
+00:09:02.103 --> 00:09:03.911
+amihez menjünk vissza oda,
+
+00:09:04.031 --> 00:09:06.337
+hogy az ábrák hogyan néztek ki kezdetben.
+
+00:09:06.564 --> 00:09:08.828
+A fotonok, és a dobókockák esetén is
+
+00:09:09.293 --> 00:09:10.351
+azt látjuk,
+
+00:09:10.471 --> 00:09:12.728
+hogy nem nyilvánvaló, hogy a csúcs hol van,
+
+00:09:13.307 --> 00:09:16.104
+vagy hogy van-e egyáltalán csúcs. 
+
+00:09:16.346 --> 00:09:18.520
+Kezdetben az ábrák annyira véletlenszerűek,
+
+00:09:18.640 --> 00:09:20.904
+hogy alig lehet megmondani, mi történik.
+
+00:09:21.024 --> 00:09:24.450
+Csak elég sok adat hatására tisztul ki a kép,
+
+00:09:24.570 --> 00:09:27.869
+a véletlenszerűség és a 
+statisztikai fluktuációk csökkennek,
+
+00:09:27.989 --> 00:09:30.020
+és a jelenség elkezd kivehetővé válni.
+
+00:09:30.140 --> 00:09:33.348
+Tehát eltűnődhetsz azon, hogy 
+pontosan mikor lehetünk biztosak
+
+00:09:33.468 --> 00:09:36.985
+hogy a csúcsunk nem csak egy 
+véletlen statisztikai fluktuáció?
+
+00:09:37.105 --> 00:09:39.706
+Nos, sohasem lehetünk 100%-ig biztosak,
+
+00:09:39.826 --> 00:09:42.850
+de egy adott csúcs esetén
+kiszámíthatjuk a valószínűséget.
+
+00:09:42.970 --> 00:09:45.771
+És a felfedezéshez szükséges
+általánosan elfogadott küszöbérték,
+
+00:09:45.891 --> 00:09:47.514
+amikor annak a valószínűsége
+
+00:09:47.634 --> 00:09:49.728
+hogy semmi nincs ott,
+
+00:09:49.848 --> 00:09:52.921
+és a csúcs, amit látunk, csak a 
+vakszerencse eredménye,
+
+00:09:53.041 --> 00:09:56.581
+szóval annak a valószínűsége 
+körülbelül 1 a 3,5 millióhoz.
+
+00:09:57.310 --> 00:09:59.710
+Ez még mindig nem 100%, de majdnem.
+
+00:10:00.481 --> 00:10:03.054
+A Higgs-bozon felfedezéséhez 2012-ben
+
+00:10:03.576 --> 00:10:06.213
+ezt a szintet nem érte el egy magányos csúcs,
+
+00:10:06.333 --> 00:10:08.170
+csak a csúcsok kombinációja,
+
+00:10:08.290 --> 00:10:11.140
+amelyeket a Higgs-bozon különböző
+bomlásait megfigyelve kaptunk.
+
+00:10:11.260 --> 00:10:14.523
+Tehát a kétfotonos bomlás mellett
+ez a két Z-bozonra történő bomlás volt,
+
+00:10:14.643 --> 00:10:16.474
+amely négy leptont hozott 
+létre a végállapotban,
+
+00:10:16.594 --> 00:10:18.667
+és a két W-bozonra történő bomlás,
+
+00:10:18.787 --> 00:10:21.366
+amely két leptont és 
+két neutrínót hozott létre.
+
+00:10:22.044 --> 00:10:24.341
+Rendben, elértünk a végére,
+
+00:10:24.526 --> 00:10:27.797
+és remélem, egyetértesz velem,
+hogy elméletileg
+
+00:10:28.154 --> 00:10:31.061
+nem is olyan bonyolult új részecskéket találni.
+
+00:10:31.296 --> 00:10:33.054
+Foglaljuk össze a lépéseket!
+
+00:10:33.174 --> 00:10:35.667
+Először létre kell hoznunk a részecskét,
+
+00:10:36.038 --> 00:10:39.575
+tehát energiát tárolunk a 
+részecskegyorsító részecskéiben,
+
+00:10:39.695 --> 00:10:42.640
+ütköztetjük őket, és akkor 
+ez az energia átalakulhat
+
+00:10:42.760 --> 00:10:45.168
+ennek az új részecskének a tömegévé.
+
+00:10:45.288 --> 00:10:49.345
+Az a részecske akkor azonnal 
+másik részecskékre fog bomlani,
+
+00:10:49.874 --> 00:10:52.805
+és megmérhetjük őket a 
+részecske-detektorainkban,
+
+00:10:52.925 --> 00:10:55.147
+és kiszámíthatjuk az invariáns tömeget.
+
+00:10:55.747 --> 00:10:57.942
+Ha ezt sokszor megtesszük,
+
+00:10:58.062 --> 00:11:00.611
+készíthetünk egy ábrát 
+ezekből az invariáns tömegekből,
+
+00:11:00.731 --> 00:11:04.774
+és az a részecske, amit keresünk, egy 
+csúcsként fog felbukkanni ezen az ábrán,
+
+00:11:04.894 --> 00:11:06.754
+éppen ahogy a Higgs-bozon tette.
+
+00:11:06.874 --> 00:11:09.546
+Persze ez a kiértékelés 
+madártávlati képe volt.
+
+00:11:09.666 --> 00:11:13.489
+A valóságban ez az analízis sokkal 
+részletesebb és összetettebb volt,
+
+00:11:13.609 --> 00:11:16.506
+de az általános elv az volt, 
+amit most elmondtam.
+
+00:11:16.692 --> 00:11:18.563
+Tényleg így csináljuk.
+
+00:11:18.913 --> 00:11:21.549
+Ne felejtsük el, hogy 
+valójában megtalálni a Higgs-bozont
+
+00:11:21.669 --> 00:11:25.978
+két évig tartott, mialatt az LHC 
+adatait gyűjtöttük és kiértékeltük,
+
+00:11:26.421 --> 00:11:30.267
+két kísérlet kellett, az ATLAS és a CMS,
+amelyekben több ezer ember
+
+00:11:30.387 --> 00:11:32.082
+dolgozott, egyenként.
+
+00:11:32.202 --> 00:11:36.055
+És még akkor nem is számoltuk 
+azt a sokkal több évet és embert,
+
+00:11:36.555 --> 00:11:41.269
+akik az LHC és a kísérletek megtervezésében, 
+megépítésében, és működtetésében vettek részt.
+
+00:11:42.032 --> 00:11:43.358
+Másrészt,
+
+00:11:43.478 --> 00:11:46.600
+ez a történet a Higgs-bozon megtalálásáról szólt,
+
+00:11:47.029 --> 00:11:48.779
+amelyik két fotonra bomlik.
+
+00:11:48.899 --> 00:11:52.847
+De a Higgs-bozont tényleg 
+csak példaként használtuk itt.
+
+00:11:53.511 --> 00:11:55.248
+A történet valójában
+
+00:11:55.368 --> 00:11:58.582
+részecskék meglátásáról, 
+érzékeléséről, felfedezéséről szólt.
+
+00:11:59.254 --> 00:12:02.950
+Sok más részecskét felfedeztek már
+ehhez hasonló módszerrel a múltban,
+
+00:12:03.070 --> 00:12:05.414
+és reméljük, a jövőben továbbiakat találunk.
+
+00:12:05.534 --> 00:12:08.140
+Remélem, érthető volt, és köszönöm a figyelmet!
+
+00:12:08.260 --> 00:12:12.030
+Ha kérdéseid vannak, vagy szeretnéd, ha valami 
+mást is feldolgoznánk a következő videókban,
+
+00:12:12.150 --> 00:12:14.200
+kérlek gépeld be ide alul, a hozzászólások közé,
+
+00:12:14.320 --> 00:12:16.215
+és viszlát hamarosan!
+
