@@ -90,6 +90,13 @@ _UL(
       `öregségi nyugdíj legkisebb összegével')
       egyezik meg (2018-ban 28&nbsp;500 forint),
       amiből még 10% nyugdíjjárulékot levonnak'
+  ),
+  _HREF(`https://net.jogtar.hu/jogszabaly?docid=A2000518.KOR&txtreferer=00000001.txt',`Otthonfelújítási támogatás (2022. december 31-ig)')
+  _UL(
+    ``legalább egy gyermek (legalább 12 hetes magzat is)'',
+    ``felújítás költségének fele, legfeljebb 3 millió forint'',
+    ``anyagköltség és munkabérnek is lennie kell, a támogatásnak fele-fele'',
+    `_HREF(`http://www.allamkincstar.gov.hu/hu/lakossagi-ugyfelek/otthonfelujitasi_tamogatas_altalanos_tajekoztato',`Államkincstár tájékoztatója')'
   )
 )
 <h3>Vegyes információk</h3>
