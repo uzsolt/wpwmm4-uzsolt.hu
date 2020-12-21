@@ -29,6 +29,7 @@ _UL(`területileg illetékes védőnő felkeresése, amikor már biztos a terhes
   )'
 )
 <h3>Pénzbeli támogatások</h3>
+<h4>Gyermeknevelést segítő támogatások, kedvezmények</h4>
 _UL(
   _HREF(`https://www.nav.gov.hu/nav/ado/szja/A_csaladi_kedvezmeny_20170105.html',
     `családi adó- és járulékkedvezmény')
@@ -90,7 +91,10 @@ _UL(
       `öregségi nyugdíj legkisebb összegével')
       egyezik meg (2018-ban 28&nbsp;500 forint),
       amiből még 10% nyugdíjjárulékot levonnak'
-  ),
+  )
+)
+<h4>Egyéb támogatások</h4>
+_UL(
   _HREF(`https://net.jogtar.hu/jogszabaly?docid=A2000518.KOR&txtreferer=00000001.txt',`Otthonfelújítási támogatás (2022. december 31-ig)')
   _UL(
     ``legalább egy gyermek (legalább 12 hetes magzat is)'',
