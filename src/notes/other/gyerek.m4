@@ -95,6 +95,13 @@ _UL(
 )
 <h4>Egyéb támogatások</h4>
 _UL(
+  _HREF(`https://net.jogtar.hu/jogszabaly?docid=A1700337.KOR',`Lakáscélú jelzáloghitel csökkentése')
+  _UL(
+    ``lakáscélú jelzáloghitel tartozásába betörlesztés'',
+    ``legalább két gyermek esetén'',
+    ``a hitel legalább az egyik gyermek előtt köttetett'',
+    ``két gyerekre egy millió, háromra négy millió forint''
+  ),
   _HREF(`https://net.jogtar.hu/jogszabaly?docid=A2000518.KOR&txtreferer=00000001.txt',`Otthonfelújítási támogatás (2022. december 31-ig)')
   _UL(
     ``legalább egy gyermek (legalább 12 hetes magzat is)'',
