@@ -4,7 +4,7 @@ _DIVB(`div_about')
   <p>2005. szeptembere óta a _HREF(`http://www.bgrg.hu',`Bethlen Gábor Református Gimnáziumban') tanítok fizikát és 
   matematikát. 2012. szeptembere óta a matematika munkaközösség vezetője vagyok.</p>
 
-  <p>Önéletrajzom letöltheted _HREF(`http://uzsolt.hu/static/oneletrajz.pdf',`innen').</p>
+  <p>Önéletrajzom letöltheted _HREF(`http://stuff.uzsolt.hu/oneletrajz.pdf',`innen').</p>
 _DIVE
 _DIVB(`div_about')
   <h3>Rendszerinformáció</h3>
