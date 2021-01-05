@@ -25,8 +25,8 @@ _DIVB(`div_about')
   tárolva.</p>
 
   <p><em>Jelenleg</em> statikus HTML-ek szolgálják az információ olvashatóvá tételét,
-  viszont ezeket már egy saját fejlesztésű eszköz, a _HREF(`https://svn.uzsolt.hu/wpwmm4',`wpwmm4')
-  generálja. A forrás _HREF(`https://svn.uzsolt.hu/uzsolt.hu/wpwmm4-uzsolt.hu/',`itt') megtekinthető.</p>
+  viszont ezeket már egy saját fejlesztésű eszköz, a _HREF(`http://svn.uzsolt.hu/wpwmm4',`wpwmm4')
+  generálja. A forrás _HREF(`http://svn.uzsolt.hu/uzsolt.hu/wpwmm4-uzsolt.hu/',`itt') megtekinthető.</p>
   
   <p>Nem vagyok webdesigner, így a külcsín esetleg hagy némi kívánnivalót maga után, de remélem, 
   hogy az oldal használhatósága, egyszerűsége, gyorsasága ellensúlyozza ezt a hiányosságot.</p> 
